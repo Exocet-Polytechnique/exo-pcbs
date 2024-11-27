@@ -1,0 +1,106 @@
+(footprint "Push_Button"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eb2ed432-a138-42cd-bf4c-29532844a2fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Push_Button"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9b028b56-5d0a-4b3a-a5ca-86f7e0fb6f9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c27f8918-9fe2-4d8b-a1ca-dd559ff1c204")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "789b35c7-9873-4f02-88d8-9bc9193aef1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db8ba183-321e-468e-98a9-77aea94a21d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c24cb1df-cd87-4763-9960-4458d48fe012")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 -1.875)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a8fe10a-c06a-4d37-af7a-ed0faed50014")
+	)
+	(pad "2" smd rect
+		(at 3 -1.875)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9e4a81ad-a19f-4ba3-ad96-6cc2db440080")
+	)
+	(pad "3" smd rect
+		(at -3 1.875)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "07e8f1d7-c8a7-4b17-a563-cb4dfaa4d140")
+	)
+	(pad "4" smd rect
+		(at 3 1.875)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f385dced-37b2-4c9f-9889-8cb1932549fd")
+	)
+)
