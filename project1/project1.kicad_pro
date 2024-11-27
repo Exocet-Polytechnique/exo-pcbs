@@ -235,9 +235,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Exo_Footprint_Library"
+    ],
     "pinned_symbol_libs": [
-      "exo-symbol-library"
+      "exo-symbol-library",
+      "Exo_Symbol_Library"
     ]
   },
   "meta": {
