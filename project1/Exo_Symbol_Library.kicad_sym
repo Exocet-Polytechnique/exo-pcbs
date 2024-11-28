@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "LED_Default"
+	(symbol "LED"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Default"
+		(property "Value" "LED"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -70,7 +70,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LED_Default_0_1"
+		(symbol "LED_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -132,7 +132,7 @@
 				)
 			)
 		)
-		(symbol "LED_Default_1_1"
+		(symbol "LED_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
@@ -389,8 +389,8 @@
 			)
 		)
 	)
-	(symbol "LED_Power_Indicator"
-		(extends "LED_Default")
+	(symbol "LED_Blue"
+		(extends "LED")
 		(property "Reference" "D"
 			(at 0 2.54 0)
 			(effects
@@ -399,7 +399,7 @@
 				)
 			)
 		)
-		(property "Value" "KT-0805G"
+		(property "Value" "Blue"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -407,7 +407,79 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exo_Footprint_Library:LED_0805_2012Metric_With_Annotations"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2105241638_OSRAM-Opto-Semicon-LCB-TVSG-AXBZ-2J8L-1-20-R18-Z_C2830529.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 20mA -40℃~+110℃ Blue 120° 3.05V SMD3528 LED Indication - Discrete ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2830529"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LED diode Blue"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "LED_Green"
+		(extends "LED")
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Exo_Footprint_Library:LED_0805_2012Metric_With_Annotations"
 			(at 0 0 0)
 			(effects
 				(font
@@ -434,7 +506,89 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "LED diode"
+		(property "JLCPCB" "C2297"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LED diode Green"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "LED_Yellow"
+		(extends "LED")
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Exo_Footprint_Library:LED_0805_2012Metric_With_Annotations"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151129_Hubei-KENTO-Elec-KT-0805Y_C2296.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, Yellow 0805 LED Indication - Discrete ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2296"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LED diode Yellow"
 			(at 0 0 0)
 			(effects
 				(font
