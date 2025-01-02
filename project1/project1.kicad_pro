@@ -239,7 +239,6 @@
       "Exo_Footprint_Library"
     ],
     "pinned_symbol_libs": [
-      "exo-symbol-library",
       "Exo_Symbol_Library"
     ]
   },
