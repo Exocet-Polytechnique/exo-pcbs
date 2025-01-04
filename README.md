@@ -5,6 +5,7 @@
 #### Boutons
 
 I = V/R
+
 I = 3.3 / 10 000 = 0.33 mA
 
 Utiliser un connecteur **JST ZH** (compact, facile à manipuler)
