@@ -1,0 +1,266 @@
+(footprint "AVX 00-9159-010-BTB Connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2b4a43a3-1e52-43f7-b512-7f69baa27c7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AVX 00-9159-010-BTB Connector"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "873bd7a4-c602-4c73-b8ff-3147e2cdb006")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b94edda-42b7-4ac5-a0db-4fe02d639dae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfcd8d3d-e34e-4156-a734-70cf11cf7b99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "298e9462-27a1-4a4a-b55b-9a00a3064667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy 4 3.5) (xy 3.5 4) (xy 4.5 4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "86694126-600d-4781-b05d-c9b795d111ef")
+	)
+	(fp_line
+		(start -7 2.5)
+		(end -7 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "78d378f4-4c26-45e3-a347-71fbd6221fe7")
+	)
+	(fp_line
+		(start -5 -2.5)
+		(end -5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "81ae9755-5a23-4843-8121-2ef341b18e44")
+	)
+	(fp_line
+		(start 0.7 -2.5)
+		(end -5 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea0c7c6d-d7c3-4d27-8f75-09d25ccb904f")
+	)
+	(fp_line
+		(start 0.7 0.3)
+		(end 0.7 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "64b42a56-e172-4fd3-8f27-94249edc8da3")
+	)
+	(fp_line
+		(start 1.3 -2.5)
+		(end 1.3 0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dd788e58-840a-4db2-9b13-b8ac3e95d7d2")
+	)
+	(fp_line
+		(start 1.3 -2.5)
+		(end 5 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "464eb192-c5ca-4e21-ac88-5f2e7e8d54a4")
+	)
+	(fp_line
+		(start 5 -2.5)
+		(end 5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "37f719eb-73a3-4081-a719-b6816b9f1b00")
+	)
+	(fp_line
+		(start 7 2.5)
+		(end 7 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5bfa3eb6-0fa6-420e-86ce-98417acc9e62")
+	)
+	(fp_arc
+		(start -5 2.5)
+		(mid -6 3.5)
+		(end -7 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e0d5ef3-f6aa-45cf-9568-4942e54d0f26")
+	)
+	(fp_arc
+		(start 1.3 0.3)
+		(mid 1 0.6)
+		(end 0.7 0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "43341c59-0bd3-42c4-b2c4-f8ec8708b879")
+	)
+	(fp_arc
+		(start 7 2.5)
+		(mid 6 3.5)
+		(end 5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3d05ad45-1416-4ddb-8adf-acdd7d9de479")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6179684e-3ce4-42f4-82fc-40b7efa81110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at 4 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "65fb0c4f-bec6-440d-b292-3623274ed5ad")
+	)
+	(pad "2" connect rect
+		(at 2 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0d361cf6-fb2a-4ebd-a382-c8ef54a0906b")
+	)
+	(pad "3" connect rect
+		(at 0 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2e560a9f-7a8d-45b9-8f57-16f28979ddae")
+	)
+	(pad "4" connect rect
+		(at -2 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "178e5fc8-5b6e-4e37-bd0e-54e70bb20576")
+	)
+	(pad "5" connect rect
+		(at -4 0)
+		(size 1 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "13a27ded-1039-47e4-a968-c14e2ac0c178")
+	)
+	(pad "6" connect rect
+		(at 4 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "ac94102b-41c1-4406-8cad-8c5ab2ed418b")
+	)
+	(pad "7" connect rect
+		(at 2 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "87408a97-a0fd-4f04-8107-42c97493bd49")
+	)
+	(pad "8" connect rect
+		(at 0 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "977d8242-e936-41e0-80e2-f433fc851340")
+	)
+	(pad "9" connect rect
+		(at -2 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "edee83fb-5329-4e8f-b9b7-39ef3a0622cf")
+	)
+	(pad "10" connect rect
+		(at -4 0)
+		(size 1 4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "9f60f5e4-4f7c-4adf-a2af-af596fbfa864")
+	)
+)
