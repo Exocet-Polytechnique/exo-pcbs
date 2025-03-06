@@ -8909,7 +8909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Crystal_SMD_HC49-SD"
 			(at 200.66 25.4 0)
 			(effects
 				(font
