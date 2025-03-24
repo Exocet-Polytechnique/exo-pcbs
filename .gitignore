@@ -30,3 +30,6 @@ fp-info-cache
 
 # Lock files
 ~*.kicad_*.lck
+
+# exported schematics
+*.pdf
