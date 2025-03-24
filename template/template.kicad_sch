@@ -1405,7 +1405,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1550,7 +1550,7 @@
 				(pin bidirectional line
 					(at 6.35 -7.62 180)
 					(length 2.54)
-					(name "CAN_H"
+					(name "CAN_L"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1568,7 +1568,7 @@
 				(pin bidirectional line
 					(at 6.35 -10.16 180)
 					(length 2.54)
-					(name "CAN_L"
+					(name "CAN_H"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6907,16 +6907,6 @@
 		)
 		(uuid "7eace88c-5c5a-43b4-b6cb-d6c6e034808b")
 	)
-	(label "CAN_H"
-		(at 259.08 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f310a7d-a55f-41cc-b103-c771a1762a3d")
-	)
 	(label "CAN_TX"
 		(at 237.49 91.44 0)
 		(effects
@@ -6926,16 +6916,6 @@
 			(justify left bottom)
 		)
 		(uuid "824b3888-6161-46e1-9bed-f09d742fc312")
-	)
-	(label "CAN_L"
-		(at 259.08 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "843d2c07-3dac-4737-b74f-de28181aa94f")
 	)
 	(label "T_JTDI"
 		(at 275.59 139.7 180)
@@ -6957,6 +6937,16 @@
 		)
 		(uuid "91cb044a-0c09-4ba4-9b98-cae37d9505d7")
 	)
+	(label "CAN_H"
+		(at 259.08 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92aa1f2b-1a64-41fb-a742-96188d226ae8")
+	)
 	(label "OSC_OUT"
 		(at 217.17 25.4 180)
 		(effects
@@ -6976,6 +6966,16 @@
 			(justify left bottom)
 		)
 		(uuid "9f9bd2cf-5da9-41d1-8784-a1910d2f93b8")
+	)
+	(label "CAN_L"
+		(at 259.08 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b20a5393-d3e4-48e2-b060-188ef4b667ee")
 	)
 	(label "OSC_IN"
 		(at 53.34 105.41 0)
@@ -7542,7 +7542,7 @@
 		(pin "1"
 			(uuid "8200b0c0-985c-40b5-9169-008ca6a5ffdb")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "18fd94e9-4183-4640-bac2-da24b1f5d575")
 		)
 		(instances
