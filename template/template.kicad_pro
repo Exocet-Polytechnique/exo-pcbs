@@ -644,6 +644,10 @@
     [
       "4b4cf3aa-c94c-4150-b9c5-35049cd71136",
       "Root"
+    ],
+    [
+      "7d59fd70-1fff-4c9c-ae77-583b08aef567",
+      "STM32 Base Layout"
     ]
   ],
   "text_variables": {
