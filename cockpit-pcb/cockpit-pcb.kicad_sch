@@ -571,10 +571,10 @@
 		)
 		(uuid "7faaab1d-0996-4266-a5be-5b15414da704")
 	)
-	(text_box "Button pins (A6, A7 and A8) must be configured in pull-down mode."
+	(text_box "Button pins (B13, B12 and B11) must be configured in pull-down mode."
 		(exclude_from_sim no)
-		(at 72.39 59.69 0)
-		(size 36.195 5.715)
+		(at 68.58 59.69 0)
+		(size 40.005 5.715)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2170,49 +2170,9 @@
 				(hide yes)
 			)
 		)
-		(pin "PA8" input
-			(at 45.72 21.59 0)
-			(uuid "25c1fde6-a94b-48c6-bde4-b0d94857e20d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PB11" output
-			(at 45.72 27.94 0)
-			(uuid "0271b58c-205f-4721-b959-a1fffd358648")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PB12" output
-			(at 45.72 30.48 0)
-			(uuid "6a23a224-9ff7-4c1a-ada2-90b77e8a497d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PB13" output
-			(at 45.72 33.02 0)
-			(uuid "99c59f8f-c9f8-4cc8-8c76-12f86cfddc91")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PA6" input
+		(pin "PB13" input
 			(at 45.72 16.51 0)
-			(uuid "9994c266-856d-4981-b27e-39f84d1282a5")
+			(uuid "7697e8b1-a0bf-4be1-ba5b-8d30970324b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,9 +2180,49 @@
 				(justify right)
 			)
 		)
-		(pin "PA7" input
+		(pin "PB12" input
 			(at 45.72 19.05 0)
-			(uuid "8be947a2-0748-454e-9301-3027e72b74de")
+			(uuid "85c212ac-a32c-49b4-9ccf-876a9395fccb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA8" output
+			(at 45.72 27.94 0)
+			(uuid "0cccc97e-5e35-43ac-b607-2210e0bec4f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA7" output
+			(at 45.72 30.48 0)
+			(uuid "94b4bdf2-596e-4acc-a06c-54d41b81398f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA6" output
+			(at 45.72 33.02 0)
+			(uuid "8296b202-03cf-491c-ac73-ec6f7bc82ab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB11" input
+			(at 45.72 21.59 0)
+			(uuid "230cb1c3-dc32-4c7c-99e0-d59b71f2a1ef")
 			(effects
 				(font
 					(size 1.27 1.27)

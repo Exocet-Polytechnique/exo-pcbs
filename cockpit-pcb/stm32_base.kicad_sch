@@ -7134,7 +7134,7 @@
 		(uuid "ed7488b2-d7d9-4c4f-8424-1b2d0c311081")
 	)
 	(hierarchical_label "PB13"
-		(shape output)
+		(shape input)
 		(at 101.6 171.45 0)
 		(effects
 			(font
@@ -7145,7 +7145,7 @@
 		(uuid "0726199d-d7a7-47b1-a63b-1e1aa90745d0")
 	)
 	(hierarchical_label "PA8"
-		(shape input)
+		(shape output)
 		(at 101.6 115.57 0)
 		(effects
 			(font
@@ -7156,7 +7156,7 @@
 		(uuid "09541aa4-6c78-4c76-8083-273a50365696")
 	)
 	(hierarchical_label "PB11"
-		(shape output)
+		(shape input)
 		(at 101.6 166.37 0)
 		(effects
 			(font
@@ -7167,7 +7167,7 @@
 		(uuid "15b79f2e-38b3-4c84-909a-730b614526c2")
 	)
 	(hierarchical_label "PA7"
-		(shape input)
+		(shape output)
 		(at 101.6 113.03 0)
 		(effects
 			(font
@@ -7178,7 +7178,7 @@
 		(uuid "34e201f1-1098-439d-aba3-3154c718ea59")
 	)
 	(hierarchical_label "PB12"
-		(shape output)
+		(shape input)
 		(at 101.6 168.91 0)
 		(effects
 			(font
@@ -7189,7 +7189,7 @@
 		(uuid "e20df90a-3d84-417d-82e4-9c7878ecc2d7")
 	)
 	(hierarchical_label "PA6"
-		(shape input)
+		(shape output)
 		(at 101.6 110.49 0)
 		(effects
 			(font
