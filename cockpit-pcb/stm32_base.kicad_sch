@@ -8810,7 +8810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "510"
 			(at 189.23 134.6199 0)
 			(effects
 				(font
@@ -8846,7 +8846,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C23140"
+		(property "JLCPCB" "C23193"
 			(at 186.69 133.35 0)
 			(effects
 				(font
@@ -10897,7 +10897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "510"
 			(at 207.01 134.6199 0)
 			(effects
 				(font
@@ -10933,7 +10933,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C4275"
+		(property "JLCPCB" "C23193"
 			(at 204.47 133.35 0)
 			(effects
 				(font
