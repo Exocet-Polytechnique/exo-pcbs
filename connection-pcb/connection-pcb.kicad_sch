@@ -4194,7 +4194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 205.74 24.13 0)
 			(effects
 				(font
@@ -4327,7 +4327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 226.06 22.86 0)
 			(effects
 				(font
@@ -4525,7 +4525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical"
 			(at 21.59 31.75 0)
 			(effects
 				(font
@@ -4604,7 +4604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -4669,7 +4669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 198.12 80.518 90)
 			(effects
 				(font
@@ -4804,7 +4804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Wurth_Term_Blk_4pos_Side_Entry_5mm"
 			(at 160.02 30.48 0)
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Wurth_Term_Blk_6pos_Side_Entry_5mm"
 			(at 93.98 71.12 0)
 			(effects
 				(font
@@ -5091,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 152.4 77.978 90)
 			(effects
 				(font
@@ -5491,7 +5491,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 195.58 38.1 0)
 			(effects
 				(font
@@ -5558,7 +5558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 210.82 22.86 0)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical"
 			(at 123.19 31.75 0)
 			(effects
 				(font
@@ -6362,7 +6362,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical"
 			(at 97.79 31.75 0)
 			(effects
 				(font
@@ -6439,7 +6439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -6658,7 +6658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical"
 			(at 72.39 31.75 0)
 			(effects
 				(font
@@ -6736,7 +6736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical"
 			(at 46.99 31.75 0)
 			(effects
 				(font
@@ -6947,7 +6947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 48.26 71.12 0)
 			(effects
 				(font
@@ -7040,7 +7040,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Wurth_Term_Blk_2pos_Side_Entry_5mm"
 			(at 264.16 30.48 0)
 			(effects
 				(font
@@ -7110,7 +7110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 106.172 82.55 90)
 			(effects
 				(font
@@ -7246,7 +7246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 236.22 39.37 0)
 			(effects
 				(font

@@ -1,0 +1,166 @@
+(footprint "Wurth_Term_Blk_4pos_Side_Entry_5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e664c4ec-f1ba-45fe-b82a-d58a0f70d443")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Wurth_Term_Blk_4pos_Side_Entry_5mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34c7d63f-11e9-4244-b71f-90c04fe3c4bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1b1b581-24af-4276-9cc9-a2ad980d2318")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7c61791-4a19-475c-bcf2-f18e7aadcea7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -10 -3.5)
+		(end -10 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4dbd13ac-97b5-46e5-8465-c9818f40dd89")
+	)
+	(fp_line
+		(start -10 4)
+		(end 10 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30cbb25e-5deb-43bf-a880-8813acaee942")
+	)
+	(fp_line
+		(start 10 -3.5)
+		(end -10 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "84429eeb-5b9c-4dd6-8129-b2e29ff321a4")
+	)
+	(fp_line
+		(start 10 4)
+		(end 10 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0c3da406-c17c-4d34-a109-32d6bf7d57d5")
+	)
+	(fp_poly
+		(pts
+			(xy -7.5 4.5) (xy -8 5) (xy -7 5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "783f31b3-3a60-43e3-9980-c3dab28d285d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d50af244-ccc5-4c9e-82c3-dbbebc28f22c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -7.5 0)
+		(size 2.1 2.1)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "724a875f-ce72-4ac5-bd64-8132b4167514")
+	)
+	(pad "2" thru_hole circle
+		(at -2.5 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4983154c-624b-41ed-acb6-21c1bc1976f1")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9eff07f0-8136-41b1-82ac-78d28ace38df")
+	)
+	(pad "4" thru_hole circle
+		(at 7.5 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5edf84ce-8659-48a6-b27f-4119aa3d96f7")
+	)
+	(embedded_fonts no)
+	(model "${EXOCET_PCB_MODELS}/Connectors/Wurth/Wurth_Term_Blk_4pos_Side_Entry_5mm.stp"
+		(offset
+			(xyz -10 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
