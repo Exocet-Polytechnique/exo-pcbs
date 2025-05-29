@@ -33,3 +33,6 @@ fp-info-cache
 
 # exported schematics
 *.pdf
+
+# excluded for copyright
+_library/models/**
