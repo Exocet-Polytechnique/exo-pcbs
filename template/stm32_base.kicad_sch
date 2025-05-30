@@ -10240,8 +10240,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B2B STLink connector"
-			(at 248.666 72.39 0)
+		(property "Value" "STDC14 STLink connector"
+			(at 250.444 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10268,6 +10268,15 @@
 			)
 		)
 		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
+			(at 252.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7465995"
 			(at 252.73 88.9 0)
 			(effects
 				(font
