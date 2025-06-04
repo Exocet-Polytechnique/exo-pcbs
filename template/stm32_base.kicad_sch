@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "STM32 Base Layout")
-		(date "2025-03-26")
-		(rev "v1.0.0")
+		(date "2025-06-03")
+		(rev "v1.1.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_ST_STDC14"
