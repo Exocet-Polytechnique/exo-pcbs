@@ -74,6 +74,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -6945,6 +6946,18 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a1715294-7fc6-4e84-95ff-dead981a7f05")
+		)
+		(fp_poly
+			(pts
+				(xy -2.54 -4.75) (xy -2.78 -5.08) (xy -2.3 -5.08) (xy -2.54 -4.75)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "b7c7e99f-865a-480c-b635-e1db3980cbc0")
 		)
 		(fp_line
 			(start -4.3 -4.95)
