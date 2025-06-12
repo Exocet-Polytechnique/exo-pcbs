@@ -592,6 +592,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Net Label",
+          "name": "Net Label",
+          "show": false
         }
       ],
       "filter_string": "",
