@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|204120000|45753270|c4541752-7d92-4336-84dc-bdd9c6aa58b9|00000000-0000-0000-0000-000000000000",
+          "Triangle has been added to indicate first pin"
+        ]
+      ],
       "meta": {
         "version": 2
       },
