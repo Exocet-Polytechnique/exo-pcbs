@@ -1,0 +1,61 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4b4cf3aa-c94c-4150-b9c5-35049cd71136")
+	(paper "A4")
+	(title_block
+		(title "Main page")
+		(date "2025-07-12")
+		(rev "v0.1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 24.6045 25.4683)
+		(size 44.4899 27.6293)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d59fd70-1fff-4c9c-ae77-583b08aef567")
+		(property "Sheetname" "STM32 Base Layout"
+			(at 24.6045 24.7567 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32_base.kicad_sch"
+			(at 24.6045 53.6822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power-ctrl-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
