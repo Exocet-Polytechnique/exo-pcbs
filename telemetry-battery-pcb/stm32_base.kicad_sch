@@ -3648,7 +3648,7 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
@@ -7687,14 +7687,12 @@
 		)
 		(pin "45"
 			(uuid "a08b16bd-0973-42ac-b4d7-027be5de6227")
-			(alternate "FDCAN1_RX")
 		)
 		(pin "27"
 			(uuid "3821e3cf-f136-4cda-ae9a-c8ee60cc073c")
 		)
 		(pin "56"
 			(uuid "e59c55a7-cf20-47b6-b8c7-2ceb81a0f47d")
-			(alternate "SYS_JTDO-SWO")
 		)
 		(pin "23"
 			(uuid "2ba220ea-ffd7-4668-a698-d2352ccaf031")
@@ -7707,7 +7705,6 @@
 		)
 		(pin "17"
 			(uuid "eaeea535-a68d-419b-9859-a2fc521c09db")
-			(alternate "LPUART1_RX")
 		)
 		(pin "36"
 			(uuid "c4b09a60-d19a-4499-8d44-171e6f651ec9")
@@ -7729,7 +7726,6 @@
 		)
 		(pin "14"
 			(uuid "1bea5269-f788-4148-9214-7cdb9a7e3d24")
-			(alternate "LPUART1_TX")
 		)
 		(pin "54"
 			(uuid "672107d9-0cb2-4a25-bbac-18929d7233a0")
@@ -7739,7 +7735,6 @@
 		)
 		(pin "46"
 			(uuid "81faedc8-1511-4701-acfe-398d4b2a0cea")
-			(alternate "FDCAN1_TX")
 		)
 		(pin "43"
 			(uuid "f195eeab-5fa1-4b0f-abb7-46f029818bbd")
@@ -7755,7 +7750,6 @@
 		)
 		(pin "49"
 			(uuid "901c96b0-e85a-4fcd-9aa8-43182d16f0ef")
-			(alternate "SYS_JTMS-SWDIO")
 		)
 		(pin "20"
 			(uuid "3b0d28ec-699a-4d3c-a99a-e5fa0e494ee0")
@@ -7786,7 +7780,6 @@
 		)
 		(pin "6"
 			(uuid "eb7f7ac2-c8c5-46af-8eb8-fbb2ad57d0cb")
-			(alternate "RCC_OSC_OUT")
 		)
 		(pin "28"
 			(uuid "9582014c-40a6-46a6-a55d-b137b1b98dd1")
@@ -7817,7 +7810,6 @@
 		)
 		(pin "51"
 			(uuid "573a99f6-388c-4692-be2b-dd30433dcab2")
-			(alternate "SYS_JTDI")
 		)
 		(pin "53"
 			(uuid "065968a8-2db4-41b4-a897-3f0c98002622")
@@ -7833,7 +7825,6 @@
 		)
 		(pin "50"
 			(uuid "172e8426-a554-40b6-ab47-2f90cdbf5f33")
-			(alternate "SYS_JTCK-SWCLK")
 		)
 		(pin "10"
 			(uuid "8e11840d-be1b-48a2-8043-364e6c3a55c3")
@@ -7849,7 +7840,6 @@
 		)
 		(pin "5"
 			(uuid "c91b7a74-76d7-42df-a5ea-8ced67c5f6cd")
-			(alternate "RCC_OSC_IN")
 		)
 		(pin "11"
 			(uuid "4d4b8beb-ea59-40bb-b825-52978c6f0d44")
@@ -7903,7 +7893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" "~"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -9234,7 +9224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" "~"
 			(at 205.74 83.82 0)
 			(effects
 				(font
@@ -9464,7 +9454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" "~"
 			(at 191.77 83.82 0)
 			(effects
 				(font
@@ -11048,7 +11038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" "~"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -11642,7 +11632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" "~"
 			(at 181.61 71.12 0)
 			(effects
 				(font

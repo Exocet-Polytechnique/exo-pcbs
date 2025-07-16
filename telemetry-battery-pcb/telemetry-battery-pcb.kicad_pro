@@ -470,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "template.kicad_pro",
+    "filename": "telemetry-battery-pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
