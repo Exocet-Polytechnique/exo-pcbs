@@ -524,6 +524,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Memory_EEPROM:M24C02-WMN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M24C02-WMN"
+				(at 7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2Kb (256x8) I2C Serial EEPROM, 2.5-5.5V, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Nonvolatile Non-Volatile Memory ROM ST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M24C02-WMN_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "M24C02-WMN_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "E0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{WC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -752,6 +978,18 @@
 		)
 	)
 	(rectangle
+		(start 15.24 86.36)
+		(end 104.14 129.54)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3cc833b9-7af4-496f-9de7-9324be045e71)
+	)
+	(rectangle
 		(start 15.24 48.26)
 		(end 109.22 83.82)
 		(stroke
@@ -774,11 +1012,34 @@
 		)
 		(uuid "448ef839-22dd-4cac-89bf-7e28306ea656")
 	)
+	(text "EEPROM"
+		(exclude_from_sim no)
+		(at 15.748 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "88df3969-04ba-47e0-ace3-f1ae7725c8b1")
+	)
+	(junction
+		(at 53.34 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0762ae75-9885-40d9-b47f-8e7ab56e8934")
+	)
 	(junction
 		(at 43.18 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12e71545-70e7-4936-9bef-f56b99e3101a")
+	)
+	(junction
+		(at 53.34 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cb7b148-f22f-481c-bc91-89dfdc7cfb92")
 	)
 	(junction
 		(at 30.48 55.88)
@@ -854,6 +1115,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 102.87) (xy 53.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c2aac6-5562-43f4-9b62-e9d5e390e4ec")
+	)
+	(wire
+		(pts
 			(xy 57.15 77.47) (xy 58.42 77.47)
 		)
 		(stroke
@@ -871,6 +1142,26 @@
 			(type default)
 		)
 		(uuid "155f475f-c9b2-4cec-85df-7b7ba0d09713")
+	)
+	(wire
+		(pts
+			(xy 53.34 105.41) (xy 53.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e45bff4-6544-4910-9a35-57538ca66bc6")
+	)
+	(wire
+		(pts
+			(xy 53.34 105.41) (xy 54.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a00782-fc9c-4c47-b09a-d61d5077a5b1")
 	)
 	(wire
 		(pts
@@ -924,6 +1215,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 107.95) (xy 54.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d69374c-08cc-43ea-9c62-d89656e1727e")
+	)
+	(wire
+		(pts
 			(xy 83.82 72.39) (xy 74.93 72.39)
 		)
 		(stroke
@@ -954,6 +1255,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 102.87) (xy 74.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857392c0-74ae-4a33-b6fe-2dfce17c7604")
+	)
+	(wire
+		(pts
 			(xy 21.59 68.58) (xy 36.83 68.58)
 		)
 		(stroke
@@ -961,6 +1272,16 @@
 			(type default)
 		)
 		(uuid "8f044a53-26e8-489d-b8d1-72ff3690781f")
+	)
+	(wire
+		(pts
+			(xy 81.28 105.41) (xy 74.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b377a48-f938-45ff-93d6-9697a0a76580")
 	)
 	(wire
 		(pts
@@ -981,6 +1302,16 @@
 			(type default)
 		)
 		(uuid "a6ea41e3-27b2-424f-b766-2da3c5aaed2a")
+	)
+	(wire
+		(pts
+			(xy 53.34 107.95) (xy 53.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0464e2-fb6f-45ac-8c67-a0b8840194f0")
 	)
 	(wire
 		(pts
@@ -1042,6 +1373,16 @@
 		)
 		(uuid "e5976bc0-5bdb-43de-8e3f-37d6b0f79ce7")
 	)
+	(wire
+		(pts
+			(xy 53.34 102.87) (xy 53.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea99ff05-fc85-4b67-a015-7f44a80af959")
+	)
 	(label "SCL"
 		(at 21.59 64.77 0)
 		(effects
@@ -1061,6 +1402,26 @@
 			(justify right bottom)
 		)
 		(uuid "342bc8a5-a9ac-4f37-95c4-72a18d15b62b")
+	)
+	(label "SDA"
+		(at 81.28 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43ee9a9c-8ae6-4f9d-9180-4a78ba15ca78")
+	)
+	(label "SCL"
+		(at 81.28 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e6d695d-e1c8-4d99-a5ae-a2640cdd4a9c")
 	)
 	(label "~{ALCC}"
 		(at 21.59 72.39 0)
@@ -1166,6 +1527,160 @@
 			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_EEPROM:M24C02-WMN")
+		(at 64.77 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c791e8c-f603-40e3-b011-dee16dfa1944")
+		(property "Reference" "U6"
+			(at 66.9133 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M24C02-WMN"
+			(at 66.9133 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf"
+			(at 66.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2Kb (256x8) I2C Serial EEPROM, 2.5-5.5V, SOIC-8"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "5d1f8a06-7219-416e-ad0c-0c6ed53d66bd")
+		)
+		(pin "7"
+			(uuid "cb68111e-0f41-4f6f-81b9-a2ecda71240d")
+		)
+		(pin "3"
+			(uuid "70ca4140-1b5f-45a0-a045-a04af3cf82f5")
+		)
+		(pin "6"
+			(uuid "00a8d9f0-4580-4c8d-8004-f73f0c914586")
+		)
+		(pin "4"
+			(uuid "8eb31ca3-b3ee-4d9f-a8ec-c609ae5c5c37")
+		)
+		(pin "5"
+			(uuid "aa541ba4-791b-4887-be68-2f1bcfb9a6bf")
+		)
+		(pin "2"
+			(uuid "c084435d-4291-4744-adee-75873ffd9a1a")
+		)
+		(pin "1"
+			(uuid "ba99670e-2c04-4c39-b31a-20c77a9b8115")
+		)
+		(instances
+			(project ""
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ebf0469-6144-47a5-a5c0-c37e56702063")
+		(property "Reference" "#PWR037"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e94c690-4175-4e8a-a3b4-808b7160ad70")
+		)
+		(instances
+			(project ""
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1527,6 +2042,138 @@
 			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5147050-9a26-47c5-8dbc-7c2f787322b7")
+		(property "Reference" "#PWR038"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58cbb9f3-1b69-4326-ba16-3b97926b68f8")
+		)
+		(instances
+			(project ""
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 64.77 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d318c389-66c0-4719-adeb-af2158a134e2")
+		(property "Reference" "#PWR039"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a42db53c-5d9d-46b0-8582-98686d1613e5")
+		)
+		(instances
+			(project "telemetry-battery-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
