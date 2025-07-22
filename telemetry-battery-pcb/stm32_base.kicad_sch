@@ -5050,10 +5050,6 @@
 		(uuid "791cc224-06b1-4a3c-8caa-eb1c5a1dde2a")
 	)
 	(no_connect
-		(at 63.5 138.43)
-		(uuid "79f32e74-56bb-44e2-b4b9-d51b8f9df71d")
-	)
-	(no_connect
 		(at 63.5 113.03)
 		(uuid "7b1cc1fc-05c6-4df4-b4d5-00172ab7d535")
 	)
@@ -5086,10 +5082,6 @@
 		(uuid "9f6c91a3-be2c-43ba-8d00-0eeba37ed9ca")
 	)
 	(no_connect
-		(at 63.5 133.35)
-		(uuid "aa490d37-a1e6-4d5f-ad21-3ac27b4ac874")
-	)
-	(no_connect
 		(at 99.06 140.97)
 		(uuid "ac41fe25-7b74-4235-902c-cea638e7bee2")
 	)
@@ -5112,10 +5104,6 @@
 	(no_connect
 		(at 63.5 125.73)
 		(uuid "b45fbcd8-8236-484d-9d39-d10e8e4c44e4")
-	)
-	(no_connect
-		(at 63.5 135.89)
-		(uuid "c259656a-b86b-421f-b8d0-f3e89b4aab34")
 	)
 	(no_connect
 		(at 99.06 113.03)
@@ -7049,6 +7037,39 @@
 		)
 		(uuid "ed7488b2-d7d9-4c4f-8424-1b2d0c311081")
 	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 63.5 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1949d4da-91f2-494a-ab30-e539439efd09")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 63.5 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "198f622d-aea5-42a6-bd27-51a4582e44b2")
+	)
+	(hierarchical_label "~{ALCC}"
+		(shape input)
+		(at 63.5 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34c0f87b-c5ce-4c8e-b7ab-ff49ead37ffb")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 146.05 143.51 0)
@@ -7720,6 +7741,7 @@
 		)
 		(pin "38"
 			(uuid "ebb1c26f-62ee-4db5-bf82-7499ce7e5bb8")
+			(alternate "I2C4_SCL")
 		)
 		(pin "15"
 			(uuid "06559adf-bc73-47f7-beb1-a801f3b3c224")
@@ -7792,6 +7814,7 @@
 		)
 		(pin "39"
 			(uuid "0a6b77fd-fb66-41ba-bffc-547ab68f60b5")
+			(alternate "I2C4_SDA")
 		)
 		(pin "55"
 			(uuid "eb0fa783-6560-4ae0-89db-8e55c72ac266")

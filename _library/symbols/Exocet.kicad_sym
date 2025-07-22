@@ -450,8 +450,8 @@
 		)
 		(symbol "LTC2944_0_1"
 			(rectangle
-				(start -10.16 6.35)
-				(end 10.16 -6.35)
+				(start -11.43 6.35)
+				(end 11.43 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -463,7 +463,7 @@
 		)
 		(symbol "LTC2944_1_0"
 			(pin power_in line
-				(at 0 -8.89 90)
+				(at -1.27 -8.89 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -482,7 +482,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -8.89 90)
+				(at -1.27 -8.89 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -501,10 +501,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -8.89 90)
+				(at 1.27 -8.89 90)
 				(length 2.54)
-				(hide yes)
-				(name "GND"
+				(name "GND/NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -522,7 +521,7 @@
 		)
 		(symbol "LTC2944_1_1"
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -540,7 +539,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 0 0)
+				(at -13.97 0 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -558,7 +557,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -3.81 0)
+				(at -13.97 -3.81 0)
 				(length 2.54)
 				(name "~{ALCC}"
 					(effects
@@ -576,7 +575,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -8.89 90)
+				(at -1.27 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -594,7 +593,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 3.81 180)
+				(at 13.97 3.81 180)
 				(length 2.54)
 				(name "SENSE+"
 					(effects
@@ -612,7 +611,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -3.81 180)
+				(at 13.97 -3.81 180)
 				(length 2.54)
 				(name "SENSE-"
 					(effects
