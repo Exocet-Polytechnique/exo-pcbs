@@ -5034,10 +5034,6 @@
 		(uuid "5066b802-96dc-4f62-a263-205f8a38a9cd")
 	)
 	(no_connect
-		(at 63.5 143.51)
-		(uuid "508e91a1-053c-4434-9b4d-d5833f0377b8")
-	)
-	(no_connect
 		(at 99.06 151.13)
 		(uuid "6e3b5dff-f77c-4fe7-a0b3-60f86ab9d3d9")
 	)
@@ -5052,10 +5048,6 @@
 	(no_connect
 		(at 63.5 113.03)
 		(uuid "7b1cc1fc-05c6-4df4-b4d5-00172ab7d535")
-	)
-	(no_connect
-		(at 63.5 140.97)
-		(uuid "7ccd026a-b5b5-4ed7-8332-68f0a2177755")
 	)
 	(no_connect
 		(at 99.06 153.67)
@@ -7038,7 +7030,7 @@
 		(uuid "ed7488b2-d7d9-4c4f-8424-1b2d0c311081")
 	)
 	(hierarchical_label "SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 63.5 133.35 180)
 		(effects
 			(font
@@ -7049,7 +7041,7 @@
 		(uuid "1949d4da-91f2-494a-ab30-e539439efd09")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 63.5 135.89 180)
 		(effects
 			(font
@@ -7069,6 +7061,28 @@
 			(justify right)
 		)
 		(uuid "34c0f87b-c5ce-4c8e-b7ab-ff49ead37ffb")
+	)
+	(hierarchical_label "EEPROM_~{WC}"
+		(shape output)
+		(at 63.5 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4fa340c-5947-4594-b325-c595937ef0cd")
+	)
+	(hierarchical_label "open_circuit_control"
+		(shape output)
+		(at 63.5 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff4bc195-1c3a-41b2-a575-119bb2cf0bc9")
 	)
 	(symbol
 		(lib_id "power:GND")
