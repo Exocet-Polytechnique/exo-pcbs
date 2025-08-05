@@ -3562,6 +3562,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C7562"
+			(at 36.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "5d1f8a06-7219-416e-ad0c-0c6ed53d66bd")
 		)
@@ -4440,6 +4449,15 @@
 			)
 		)
 		(property "Description" "60V Battery Gas Gauge with Temperature, Voltage and Current Measurement"
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C683672"
 			(at 59.69 80.01 0)
 			(effects
 				(font
