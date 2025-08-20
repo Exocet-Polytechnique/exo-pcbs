@@ -922,7 +922,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 14.986 0)
+			(at 0 16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,15 +930,15 @@
 			)
 		)
 		(property "Value" "TPSM8683x"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Exocet:B3QFN-19(5x5.5)"
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +947,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm86837.pdf"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +956,7 @@
 			)
 		)
 		(property "Description" "TPSM8683x 4.5V to 28V Input, 8A Synchronous Buck Power Module"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +965,7 @@
 			)
 		)
 		(property "JLCPCB" "C34572614"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +975,7 @@
 		)
 		(symbol "TPSM8683x_0_0"
 			(pin power_in line
-				(at -13.97 11.43 0)
+				(at -13.97 10.16 0)
 				(length 2.54)
 				(name "Vin"
 					(effects
@@ -992,26 +992,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -13.97 8.89 0)
-				(length 2.54)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -13.97 5.08 0)
+				(at -13.97 6.35 0)
 				(length 2.54)
 				(name "Mode"
 					(effects
@@ -1029,7 +1011,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 1.27 0)
+				(at -13.97 2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -1047,7 +1029,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -2.54 0)
+				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -1065,7 +1047,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -16.51 90)
+				(at -3.81 -15.24 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -1083,7 +1065,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at 0 -15.24 90)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -1101,7 +1083,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -16.51 90)
+				(at 2.54 -15.24 90)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -1119,7 +1101,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -16.51 90)
+				(at 5.08 -15.24 90)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -1137,7 +1119,7 @@
 				)
 			)
 			(pin power_out line
-				(at 13.97 11.43 180)
+				(at 13.97 10.16 180)
 				(length 2.54)
 				(name "Vout"
 					(effects
@@ -1154,26 +1136,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 13.97 8.89 180)
-				(length 2.54)
-				(name "Vout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 13.97 -1.27 180)
+				(at 13.97 0 180)
 				(length 2.54)
 				(name "BOOT"
 					(effects
@@ -1191,7 +1155,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -5.08 180)
+				(at 13.97 -3.81 180)
 				(length 2.54)
 				(name "SS"
 					(effects
@@ -1209,7 +1173,7 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -8.89 180)
+				(at 13.97 -7.62 180)
 				(length 2.54)
 				(name "PG"
 					(effects
@@ -1228,8 +1192,27 @@
 			)
 		)
 		(symbol "TPSM8683x_1_0"
+			(pin passive line
+				(at -13.97 10.16 0)
+				(length 2.54)
+				(hide yes)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin free line
-				(at -13.97 -6.35 0)
+				(at -13.97 -5.08 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1247,7 +1230,7 @@
 				)
 			)
 			(pin free line
-				(at -13.97 -8.89 0)
+				(at -13.97 -7.62 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1265,7 +1248,7 @@
 				)
 			)
 			(pin free line
-				(at -13.97 -11.43 0)
+				(at -13.97 -10.16 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1282,8 +1265,27 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 13.97 10.16 180)
+				(length 2.54)
+				(hide yes)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin no_connect line
-				(at 13.97 5.08 180)
+				(at 13.97 6.35 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -1301,7 +1303,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 13.97 2.54 180)
+				(at 13.97 3.81 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -1321,8 +1323,8 @@
 		)
 		(symbol "TPSM8683x_1_1"
 			(rectangle
-				(start -11.43 13.97)
-				(end 11.43 -13.97)
+				(start -11.43 12.7)
+				(end 11.43 -12.7)
 				(stroke
 					(width 0.254)
 					(type solid)
