@@ -2103,7 +2103,7 @@
 		(uuid "bad37987-5269-482e-b7f7-cee31935e519")
 	)
 	(junction
-		(at 257.81 135.89)
+		(at 255.27 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9a6f8be-8009-43d7-a7e6-d5f56e10b72e")
@@ -2121,7 +2121,7 @@
 		(uuid "e2408692-541f-4c31-b173-84863b1d0210")
 	)
 	(junction
-		(at 218.44 135.89)
+		(at 215.9 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e96ee2bc-2699-4022-b24c-d96db47e8bdf")
@@ -2133,12 +2133,12 @@
 		(uuid "f8b570b9-09b7-4c5a-be72-1260c9666d91")
 	)
 	(no_connect
-		(at 246.38 133.35)
-		(uuid "299364c8-7d13-4a9f-b65a-a559e63e47c4")
+		(at 207.01 128.27)
+		(uuid "3d9884f5-02eb-45e1-b712-9daa8d7f0a82")
 	)
 	(no_connect
-		(at 207.01 133.35)
-		(uuid "61e10329-d687-461b-83d5-ef1683d89071")
+		(at 246.38 128.27)
+		(uuid "c2a1a915-16a2-4239-a28f-03760819c95c")
 	)
 	(wire
 		(pts
@@ -2152,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 130.81) (xy 210.82 135.89)
+			(xy 208.28 133.35) (xy 208.28 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2169,16 +2169,6 @@
 			(type default)
 		)
 		(uuid "024755e4-a31c-4517-9ca8-6b16908cc603")
-	)
-	(wire
-		(pts
-			(xy 207.01 130.81) (xy 210.82 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "061f5938-a25c-44ab-870b-97d0c9721492")
 	)
 	(wire
 		(pts
@@ -2252,6 +2242,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 133.35) (xy 207.01 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22107b4b-8572-4c65-86cd-ee1f47819d1a")
+	)
+	(wire
+		(pts
 			(xy 58.42 50.8) (xy 74.93 50.8)
 		)
 		(stroke
@@ -2259,16 +2259,6 @@
 			(type default)
 		)
 		(uuid "23eac050-dd09-4c89-95d9-7a4b9f9ff535")
-	)
-	(wire
-		(pts
-			(xy 246.38 125.73) (xy 252.73 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27dc82da-7478-42cb-929d-15d3a7ba3fee")
 	)
 	(wire
 		(pts
@@ -2292,16 +2282,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 130.81) (xy 250.19 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d58bea1-02c2-445a-bd85-0e28bdf486b2")
-	)
-	(wire
-		(pts
 			(xy 92.71 179.07) (xy 101.6 179.07)
 		)
 		(stroke
@@ -2322,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 135.89) (xy 274.32 135.89)
+			(xy 255.27 138.43) (xy 271.78 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2352,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 135.89) (xy 218.44 138.43)
+			(xy 215.9 139.7) (xy 215.9 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2382,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 135.89) (xy 257.81 138.43)
+			(xy 255.27 138.43) (xy 255.27 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2462,6 +2442,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 130.81) (xy 257.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7630ddbd-54ae-42df-87be-b03232a32a9f")
+	)
+	(wire
+		(pts
 			(xy 45.72 100.33) (xy 60.96 100.33)
 		)
 		(stroke
@@ -2479,16 +2469,6 @@
 			(type default)
 		)
 		(uuid "7febfe3a-e02c-4ce0-8c6d-7793d029f8fe")
-	)
-	(wire
-		(pts
-			(xy 207.01 128.27) (xy 217.17 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81a29588-161f-41d2-9d1c-cc57b6ef18c1")
 	)
 	(wire
 		(pts
@@ -2519,6 +2499,16 @@
 			(type default)
 		)
 		(uuid "878e1d80-206d-4f1d-8d6d-54ffb7b090d3")
+	)
+	(wire
+		(pts
+			(xy 207.01 125.73) (xy 218.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6c6a32-052c-45ff-ab64-dd211c86cf4e")
 	)
 	(wire
 		(pts
@@ -2559,16 +2549,6 @@
 			(type default)
 		)
 		(uuid "961ad609-0ec4-403b-88a7-d29494768d91")
-	)
-	(wire
-		(pts
-			(xy 207.01 125.73) (xy 213.36 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "978a32e8-90b7-4c31-935d-991d4dc650ca")
 	)
 	(wire
 		(pts
@@ -2622,6 +2602,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 133.35) (xy 247.65 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b403263f-dd0b-444a-93bb-314afaa454c3")
+	)
+	(wire
+		(pts
 			(xy 80.01 143.51) (xy 85.09 143.51)
 		)
 		(stroke
@@ -2652,6 +2642,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 125.73) (xy 257.81 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16d4f5d-35d5-4281-9786-affcfd251303")
+	)
+	(wire
+		(pts
 			(xy 127 100.33) (xy 142.24 100.33)
 		)
 		(stroke
@@ -2659,16 +2659,6 @@
 			(type default)
 		)
 		(uuid "c78165de-8a40-4736-98c8-402ce0106db4")
-	)
-	(wire
-		(pts
-			(xy 246.38 128.27) (xy 256.54 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9dd2e19-f84b-4a90-b63f-414888a8b644")
 	)
 	(wire
 		(pts
@@ -2732,7 +2722,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 135.89) (xy 234.95 135.89)
+			(xy 215.9 139.7) (xy 232.41 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2762,6 +2752,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 130.81) (xy 218.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc83560-9a24-4d9c-ae25-13897d9a4ef8")
+	)
+	(wire
+		(pts
 			(xy 58.42 35.56) (xy 66.04 35.56)
 		)
 		(stroke
@@ -2782,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 130.81) (xy 250.19 135.89)
+			(xy 247.65 133.35) (xy 247.65 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3081,7 +3081,7 @@
 		(uuid "87326dc5-537d-4a20-bacb-53b46d8b7933")
 	)
 	(label "MANOMETER_1"
-		(at 234.95 135.89 180)
+		(at 232.41 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3101,7 +3101,7 @@
 		(uuid "8a8311ca-a95e-47b9-8ba3-50ee0b6dbd6c")
 	)
 	(label "MANOMETER_2"
-		(at 274.32 135.89 180)
+		(at 271.78 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3299,7 +3299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7k"
+		(property "Value" "7.5k"
 			(at 49.53 135.8899 0)
 			(effects
 				(font
@@ -3308,7 +3308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.212 134.62 90)
 			(effects
 				(font
@@ -3327,6 +3327,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23234"
 			(at 46.99 134.62 0)
 			(effects
 				(font
@@ -3509,7 +3518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 102.87 140.97 0)
 			(effects
 				(font
@@ -3556,6 +3565,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2590"
+			(at 97.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3798,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 135.89 90)
+		(at 212.09 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3788,7 +3806,7 @@
 		(dnp no)
 		(uuid "1ada1801-c5d6-4c05-a2e8-3345660b03f4")
 		(property "Reference" "R6"
-			(at 214.63 130.556 90)
+			(at 212.09 134.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,15 +3814,15 @@
 			)
 		)
 		(property "Value" "3.6k"
-			(at 214.63 133.096 90)
+			(at 212.09 136.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 214.63 137.668 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 212.09 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3831,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 135.89 0)
+			(at 212.09 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3840,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 135.89 0)
+			(at 212.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22980"
+			(at 212.09 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +3899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 106.68 179.07 0)
 			(effects
 				(font
@@ -3891,6 +3918,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 106.68 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C131339"
 			(at 106.68 179.07 0)
 			(effects
 				(font
@@ -4011,7 +4047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 37.592 175.26 90)
 			(effects
 				(font
@@ -4030,6 +4066,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23162"
 			(at 39.37 175.26 0)
 			(effects
 				(font
@@ -4336,7 +4381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 49.53 128.2699 0)
 			(effects
 				(font
@@ -4345,7 +4390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.212 127 90)
 			(effects
 				(font
@@ -4364,6 +4409,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 46.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23162"
 			(at 46.99 127 0)
 			(effects
 				(font
@@ -4406,7 +4460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 156.21 128.2699 0)
 			(effects
 				(font
@@ -4415,7 +4469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.892 127 90)
 			(effects
 				(font
@@ -4434,6 +4488,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23162"
 			(at 153.67 127 0)
 			(effects
 				(font
@@ -4551,7 +4614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 131.572 147.32 90)
 			(effects
 				(font
@@ -4570,6 +4633,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25744"
 			(at 133.35 147.32 0)
 			(effects
 				(font
@@ -4620,7 +4692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 49.53 140.97 0)
 			(effects
 				(font
@@ -4674,6 +4746,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2590"
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "593c7add-4e8a-4de5-accd-1a4a79056110")
 		)
@@ -4717,7 +4798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:LED_0805_2012Metric_With_Annotations"
 			(at 204.47 102.87 0)
 			(effects
 				(font
@@ -4745,6 +4826,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2286"
 			(at 204.47 102.87 0)
 			(effects
 				(font
@@ -4836,7 +4926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 125.73 0)
+		(at 218.44 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4844,7 +4934,7 @@
 		(dnp no)
 		(uuid "56aadb65-3c7a-4e52-ad7a-731d3a35a83f")
 		(property "Reference" "#PWR036"
-			(at 213.36 132.08 0)
+			(at 218.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +4943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.106 124.46 0)
+			(at 218.186 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +4951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 125.73 0)
+			(at 218.44 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +4960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 125.73 0)
+			(at 218.44 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +4969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 125.73 0)
+			(at 218.44 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +5073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Temp Sensor Conn 3"
+		(property "Value" "Temp Sensor Conn 1"
 			(at 52.07 173.736 0)
 			(effects
 				(font
@@ -4992,7 +5082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 53.34 179.07 0)
 			(effects
 				(font
@@ -5011,6 +5101,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C131339"
 			(at 53.34 179.07 0)
 			(effects
 				(font
@@ -5063,7 +5162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 88.9 145.288 90)
 			(effects
 				(font
@@ -5083,6 +5182,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25076"
+			(at 88.9 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:LED_0805_2012Metric_With_Annotations"
 			(at 232.41 102.87 0)
 			(effects
 				(font
@@ -5290,6 +5398,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2297"
 			(at 232.41 102.87 0)
 			(effects
 				(font
@@ -5736,7 +5853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.232 147.32 90)
 			(effects
 				(font
@@ -5763,6 +5880,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25744"
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59ee8022-471e-4176-8ddd-128c6b3521bc")
 		)
@@ -5780,7 +5906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 146.05 0)
+		(at 255.27 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5788,7 +5914,7 @@
 		(dnp no)
 		(uuid "7a1486ee-87a6-4f97-8f79-7c293c18e375")
 		(property "Reference" "#PWR040"
-			(at 257.81 152.4 0)
+			(at 255.27 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +5923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 150.368 0)
+			(at 255.27 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 146.05 0)
+			(at 255.27 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 146.05 0)
+			(at 255.27 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 146.05 0)
+			(at 255.27 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +5971,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 142.24 0)
+		(at 215.9 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5854,7 +5980,7 @@
 		(fields_autoplaced yes)
 		(uuid "84a0cfc6-eb43-4931-aa31-1d7f5da72f64")
 		(property "Reference" "R7"
-			(at 220.98 140.9699 0)
+			(at 218.44 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5989,7 @@
 			)
 		)
 		(property "Value" "6.8k"
-			(at 220.98 143.5099 0)
+			(at 218.44 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,8 +5997,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 216.662 142.24 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 214.122 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 142.24 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +6016,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 142.24 0)
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23212"
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +6050,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 125.73 0)
+		(at 257.81 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5923,7 +6058,7 @@
 		(dnp no)
 		(uuid "84d6770c-e1ff-40b4-b017-4c02b64b0fce")
 		(property "Reference" "#PWR038"
-			(at 252.73 132.08 0)
+			(at 257.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +6067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.476 124.46 0)
+			(at 257.556 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 125.73 0)
+			(at 257.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +6084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 125.73 0)
+			(at 257.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +6093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 125.73 0)
+			(at 257.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 35.56 145.288 90)
 			(effects
 				(font
@@ -6024,6 +6159,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 35.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25076"
+			(at 35.56 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +6209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7k"
+		(property "Value" "7.5k"
 			(at 156.21 135.8899 0)
 			(effects
 				(font
@@ -6074,7 +6218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.892 134.62 90)
 			(effects
 				(font
@@ -6093,6 +6237,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23234"
 			(at 153.67 134.62 0)
 			(effects
 				(font
@@ -6144,7 +6297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B4P-VH-FB-B_1x04_P3.96mm_Vertical"
 			(at 241.3 128.27 0)
 			(effects
 				(font
@@ -6163,6 +6316,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C160750"
 			(at 241.3 128.27 0)
 			(effects
 				(font
@@ -6194,16 +6356,15 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 217.17 128.27 0)
+		(at 218.44 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e7084d2-046b-4b05-809f-1e161e2b625d")
 		(property "Reference" "#PWR035"
-			(at 217.17 132.08 0)
+			(at 218.44 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6373,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 217.17 123.19 0)
+			(at 218.44 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 128.27 0)
+			(at 218.44 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 128.27 0)
+			(at 218.44 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 217.17 128.27 0)
+			(at 218.44 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +6446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 160.02 179.07 0)
 			(effects
 				(font
@@ -6304,6 +6465,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C131339"
 			(at 160.02 179.07 0)
 			(effects
 				(font
@@ -6358,7 +6528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
 			(at 167.64 133.35 0)
 			(effects
 				(font
@@ -6412,6 +6582,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2591"
+			(at 162.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e6bf6f8-f6af-4d92-8a0e-ec84b662e127")
 		)
@@ -6457,7 +6636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 156.21 140.97 0)
 			(effects
 				(font
@@ -6511,6 +6690,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2590"
+			(at 151.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6cae988-f16a-4e13-8a54-f5a22865a52b")
 		)
@@ -6557,7 +6745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 258.572 95.25 90)
 			(effects
 				(font
@@ -6584,6 +6772,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25076"
+			(at 260.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6981d809-5587-47cf-a9b7-105db84a3b30")
 		)
@@ -6601,7 +6798,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 257.81 142.24 0)
+		(at 255.27 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6610,7 +6807,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2ab3cd6-4a3f-40d6-9980-9112f95b8210")
 		(property "Reference" "R9"
-			(at 260.35 140.9699 0)
+			(at 257.81 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6816,7 @@
 			)
 		)
 		(property "Value" "6.8k"
-			(at 260.35 143.5099 0)
+			(at 257.81 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,8 +6824,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.032 142.24 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 253.492 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +6834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 142.24 0)
+			(at 255.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6843,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 257.81 142.24 0)
+			(at 255.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23212"
+			(at 255.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,7 +6969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 230.632 95.25 90)
 			(effects
 				(font
@@ -6782,6 +6988,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25076"
 			(at 232.41 95.25 0)
 			(effects
 				(font
@@ -6824,7 +7039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 102.87 128.2699 0)
 			(effects
 				(font
@@ -6833,7 +7048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 98.552 127 90)
 			(effects
 				(font
@@ -6860,6 +7075,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C23162"
+			(at 100.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a968fb2-72f9-481a-a72d-ce77734e1af8")
 		)
@@ -6877,7 +7101,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254 135.89 90)
+		(at 251.46 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6885,7 +7109,7 @@
 		(dnp no)
 		(uuid "a4c7d698-b84b-4421-af21-7ef0db0bc51f")
 		(property "Reference" "R8"
-			(at 254 130.556 90)
+			(at 251.46 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,15 +7117,15 @@
 			)
 		)
 		(property "Value" "3.6k"
-			(at 254 133.096 90)
+			(at 251.46 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 254 137.668 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 251.46 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +7134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 135.89 0)
+			(at 251.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +7143,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 254 135.89 0)
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22980"
+			(at 251.46 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +7203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 202.692 95.25 90)
 			(effects
 				(font
@@ -6989,6 +7222,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25076"
 			(at 204.47 95.25 0)
 			(effects
 				(font
@@ -7040,7 +7282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.932 175.26 90)
 			(effects
 				(font
@@ -7059,6 +7301,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23162"
 			(at 92.71 175.26 0)
 			(effects
 				(font
@@ -7306,7 +7557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Actuator:Actuator_C200714"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -7325,6 +7576,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C200714"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -7386,7 +7646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 142.24 145.288 90)
 			(effects
 				(font
@@ -7406,6 +7666,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25076"
+			(at 142.24 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,7 +7725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
 			(at 60.96 133.35 0)
 			(effects
 				(font
@@ -7503,6 +7772,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2591"
+			(at 55.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +7891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7k"
+		(property "Value" "7.5k"
 			(at 102.87 135.8899 0)
 			(effects
 				(font
@@ -7622,7 +7900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 98.552 134.62 90)
 			(effects
 				(font
@@ -7641,6 +7919,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23234"
 			(at 100.33 134.62 0)
 			(effects
 				(font
@@ -7824,7 +8111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W"
 			(at 114.3 133.35 0)
 			(effects
 				(font
@@ -7871,6 +8158,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2591"
+			(at 109.22 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +8284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Actuator:Actuator_C200714"
 			(at 38.1 100.33 0)
 			(effects
 				(font
@@ -8007,6 +8303,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C200714"
 			(at 38.1 100.33 0)
 			(effects
 				(font
@@ -8110,7 +8415,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 146.05 0)
+		(at 215.9 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8118,7 +8423,7 @@
 		(dnp no)
 		(uuid "e40a5377-574f-4bc6-95a5-9bfc75a69e55")
 		(property "Reference" "#PWR037"
-			(at 218.44 152.4 0)
+			(at 215.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 150.368 0)
+			(at 215.9 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +8440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 146.05 0)
+			(at 215.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 146.05 0)
+			(at 215.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 146.05 0)
+			(at 215.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,7 +8504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Actuator:Actuator_C200714"
 			(at 77.47 100.33 0)
 			(effects
 				(font
@@ -8218,6 +8523,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C200714"
 			(at 77.47 100.33 0)
 			(effects
 				(font
@@ -8255,16 +8569,15 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 256.54 128.27 0)
+		(at 257.81 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8fe3822-f647-49d9-a953-bca514fcaadb")
 		(property "Reference" "#PWR039"
-			(at 256.54 132.08 0)
+			(at 257.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8586,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 256.54 123.19 0)
+			(at 257.81 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +8594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 128.27 0)
+			(at 257.81 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 128.27 0)
+			(at 257.81 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 256.54 128.27 0)
+			(at 257.81 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8344,7 +8657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:LED_0805_2012Metric_With_Annotations"
 			(at 260.35 102.87 0)
 			(effects
 				(font
@@ -8372,6 +8685,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2296"
 			(at 260.35 102.87 0)
 			(effects
 				(font
@@ -8423,7 +8745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.272 175.26 90)
 			(effects
 				(font
@@ -8442,6 +8764,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23162"
 			(at 146.05 175.26 0)
 			(effects
 				(font
@@ -8559,7 +8890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B4P-VH-FB-B_1x04_P3.96mm_Vertical"
 			(at 201.93 128.27 0)
 			(effects
 				(font
@@ -8578,6 +8909,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C160750"
 			(at 201.93 128.27 0)
 			(effects
 				(font
@@ -8635,7 +8975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 24.892 147.32 90)
 			(effects
 				(font
@@ -8654,6 +8994,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25744"
 			(at 26.67 147.32 0)
 			(effects
 				(font
