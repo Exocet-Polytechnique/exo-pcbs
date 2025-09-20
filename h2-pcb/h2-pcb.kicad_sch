@@ -7557,7 +7557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Actuator:Actuator_C200714"
+		(property "Footprint" "Exocet:TE_UNIVERSAL-MNL_6Pin_Horizontal_PCB_Header"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -8284,7 +8284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Actuator:Actuator_C200714"
+		(property "Footprint" "Exocet:TE_UNIVERSAL-MNL_6Pin_Horizontal_PCB_Header"
 			(at 38.1 100.33 0)
 			(effects
 				(font
@@ -8504,7 +8504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Actuator:Actuator_C200714"
+		(property "Footprint" "Exocet:TE_UNIVERSAL-MNL_6Pin_Horizontal_PCB_Header"
 			(at 77.47 100.33 0)
 			(effects
 				(font
