@@ -7608,7 +7608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Fuse_Holder_Littelfuse_01530008"
 			(at 254 27.178 90)
 			(effects
 				(font
