@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "Exocet")(type "KiCad")(uri "${KIPRJMOD}/../_library/symbols/Exocet.kicad_sym")(options "")(descr ""))
-  (lib (name "IMU")(type "KiCad")(uri "${KIPRJMOD}/IMU.kicad_sym")(options "")(descr ""))
 )

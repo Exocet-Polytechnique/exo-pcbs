@@ -468,7 +468,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "IMU",
+      "Exocet"
+    ]
   },
   "meta": {
     "filename": "sensors-pcb.kicad_pro",
