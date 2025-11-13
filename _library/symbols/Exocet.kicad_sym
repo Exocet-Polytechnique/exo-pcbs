@@ -158,10 +158,11 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 0 -21.59 90)
 				(length 2.54)
-				(name "SWDIO"
+				(hide yes)
+				(name "PIN7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -194,10 +195,11 @@
 					)
 				)
 			)
-			(pin input clock
+			(pin no_connect clock
 				(at 3.81 -21.59 90)
 				(length 2.54)
-				(name "SWCLK"
+				(hide yes)
+				(name "PIN8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -248,7 +250,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 11.43 2.54 270)
 				(length 2.54)
 				(name "GNDIO"
@@ -287,6 +289,7 @@
 			(pin no_connect line
 				(at 15.24 2.54 270)
 				(length 2.54)
+				(hide yes)
 				(name "PIN24"
 					(effects
 						(font
@@ -302,7 +305,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin input line
 				(at 15.24 -21.59 90)
 				(length 2.54)
 				(name "~{nReset}"
@@ -323,6 +326,7 @@
 			(pin no_connect line
 				(at 19.05 2.54 270)
 				(length 2.54)
+				(hide yes)
 				(name "PIN23"
 					(effects
 						(font
@@ -341,6 +345,7 @@
 			(pin no_connect line
 				(at 19.05 -21.59 90)
 				(length 2.54)
+				(hide yes)
 				(name "PIN12"
 					(effects
 						(font
@@ -359,6 +364,7 @@
 			(pin no_connect line
 				(at 22.86 2.54 270)
 				(length 2.54)
+				(hide yes)
 				(name "PIN22"
 					(effects
 						(font
@@ -377,6 +383,7 @@
 			(pin no_connect line
 				(at 22.86 -21.59 90)
 				(length 2.54)
+				(hide yes)
 				(name "PIN13"
 					(effects
 						(font
@@ -395,6 +402,7 @@
 			(pin no_connect line
 				(at 26.67 2.54 270)
 				(length 2.54)
+				(hide yes)
 				(name "PIN21"
 					(effects
 						(font
@@ -446,7 +454,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin input line
 				(at 30.48 -21.59 90)
 				(length 2.54)
 				(name "PIN15"
@@ -518,7 +526,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin input line
 				(at 40.64 -15.24 180)
 				(length 2.54)
 				(name "PIN16"
@@ -549,9 +557,10 @@
 					(type background)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at -3.81 2.54 270)
 				(length 2.54)
+				(hide yes)
 				(name "PIN1"
 					(effects
 						(font
