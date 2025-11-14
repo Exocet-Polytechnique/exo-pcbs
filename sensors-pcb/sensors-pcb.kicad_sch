@@ -1484,6 +1484,12 @@
 		(uuid "1ece474f-f394-49f3-9334-a205116936d6")
 	)
 	(junction
+		(at 200.66 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2068b40f-5353-46a6-a0aa-2e912ab6b352")
+	)
+	(junction
 		(at 124.46 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1524,12 +1530,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc53ae72-6669-4e5a-b10b-4c8b4df277d3")
-	)
-	(junction
-		(at 193.04 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4d35af8-8423-421a-9438-329b11639643")
 	)
 	(junction
 		(at 147.32 109.22)
@@ -1589,7 +1589,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1abe6e98-434d-4e83-b3af-6f1399a13574")
+		(uuid "1bc3b0d7-fb4a-4774-b119-fa32f4cb4bbd")
 	)
 	(wire
 		(pts
@@ -1703,16 +1703,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 107.95) (xy 193.04 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b2488a5-fbfb-4e45-be95-0b6aac015fe2")
-	)
-	(wire
-		(pts
 			(xy 147.32 109.22) (xy 147.32 111.76)
 		)
 		(stroke
@@ -1800,6 +1790,16 @@
 			(type default)
 		)
 		(uuid "734b2a76-008a-4ac4-b9fc-7fc94ff0c202")
+	)
+	(wire
+		(pts
+			(xy 200.66 100.33) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ad697c-bc51-4a95-aacf-cb076d8c2c08")
 	)
 	(wire
 		(pts
@@ -1953,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 92.71) (xy 200.66 107.95)
+			(xy 200.66 92.71) (xy 200.66 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2291,6 +2291,74 @@
 			(project ""
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 196.85 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "198854f5-5f59-4be8-8078-d59f2946ff38")
+		(property "Reference" "JP?"
+			(at 196.596 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 196.596 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d1922e9-fc74-4eb5-9eeb-b147d39b1fe2")
+		)
+		(pin "2"
+			(uuid "a0d120c9-e67c-44a6-a6ab-30fc72db6559")
+		)
+		(instances
+			(project "sensors-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "JP?")
 					(unit 1)
 				)
 			)
