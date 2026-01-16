@@ -36,3 +36,6 @@ fp-info-cache
 
 # excluded for copyright
 _library/models/**
+
+# MacOS files
+.DS_Store
