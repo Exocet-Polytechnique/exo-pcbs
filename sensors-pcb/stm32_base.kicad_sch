@@ -5046,16 +5046,8 @@
 		(uuid "7257e871-72b5-47df-a7cb-419608cd09bf")
 	)
 	(no_connect
-		(at 63.5 138.43)
-		(uuid "79f32e74-56bb-44e2-b4b9-d51b8f9df71d")
-	)
-	(no_connect
 		(at 63.5 113.03)
 		(uuid "7b1cc1fc-05c6-4df4-b4d5-00172ab7d535")
-	)
-	(no_connect
-		(at 63.5 140.97)
-		(uuid "7ccd026a-b5b5-4ed7-8332-68f0a2177755")
 	)
 	(no_connect
 		(at 99.06 153.67)
@@ -7052,6 +7044,28 @@
 		)
 		(uuid "29487a59-9bf1-4a41-b2d6-cd1354f521b2")
 	)
+	(hierarchical_label "I2C3_SCL"
+		(shape bidirectional)
+		(at 63.5 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94b91d6b-056a-445a-9f97-70afc463086e")
+	)
+	(hierarchical_label "I2C3_SDA"
+		(shape bidirectional)
+		(at 63.5 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5182751-247d-49f6-b492-f9f149aedfdf")
+	)
 	(hierarchical_label "I2C2_SCL"
 		(shape bidirectional)
 		(at 63.5 128.27 180)
@@ -7868,6 +7882,7 @@
 		)
 		(pin "40"
 			(uuid "132a6670-6002-4c7a-a877-a416ee23609e")
+			(alternate "I2C3_SCL")
 		)
 		(pin "62"
 			(uuid "8dc6be55-f4e7-4f2a-a6ca-90335b134d06")
@@ -7906,6 +7921,7 @@
 		)
 		(pin "41"
 			(uuid "0c6b6a70-226c-49e0-9290-4605da5ac0a2")
+			(alternate "I2C3_SDA")
 		)
 		(pin "42"
 			(uuid "9aea7218-26a7-41e1-ab43-c4e5c3a86e1a")
