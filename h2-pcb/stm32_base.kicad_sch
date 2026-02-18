@@ -8580,6 +8580,7 @@
 		)
 		(pin "35"
 			(uuid "4025eb0d-6294-437f-9430-3ae3c88b3b3b")
+			(alternate "ADC3_IN5")
 		)
 		(pin "1"
 			(uuid "78f79316-ef46-42ce-9661-9b66f29681e7")
