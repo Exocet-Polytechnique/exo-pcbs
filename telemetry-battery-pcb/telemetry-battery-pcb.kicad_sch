@@ -7649,7 +7649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.158 77.47 90)
 			(effects
 				(font
@@ -7669,6 +7669,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C11702"
+			(at 119.38 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +8302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DC-DC_XR76208ELTR-F:MaxLinear_XR76208ELTR-F_QFN-30(5x5)"
+		(property "Footprint" "Exocet:MaxLinear_XR76208ELTR-F_QFN-30(5x5)"
 			(at 87.63 105.41 0)
 			(effects
 				(font
