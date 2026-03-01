@@ -1009,7 +1009,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148WT"
+		(symbol "Diode:BAS316"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1027,7 +1027,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4148WT"
+			(property "Value" "BAS316"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1035,7 +1035,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -1044,7 +1044,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1053,7 +1053,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(property "Description" "100V, 0.25A, High-speed Switching Diode, SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1089,7 +1089,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?523*"
+			(property "ki_fp_filters" "D*SOD?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1098,7 +1098,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4148WT_0_1"
+			(symbol "BAS316_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1136,7 +1136,7 @@
 					)
 				)
 			)
-			(symbol "1N4148WT_1_1"
+			(symbol "BAS316_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -8609,94 +8609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 130.81 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f8b5043-f019-4f0a-b3f7-e88dda834a99")
-		(property "Reference" "D5"
-			(at 133.35 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 133.35 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 135.255 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c54368d9-01f9-4411-a5e8-d0379f7bfdd0")
-		)
-		(pin "1"
-			(uuid "4b8b7efa-b7f4-4fef-b625-f503aafc9b8a")
-		)
-		(instances
-			(project ""
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 158.75 81.28 0)
 		(unit 1)
@@ -9286,6 +9198,103 @@
 			(project ""
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAS316")
+		(at 130.81 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c546540-e996-4db9-95c5-f1fe61e07361")
+		(property "Reference" "D6"
+			(at 133.35 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAS316"
+			(at 133.35 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 135.255 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V, 0.25A, High-speed Switching Diode, SOD-323"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2128"
+			(at 130.81 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bafcd902-f329-4580-86f9-4bc257601cfc")
+		)
+		(pin "2"
+			(uuid "f43ad590-c327-468f-9c11-5f0489166809")
+		)
+		(instances
+			(project ""
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10682,7 +10691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
+		(property "Footprint" "Exocet:Tps1htc30_Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
 			(at 139.7 53.34 0)
 			(effects
 				(font
@@ -10691,7 +10700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/24038323-TPS1HTC30AQPWPRQ1/C22414694"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1htc30-q1.pdf?ts=1772309406015"
 			(at 139.7 53.34 0)
 			(effects
 				(font
@@ -12379,7 +12388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 158.4452 67.31 0)
 			(effects
 				(font
@@ -12406,7 +12415,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1581"
+		(property "JLCPCB" "C14663"
 			(at 157.48 63.5 0)
 			(effects
 				(font
@@ -13346,7 +13355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 106.3752 80.01 0)
 			(effects
 				(font
@@ -13373,7 +13382,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1581"
+		(property "JLCPCB" "C14663"
 			(at 105.41 76.2 0)
 			(effects
 				(font
