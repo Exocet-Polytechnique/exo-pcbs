@@ -6427,17 +6427,6 @@
 		)
 		(uuid "8608f8c3-a5ae-4b7e-b439-4b6e51245b00")
 	)
-	(hierarchical_label "SNS"
-		(shape input)
-		(at 102.87 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d8d9c61-1d94-438d-9036-88da7d4e6ae6")
-	)
 	(hierarchical_label "FAULT"
 		(shape input)
 		(at 99.06 105.41 0)
