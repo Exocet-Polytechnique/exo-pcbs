@@ -1716,7 +1716,15 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U7"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS1HTC30-Q1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1724,24 +1732,7 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "Exocet:Tps1htc30_Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1750,7 +1741,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1htc30-q1.pdf?ts=1772309406015"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Smart Switch With Current Sense For Protection Against Short-circuit, Overvoltage/Undervoltage"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB" "C22414694"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1915,7 +1924,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4144,7 +4153,7 @@
 		(uuid "d5adb1b6-f630-4ba2-895c-649b0bb16e05")
 	)
 	(junction
-		(at 53.34 87.63)
+		(at 53.34 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6134a21-7821-4ce1-8513-aea10c1c65bd")
@@ -4357,7 +4366,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 53.34 87.63)
+			(xy 52.07 88.9) (xy 53.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4554,6 +4563,16 @@
 			(type default)
 		)
 		(uuid "25f32bc1-738e-483a-b50d-ad6199d7011d")
+	)
+	(wire
+		(pts
+			(xy 52.07 88.9) (xy 52.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27068df1-463e-42e7-ab2c-d8789fb0dce3")
 	)
 	(wire
 		(pts
@@ -5657,7 +5676,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 87.63) (xy 54.61 87.63)
+			(xy 53.34 88.9) (xy 54.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5917,6 +5936,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 88.9) (xy 54.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d058ff41-a866-4d55-af27-254f4dd9518d")
+	)
+	(wire
+		(pts
 			(xy 186.69 34.29) (xy 187.96 34.29)
 		)
 		(stroke
@@ -6094,6 +6123,16 @@
 			(type default)
 		)
 		(uuid "e6901bc7-d034-4728-8277-cbe74cd53ebf")
+	)
+	(wire
+		(pts
+			(xy 53.34 91.44) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d0fd77-9946-47e1-95f4-a5a9a1a57bc6")
 	)
 	(wire
 		(pts
@@ -10371,7 +10410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 87.63 0)
+		(at 53.34 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10379,7 +10418,7 @@
 		(dnp no)
 		(uuid "7834af76-43f0-402c-a006-8e44334488ad")
 		(property "Reference" "#PWR035"
-			(at 53.34 93.98 0)
+			(at 53.34 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,7 +10427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 91.694 0)
+			(at 53.34 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +10435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 87.63 0)
+			(at 53.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10405,7 +10444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 87.63 0)
+			(at 53.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10414,7 +10453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 87.63 0)
+			(at 53.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,7 +10784,7 @@
 		(pin "6"
 			(uuid "1d1ab5ec-aed4-4758-a99d-7e19ec918c42")
 		)
-		(pin ""
+		(pin "15"
 			(uuid "48c99234-7018-4597-8eeb-a197df8107dd")
 		)
 		(pin "14"
