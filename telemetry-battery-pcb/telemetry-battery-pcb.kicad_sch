@@ -6384,7 +6384,7 @@
 		)
 		(uuid "29649dfe-f9bc-4484-bdf0-96f44d282b86")
 	)
-	(label "GND"
+	(label "GND_L"
 		(at 138.43 83.82 0)
 		(effects
 			(font
@@ -6434,7 +6434,7 @@
 		)
 		(uuid "4bda4378-6f0f-4578-a17f-9c931359b40d")
 	)
-	(label "GND"
+	(label "GND_L"
 		(at 107.95 59.69 0)
 		(effects
 			(font
