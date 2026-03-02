@@ -4212,7 +4212,7 @@
 		)
 		(uuid "bfb40c92-42fa-453e-bd21-594793e97de4")
 	)
-	(label "ACTUATOR_GPIO3"
+	(label "ACTUATOR_GPIO4"
 		(at 176.53 267.97 0)
 		(effects
 			(font
@@ -4292,7 +4292,7 @@
 		)
 		(uuid "da1f0834-34d6-45db-926c-3d4300e0b6ef")
 	)
-	(label "ACTUATOR_GP104"
+	(label "ACTUATOR_GPIO4"
 		(at 74.93 60.96 180)
 		(effects
 			(font
@@ -4953,7 +4953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 224.79 0)
 			(effects
 				(font
@@ -4962,8 +4962,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single-Channel 1-Wire Masterwith Adjustable Timing and Sleep Mode"
 			(at 63.5 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2682650"
+			(at 63.5 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,6 +8561,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C114627"
+			(at 27.94 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ce6b9d0-6630-40a5-9a61-1a17e1a6d6e6")
 		)
@@ -10509,6 +10527,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C113303"
+			(at 39.37 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c24513b-613f-44a5-9305-795ac7f7c57c")
 		)
@@ -11569,6 +11596,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 35.56 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C114627"
 			(at 35.56 213.36 0)
 			(effects
 				(font

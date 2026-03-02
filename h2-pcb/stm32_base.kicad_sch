@@ -7414,7 +7414,7 @@
 		(uuid "c280029e-cd9c-41ca-9721-fb15a6231aed")
 	)
 	(hierarchical_label "PC5"
-		(shape output)
+		(shape input)
 		(at 60.96 130.81 180)
 		(effects
 			(font
