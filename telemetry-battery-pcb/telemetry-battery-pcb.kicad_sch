@@ -3473,6 +3473,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4406,7 +4531,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 128.27) (xy 119.38 137.16)
+			(xy 120.65 128.27) (xy 120.65 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5046,7 +5171,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 137.16) (xy 110.49 137.16)
+			(xy 113.03 137.16) (xy 110.49 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5586,7 +5711,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 26.67) (xy 200.66 26.67)
+			(xy 186.69 26.67) (xy 201.93 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5776,7 +5901,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 128.27) (xy 119.38 128.27)
+			(xy 116.84 128.27) (xy 120.65 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8186,7 +8311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA1005S"
 			(at 120.65 115.57 0)
 			(effects
 				(font
@@ -9952,7 +10077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Exocet:exocet_SO-8_3.9x4.9mm_P1.27mm_copy"
 			(at 226.06 129.54 0)
 			(effects
 				(font
@@ -13883,7 +14008,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 137.16 90)
+		(at 116.84 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13891,7 +14016,7 @@
 		(dnp no)
 		(uuid "e83f087d-fe6a-4061-8cc2-93ad9ccdbcdb")
 		(property "Reference" "R27"
-			(at 116.078 134.874 90)
+			(at 117.348 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13899,7 +14024,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 115.57 133.35 90)
+			(at 116.84 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13907,7 +14032,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 115.57 138.938 90)
+			(at 116.84 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13916,7 +14041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 137.16 0)
+			(at 116.84 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13925,7 +14050,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 137.16 0)
+			(at 116.84 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13934,7 +14059,7 @@
 			)
 		)
 		(property "JLCPCB" "C25086"
-			(at 115.57 137.16 90)
+			(at 116.84 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14315,6 +14440,72 @@
 			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 201.93 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f73f8466-06a1-4a09-a2ac-850b9eca73ad")
+		(property "Reference" "#PWR064"
+			(at 201.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 201.93 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 201.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5377a4bb-2990-4103-b5e7-6873052a83ca")
+		)
+		(instances
+			(project ""
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
