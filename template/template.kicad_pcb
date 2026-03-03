@@ -12037,6 +12037,18 @@
 		(layer "Edge.Cuts")
 		(uuid "c36671c7-4522-4d7d-ae77-25d4805c9214")
 	)
+	(gr_text "${PROJECT_CODE}: ${PROJECT_NAME}"
+		(at 210.5 74 0)
+		(layer "F.SilkS")
+		(uuid "508f2eb0-1aad-4bf7-a7a7-0ca56be7e9fd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 238.2 33.92)
 		(end 238.21 33.93)
