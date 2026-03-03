@@ -4026,6 +4026,12 @@
 		(uuid "0b99f49c-94a0-4240-ad41-2af535a9975b")
 	)
 	(junction
+		(at 26.67 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0baed299-e68f-48cf-a6f3-b5b12378337e")
+	)
+	(junction
 		(at 116.84 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4054,12 +4060,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23bcd0ea-dd3c-4a76-924a-d0e66acb8d82")
-	)
-	(junction
-		(at 27.94 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "241317a0-3441-47ed-a7ff-a575da856758")
 	)
 	(junction
 		(at 102.87 172.72)
@@ -4931,16 +4931,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 114.3) (xy 27.94 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46c77d94-806a-430e-8e41-798ecf6078c9")
-	)
-	(wire
-		(pts
 			(xy 116.84 121.92) (xy 116.84 128.27)
 		)
 		(stroke
@@ -5281,6 +5271,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 114.3) (xy 29.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b4f52e-5c5c-4482-b80b-6ec05b31edcf")
+	)
+	(wire
+		(pts
 			(xy 118.11 57.15) (xy 115.57 57.15)
 		)
 		(stroke
@@ -5521,7 +5521,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 114.3) (xy 27.94 114.3)
+			(xy 21.59 114.3) (xy 26.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5791,7 +5791,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 110.49) (xy 27.94 114.3)
+			(xy 26.67 111.76) (xy 26.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6469,6 +6469,16 @@
 		)
 		(uuid "ffc70571-bc61-413c-9053-d2eaa84cd8e3")
 	)
+	(label "24V_net"
+		(at 140.97 168.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00fdbaec-6cba-4dd1-b7a7-6d3120608b27")
+	)
 	(label "PGOOD"
 		(at 59.69 121.92 0)
 		(effects
@@ -6478,6 +6488,16 @@
 			(justify left bottom)
 		)
 		(uuid "07e50474-cac3-47e7-a72f-7f80fda108fb")
+	)
+	(label "24V_net"
+		(at 26.67 111.76 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10187b98-f843-4974-9213-39a4bbc50d30")
 	)
 	(label "EEPROM_~{WC}"
 		(at 59.69 173.99 180)
@@ -8926,72 +8946,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 27.94 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4504692a-506a-4d40-932d-26b90344e6c0")
-		(property "Reference" "#PWR050"
-			(at 27.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 27.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 27.94 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7341e949-33e3-42e6-8d9c-35202c915596")
-		)
-		(instances
-			(project ""
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 62.23 137.16 0)
 		(unit 1)
@@ -10159,72 +10113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 140.97 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70dfff17-013b-4afe-b8f5-4f82b243f8f1")
-		(property "Reference" "#PWR052"
-			(at 140.97 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 140.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 140.97 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ac19257-fe0b-47e6-a763-bf8634ee4ebb")
-		)
-		(instances
-			(project "telemetry-battery-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 152.4 133.35 0)
 		(unit 1)
@@ -10864,7 +10752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Exocet:Tps1htc30_Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
+		(property "Footprint" "Package_SO:Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
 			(at 139.7 53.34 0)
 			(effects
 				(font
