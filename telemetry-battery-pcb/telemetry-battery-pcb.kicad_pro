@@ -189,6 +189,7 @@
       ],
       "track_widths": [
         0.0,
+        0.5,
         1.367
       ],
       "tuning_pattern_settings": {
@@ -672,10 +673,10 @@
     ]
   ],
   "text_variables": {
-    "AUTHOR": "Guillaume Chénier",
-    "CONTRIBUTORS": "Eliot F., Wilfred P.",
-    "PROJECT_CODE": "TEM.00",
-    "PROJECT_NAME": "STM32 PCB Template",
+    "AUTHOR": "Lusser M. et Nicolas S.",
+    "CONTRIBUTORS": "Guillaume C.",
+    "PROJECT_CODE": "PCB.03",
+    "PROJECT_NAME": "Telemetry Battery PCB",
     "REVIEWERS": "Eliot F."
   }
 }

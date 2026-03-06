@@ -6372,8 +6372,8 @@
 		)
 		(uuid "198f622d-aea5-42a6-bd27-51a4582e44b2")
 	)
-	(hierarchical_label "DIAG_EN"
-		(shape input)
+	(hierarchical_label "24V_DIAG_EN"
+		(shape output)
 		(at 99.06 97.79 0)
 		(effects
 			(font
@@ -6394,19 +6394,19 @@
 		)
 		(uuid "34c0f87b-c5ce-4c8e-b7ab-ff49ead37ffb")
 	)
-	(hierarchical_label "EN"
-		(shape input)
-		(at 99.06 95.25 0)
+	(hierarchical_label "24V_EN"
+		(shape output)
+		(at 99.06 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "558135fe-943e-4e37-b2b7-a3c0ebc2c6c9")
+		(uuid "7f58b17d-16c9-426c-893c-a5bb89729fa5")
 	)
-	(hierarchical_label "LATCH"
-		(shape input)
+	(hierarchical_label "24V_LATCH"
+		(shape output)
 		(at 99.06 107.95 0)
 		(effects
 			(font
@@ -6416,18 +6416,7 @@
 		)
 		(uuid "7fb88015-e5f5-4607-9f8c-d1a5c117df3d")
 	)
-	(hierarchical_label "SNS"
-		(shape input)
-		(at 99.06 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8608f8c3-a5ae-4b7e-b439-4b6e51245b00")
-	)
-	(hierarchical_label "FAULT"
+	(hierarchical_label "24V_nFAULT"
 		(shape input)
 		(at 99.06 105.41 0)
 		(effects
@@ -6448,6 +6437,17 @@
 			(justify right)
 		)
 		(uuid "f4fa340c-5947-4594-b325-c595937ef0cd")
+	)
+	(hierarchical_label "24V_SNS"
+		(shape input)
+		(at 99.06 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8a44921-4452-47a6-86d7-c285f178ca7f")
 	)
 	(hierarchical_label "open_circuit_control"
 		(shape output)
@@ -7244,6 +7244,7 @@
 		)
 		(pin "12"
 			(uuid "a84b3602-a47d-4dd8-a109-f69209e87169")
+			(alternate "ADC1_IN1")
 		)
 		(pin "41"
 			(uuid "0c6b6a70-226c-49e0-9290-4605da5ac0a2")
