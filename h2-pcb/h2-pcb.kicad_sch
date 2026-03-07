@@ -4944,7 +4944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Exocet:DS2482S-100TR"
+		(property "Footprint" ""
 			(at 63.5 224.79 0)
 			(effects
 				(font
@@ -4953,7 +4953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586203084079181824"
 			(at 63.5 224.79 0)
 			(effects
 				(font
