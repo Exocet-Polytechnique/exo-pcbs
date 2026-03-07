@@ -4944,7 +4944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:DS2482S-100TR"
 			(at 63.5 224.79 0)
 			(effects
 				(font
