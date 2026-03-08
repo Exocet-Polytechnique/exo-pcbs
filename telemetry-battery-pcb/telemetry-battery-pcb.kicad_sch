@@ -9686,7 +9686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 135.255 87.63 0)
 			(effects
 				(font
@@ -9704,7 +9704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V, 0.25A, High-speed Switching Diode, SOD-323"
+		(property "Description" "600v, 0.2A, ground network"
 			(at 130.81 87.63 0)
 			(effects
 				(font
@@ -9731,7 +9731,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2128"
+		(property "JLCPCB" "C7420341"
 			(at 130.81 87.63 90)
 			(effects
 				(font
