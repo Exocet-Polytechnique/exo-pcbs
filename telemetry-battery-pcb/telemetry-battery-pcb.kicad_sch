@@ -4865,6 +4865,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 67.31) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4048e6e6-e26e-4b6c-9332-000efe8d28a5")
+	)
+	(wire
+		(pts
 			(xy 58.42 107.95) (xy 69.85 107.95)
 		)
 		(stroke
@@ -5222,6 +5232,16 @@
 			(type default)
 		)
 		(uuid "6e3a7d90-1dcc-4bf3-a23e-38d4680cd711")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb2af73-5dca-43b7-96c3-958e34222e5e")
 	)
 	(wire
 		(pts
@@ -6563,6 +6583,16 @@
 		)
 		(uuid "07e50474-cac3-47e7-a72f-7f80fda108fb")
 	)
+	(label "GND_L"
+		(at 160.02 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "198c2d47-8a42-413d-813b-132ed5c34ac4")
+	)
 	(label "EEPROM_~{WC}"
 		(at 59.69 173.99 180)
 		(effects
@@ -7858,71 +7888,6 @@
 			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1af0132a-ddee-49ec-8dae-7f3939efaa74")
-		(property "Reference" "#PWR056"
-			(at 157.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3eda30a7-0dfc-48c2-b6a7-1af6fd9905b6")
-		)
-		(instances
-			(project "telemetry-battery-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
