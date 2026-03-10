@@ -9813,7 +9813,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3K"
+		(property "Value" "1.5k"
 			(at 102.87 125.476 90)
 			(effects
 				(font
@@ -9821,7 +9821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 102.87 126.492 90)
 			(effects
 				(font
@@ -9848,7 +9848,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17667"
+		(property "JLCPCB" "C22843"
 			(at 102.87 128.27 90)
 			(effects
 				(font
