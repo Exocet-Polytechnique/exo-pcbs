@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.45,
-          "width": 0.63
+          "drill": 1.6,
+          "height": 2.8,
+          "width": 2.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -609,12 +609,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "tp",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -667,10 +667,10 @@
     ]
   ],
   "text_variables": {
-    "AUTHOR": "",
+    "AUTHOR": "Malakham Pravongviengkham, Karima Rahmoun, Romain Stryckman",
     "CONTRIBUTORS": "",
     "PROJECT_CODE": "PCB.05",
     "PROJECT_NAME": "Sensors PCB",
-    "REVIEWERS": ""
+    "REVIEWERS": "Eliot Fondère"
   }
 }
