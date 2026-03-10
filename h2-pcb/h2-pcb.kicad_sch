@@ -4944,7 +4944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Exocet:DS2482S-100TR"
+		(property "Footprint" "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.4x1.4mm"
 			(at 63.5 224.79 0)
 			(effects
 				(font
