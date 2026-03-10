@@ -5392,8 +5392,8 @@
 				)
 			)
 		)
-		(property "Value" "40k"
-			(at 207.9625 81.2165 0)
+		(property "Value" "40.2k"
+			(at 208.788 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
