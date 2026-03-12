@@ -5000,10 +5000,6 @@
 		(uuid "106af65c-47b2-4c8f-bc50-657ff6a95bdd")
 	)
 	(no_connect
-		(at 99.06 171.45)
-		(uuid "18538b67-ad8e-4d42-9c1a-2ffda1df16c4")
-	)
-	(no_connect
 		(at 99.06 156.21)
 		(uuid "18b7142c-921b-4b8f-8b4d-678404237f7e")
 	)
@@ -5046,6 +5042,10 @@
 	(no_connect
 		(at 99.06 118.11)
 		(uuid "935488c8-b81e-48df-887b-844f4a0704bc")
+	)
+	(no_connect
+		(at 99.06 113.03)
+		(uuid "9ddd560c-5e55-4f47-a56b-545a1c56d8c7")
 	)
 	(no_connect
 		(at 99.06 176.53)
@@ -5567,6 +5567,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 171.45) (xy 101.6 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c917d97-22ae-42f4-8ae7-13aff2ac9c60")
+	)
+	(wire
+		(pts
 			(xy 144.78 104.14) (xy 146.05 104.14)
 		)
 		(stroke
@@ -5934,16 +5944,6 @@
 			(type default)
 		)
 		(uuid "7b05c2ee-291c-44ac-8ae2-58ee6c678996")
-	)
-	(wire
-		(pts
-			(xy 99.06 113.03) (xy 101.6 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c019c95-b714-48b5-88a3-a6111f7f672d")
 	)
 	(wire
 		(pts
@@ -7303,17 +7303,6 @@
 		)
 		(uuid "53e81829-730a-42a4-bd72-17f180871962")
 	)
-	(hierarchical_label "PA7"
-		(shape input)
-		(at 101.6 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87b4bbf2-c86e-4b42-89b8-fa766c0b7753")
-	)
 	(hierarchical_label "PC7"
 		(shape output)
 		(at 60.96 135.89 180)
@@ -7434,6 +7423,17 @@
 			(justify left)
 		)
 		(uuid "ee9b8e03-0939-4700-95ac-31324dd720de")
+	)
+	(hierarchical_label "PB13"
+		(shape input)
+		(at 101.6 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f250decf-76b3-432d-af47-1e2ac8d11760")
 	)
 	(symbol
 		(lib_id "power:GND")

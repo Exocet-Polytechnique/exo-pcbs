@@ -12290,16 +12290,6 @@
 				(justify right)
 			)
 		)
-		(pin "PA7" output
-			(at 58.42 20.32 0)
-			(uuid "533e5730-800a-4067-9815-f16769ef08fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C2_SCL" output
 			(at 49.53 67.31 270)
 			(uuid "9d4912ee-147d-4df3-a891-6b3b0af379b9")
@@ -12318,6 +12308,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PB13" input
+			(at 58.42 20.32 0)
+			(uuid "1fd0ec3c-ae1a-4a22-907d-000b0b3a9396")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
