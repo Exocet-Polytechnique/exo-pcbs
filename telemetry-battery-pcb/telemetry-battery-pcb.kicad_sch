@@ -1884,19 +1884,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Exocet:TPS1HTC30-Q1"
+		(symbol "Exocet:TPS1HC30-Q1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U7"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS1HTC30-Q1"
+			(property "Reference" "U"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1904,16 +1896,15 @@
 					)
 				)
 			)
-			(property "Footprint" "Exocet:Tps1htc30_Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
+			(property "Value" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1htc30-q1.pdf?ts=1772309406015"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1922,7 +1913,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Smart Switch With Current Sense For Protection Against Short-circuit, Overvoltage/Undervoltage"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1hc30-q1.pdf?ts=1773507958090"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1931,7 +1922,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB" "C22414694"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1940,7 +1931,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS1HTC30-Q1_1_1"
+			(symbol "TPS1HC30-Q1_1_1"
 				(rectangle
 					(start -8.89 -5.08)
 					(end 8.89 -22.86)
@@ -1952,7 +1943,7 @@
 						(type background)
 					)
 				)
-				(text "TPS1HTC30-Q1"
+				(text "TPS1HC30-Q1"
 					(at 0.254 -3.81 0)
 					(effects
 						(font
@@ -11834,122 +11825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Exocet:TPS1HTC30-Q1")
-		(at 139.7 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81a64b69-4a77-48fd-98f4-2e9e5d5c80ff")
-		(property "Reference" "U7"
-			(at 139.7 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS1HTC30-Q1"
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1htc30-q1.pdf?ts=1772309406015"
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Smart Switch With Current Sense For Protection Against Short-circuit, Overvoltage/Undervoltage"
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C22414694"
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "20f2e5dd-3e53-4094-a2af-c41bbd62aef0")
-		)
-		(pin "3"
-			(uuid "82032ebd-28d8-478c-8eb8-6343ee821cd0")
-		)
-		(pin "6"
-			(uuid "1d1ab5ec-aed4-4758-a99d-7e19ec918c42")
-		)
-		(pin "15"
-			(uuid "48c99234-7018-4597-8eeb-a197df8107dd")
-		)
-		(pin "14"
-			(uuid "e248e123-1650-4f5b-8bc2-3e68c111cadf")
-		)
-		(pin "9"
-			(uuid "ee30697b-6d06-4475-a93a-713a6c1b47b1")
-		)
-		(pin "1"
-			(uuid "af9a6ec7-06cc-40b5-adb7-61bbc77bfb48")
-		)
-		(pin "4"
-			(uuid "2fa02578-053e-457f-ac33-6dfb79e44f87")
-		)
-		(pin "2"
-			(uuid "d203e54c-12aa-49b1-98b1-737012573bb4")
-		)
-		(pin "7"
-			(uuid "339b784f-edf0-453b-b757-8d91eced0b10")
-		)
-		(pin "13"
-			(uuid "07a5a35b-2b95-4d6b-ac10-5326b7730efb")
-		)
-		(pin "8"
-			(uuid "580afc12-8ae1-4033-95f7-f2e2098b85ab")
-		)
-		(pin "12"
-			(uuid "8cd54e5c-7d45-4bed-9a3c-a459f98ed01b")
-		)
-		(pin "11"
-			(uuid "87f29631-3b58-4e52-98d6-fc7619f1d2d8")
-		)
-		(pin "10"
-			(uuid "305a7f15-56a1-40ec-9c1b-4dc1925e11b8")
-		)
-		(instances
-			(project ""
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 44.45 142.24 0)
 		(unit 1)
@@ -12657,6 +12532,122 @@
 		)
 	)
 	(symbol
+		(lib_id "Exocet:TPS1HC30-Q1")
+		(at 139.7 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ebff26b-f230-417a-a9c7-858951a9aec5")
+		(property "Reference" "U7"
+			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1hc30-q1.pdf?ts=1773507958090"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7496534"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "bc793a4b-d8ae-4fab-b986-a83c4dff84f6")
+		)
+		(pin "12"
+			(uuid "99c8296c-0cf0-4a41-9277-aadc137c5666")
+		)
+		(pin "14"
+			(uuid "25c7e550-e2b6-48eb-841b-b9f9d579c0f5")
+		)
+		(pin "8"
+			(uuid "8094caeb-bc9b-482c-8aee-047a8f6ab756")
+		)
+		(pin "11"
+			(uuid "ac49ea4f-34b3-4323-ac6f-782645fe9e72")
+		)
+		(pin "13"
+			(uuid "ec905f94-753a-4b11-83e7-37dc61cdb2ad")
+		)
+		(pin "15"
+			(uuid "06791ac8-587f-4097-b85f-103a25f249b9")
+		)
+		(pin "2"
+			(uuid "cb5b067a-7b86-47c4-b1cf-7dc1ec744f1e")
+		)
+		(pin "4"
+			(uuid "be3c3843-3b89-4a48-bfa0-e12ddec7a487")
+		)
+		(pin "7"
+			(uuid "85919b74-eb29-4795-9f6a-b4878c17f53c")
+		)
+		(pin "5"
+			(uuid "ea4f2fa7-f0ca-4b23-aa43-03dbdbd9e191")
+		)
+		(pin "3"
+			(uuid "b31fb5d7-bf82-44d0-a737-bc7a2e9444ee")
+		)
+		(pin "6"
+			(uuid "93d64b70-bfd7-4593-ad42-baa689a81990")
+		)
+		(pin "1"
+			(uuid "98017608-e497-4ad7-a47c-517f0efa944a")
+		)
+		(pin "9"
+			(uuid "9a97a874-7f8e-4f8d-8121-11714a3dc2cb")
+		)
+		(instances
+			(project ""
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 93.98 24.13 0)
 		(unit 1)
@@ -12915,7 +12906,7 @@
 				)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3.3k"
 			(at 128.27 166.878 90)
 			(effects
 				(font
@@ -12923,7 +12914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 128.27 170.688 90)
 			(effects
 				(font
@@ -12950,7 +12941,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C18012"
+		(property "JLCPCB" "C26010"
 			(at 128.27 168.91 90)
 			(effects
 				(font
@@ -14828,7 +14819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.49 143.8148 0)
 			(effects
 				(font
@@ -14855,7 +14846,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" " C5142548"
+		(property "JLCPCB" "C1537"
 			(at 106.68 144.78 90)
 			(effects
 				(font
@@ -15688,7 +15679,7 @@
 				)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3.3k"
 			(at 127.254 178.308 90)
 			(effects
 				(font
@@ -15696,7 +15687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 128.27 177.038 90)
 			(effects
 				(font
@@ -15723,7 +15714,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C18012"
+		(property "JLCPCB" "C26010"
 			(at 128.27 175.26 90)
 			(effects
 				(font
