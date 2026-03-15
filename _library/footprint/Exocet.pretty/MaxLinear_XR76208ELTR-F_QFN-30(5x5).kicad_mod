@@ -220,25 +220,25 @@
 	(pad "1" smd rect
 		(at 2.598 1.5)
 		(size 1.016 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3c23b4ce-4d8c-425a-80fb-5611f0c4f6d2")
 	)
 	(pad "2" smd rect
 		(at 2.598 1)
 		(size 1.016 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73da7cd4-8c37-4866-ada7-b66ef49f431f")
 	)
 	(pad "3" smd rect
 		(at 2.598 0.5)
 		(size 1.016 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3453a2f3-32ed-4ea5-9e4d-f5c6fe94a1f8")
 	)
 	(pad "4" smd rect
 		(at 2.598 0)
 		(size 1.016 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "84060925-be3d-4242-a986-3192a7e3b4e7")
 	)
 	(pad "5" smd rect
@@ -281,7 +281,7 @@
 	(pad "9" smd rect
 		(at 1.025 -2.593)
 		(size 0.3 1.016)
-		(layers "F.Cu" "F.Mask" "B.Adhes" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "981e6e2c-d246-4e47-a4d4-7c8d3cb3315b")
 	)
 	(pad "11" smd rect
@@ -329,7 +329,7 @@
 	(pad "15" smd rect
 		(at -2.695 -2)
 		(size 1.402 0.3)
-		(layers "F.Cu" "F.Mask" "F.Adhes" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dcff290e-f491-4b47-9a07-166906ca88b8")
 	)
 	(pad "15" smd rect
@@ -359,7 +359,7 @@
 	(pad "15" smd rect
 		(at -2.027 -1)
 		(size 0.334 2.3)
-		(layers "F.Cu" "F.Mask" "F.Adhes" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a718a0de-5495-438d-8d6f-96b58c31d734")
 	)
 	(pad "21" smd rect
@@ -371,7 +371,7 @@
 	(pad "21" smd rect
 		(at -2.695 1.5)
 		(size 1.402 0.3)
-		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4b8328d3-93f3-4489-8ad4-ffc3e6503110")
 	)
 	(pad "21" smd rect
