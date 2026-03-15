@@ -9847,9 +9847,8 @@
 			)
 		)
 		(property "Value" "2A"
-			(at -0.4908 -0.1082 90)
+			(at 3.0372 10.51 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "2eabaaea-ca27-4358-9713-13e60abedd51")
 			(effects
 				(font
@@ -19414,9 +19413,8 @@
 			)
 		)
 		(property "Value" "5A"
-			(at -0.4908 -0.1082 90)
+			(at 5.7272 0 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "09a959b3-a144-4df1-9519-ea1765961015")
 			(effects
 				(font
