@@ -6394,6 +6394,17 @@
 		)
 		(uuid "34c0f87b-c5ce-4c8e-b7ab-ff49ead37ffb")
 	)
+	(hierarchical_label "24V_nFAULT"
+		(shape input)
+		(at 99.06 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ca030ac-e6ed-4b8a-9d14-b46e4c40bd4c")
+	)
 	(hierarchical_label "24V_EN"
 		(shape output)
 		(at 99.06 110.49 0)
@@ -6407,17 +6418,6 @@
 	)
 	(hierarchical_label "24V_LATCH"
 		(shape output)
-		(at 99.06 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7fb88015-e5f5-4607-9f8c-d1a5c117df3d")
-	)
-	(hierarchical_label "24V_nFAULT"
-		(shape input)
 		(at 99.06 105.41 0)
 		(effects
 			(font
@@ -6425,7 +6425,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f4808d5a-81ea-49d6-831e-13019bd2c8e9")
+		(uuid "ec618731-faa6-4ed2-970a-067b192de8e5")
 	)
 	(hierarchical_label "EEPROM_~{WC}"
 		(shape output)
