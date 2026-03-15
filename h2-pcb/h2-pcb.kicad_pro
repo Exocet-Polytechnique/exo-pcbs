@@ -675,10 +675,10 @@
     ]
   ],
   "text_variables": {
-    "AUTHOR": "Gabriel Sabérian",
-    "CONTRIBUTORS": "Eliot F.",
-    "PROJECT_CODE": "PCB.06",
+    "AUTHOR": "Gabriel S., Victoria G. et Sylvain A.",
+    "CONTRIBUTORS": "",
+    "PROJECT_CODE": "PCB.02",
     "PROJECT_NAME": "H2 Plate PCB",
-    "REVIEWERS": ""
+    "REVIEWERS": "Eliot F."
   }
 }

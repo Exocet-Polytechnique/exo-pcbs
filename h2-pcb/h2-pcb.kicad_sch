@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Main page")
-		(date "2025-06-13")
-		(rev "v1.0.0")
+		(date "2026-03-15")
+		(rev "v1.1.0")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
