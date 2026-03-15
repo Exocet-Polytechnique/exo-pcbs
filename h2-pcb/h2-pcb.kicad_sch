@@ -2556,7 +2556,7 @@
 		(at 153.67 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "297383df-e4fe-4148-ba2b-1d2e6f4bc4c8")
+		(uuid "319c2105-aeb2-428b-a0a5-99d28feb56b9")
 	)
 	(junction
 		(at 187.96 267.97)
@@ -2565,10 +2565,16 @@
 		(uuid "395d569e-68d5-4460-b3d7-ac63cd75b14c")
 	)
 	(junction
-		(at 146.05 173.99)
+		(at 111.76 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46178bee-a7cc-45d6-b14a-3e90f8eefa28")
+		(uuid "5d3f736a-9e46-4d86-b70c-3625a6874403")
+	)
+	(junction
+		(at 69.85 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e48689d-bf60-40f6-9898-8e2c73563ed9")
 	)
 	(junction
 		(at 369.57 186.69)
@@ -2577,16 +2583,10 @@
 		(uuid "719d5010-f025-49ab-a75b-6abbe5dc62aa")
 	)
 	(junction
-		(at 111.76 181.61)
+		(at 82.55 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "73aaeba7-44e6-49bb-a97f-31f832922286")
-	)
-	(junction
-		(at 104.14 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80c4972c-2fa4-403c-8adb-4276b0bdf765")
+		(uuid "7f3ba344-f14f-46e4-940e-154c7e47ba07")
 	)
 	(junction
 		(at 27.94 208.28)
@@ -2601,28 +2601,28 @@
 		(uuid "88067da7-3a1e-422a-9779-4f76942b92b3")
 	)
 	(junction
-		(at 22.86 173.99)
+		(at 43.18 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8958237d-642e-4660-a086-6a9e835b9360")
+		(uuid "ab875b9c-2d7e-4883-a5b4-c4d773939787")
 	)
 	(junction
-		(at 69.85 181.61)
+		(at 166.37 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bbbfda4b-4a33-4f6f-89cd-17bfed43cf2e")
+		(uuid "af7433e2-3991-4756-88e6-27f5152acf2d")
+	)
+	(junction
+		(at 124.46 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd3863b0-e276-4834-a852-8fbd0fc9e4f0")
 	)
 	(junction
 		(at 378.46 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9a6f8be-8009-43d7-a7e6-d5f56e10b72e")
-	)
-	(junction
-		(at 62.23 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0bfe55c-f695-4d3c-8c08-d7d6b480ff53")
 	)
 	(junction
 		(at 80.01 267.97)
@@ -2684,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 173.99) (xy 69.85 173.99)
+			(xy 60.96 173.99) (xy 69.85 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2711,16 +2711,6 @@
 			(type default)
 		)
 		(uuid "024755e4-a31c-4517-9ca8-6b16908cc603")
-	)
-	(wire
-		(pts
-			(xy 104.14 181.61) (xy 111.76 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08d930cc-e0ce-4e66-a176-584199e2c1d2")
 	)
 	(wire
 		(pts
@@ -2874,6 +2864,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 181.61) (xy 72.39 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257867c2-cd54-412c-848c-92e156f48de0")
+	)
+	(wire
+		(pts
 			(xy 58.42 35.56) (xy 66.04 35.56)
 		)
 		(stroke
@@ -2894,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 173.99) (xy 146.05 173.99)
+			(xy 144.78 173.99) (xy 153.67 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3054,16 +3054,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 181.61) (xy 69.85 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e8978d7-4eab-4e63-8be6-692cd4a33ba7")
-	)
-	(wire
-		(pts
 			(xy 25.4 171.45) (xy 30.48 171.45)
 		)
 		(stroke
@@ -3071,26 +3061,6 @@
 			(type default)
 		)
 		(uuid "4ee18815-d267-4e6b-ae16-23f6e1765af7")
-	)
-	(wire
-		(pts
-			(xy 146.05 181.61) (xy 153.67 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff502b4-3a0f-418b-a8d7-703ec5fbb444")
-	)
-	(wire
-		(pts
-			(xy 146.05 173.99) (xy 153.67 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "500008ab-5a6a-4e74-8fc9-a7337e4b28c7")
 	)
 	(wire
 		(pts
@@ -3134,6 +3104,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 181.61) (xy 82.55 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570851f5-3333-4290-8473-21946d21b8c0")
+	)
+	(wire
+		(pts
 			(xy 369.57 186.69) (xy 386.08 186.69)
 		)
 		(stroke
@@ -3141,16 +3121,6 @@
 			(type default)
 		)
 		(uuid "57f1e738-8272-42dd-ba14-c128c762abcf")
-	)
-	(wire
-		(pts
-			(xy 104.14 173.99) (xy 111.76 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c56a979-7ed9-4ba9-ad34-ccd1c09a95f6")
 	)
 	(wire
 		(pts
@@ -3164,6 +3134,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 181.61) (xy 43.18 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6561a4fa-282b-4280-a6a5-439d43ee9ff0")
+	)
+	(wire
+		(pts
 			(xy 21.59 227.33) (xy 35.56 227.33)
 		)
 		(stroke
@@ -3171,6 +3151,26 @@
 			(type default)
 		)
 		(uuid "6751345a-229b-46b0-a477-44a3c22cbdf0")
+	)
+	(wire
+		(pts
+			(xy 30.48 181.61) (xy 33.02 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7191c912-aa64-491b-a484-d6c88cf81824")
+	)
+	(wire
+		(pts
+			(xy 69.85 181.61) (xy 69.85 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fe83f6-e57d-4b57-80c2-2924b9a897ed")
 	)
 	(wire
 		(pts
@@ -3204,16 +3204,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 181.61) (xy 30.48 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84846b81-fee5-4239-a1e0-fbdc9326dae3")
-	)
-	(wire
-		(pts
 			(xy 58.42 17.78) (xy 73.66 17.78)
 		)
 		(stroke
@@ -3244,16 +3234,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 173.99) (xy 30.48 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d30da74-9216-4510-8f04-8e68045c05ad")
-	)
-	(wire
-		(pts
 			(xy 72.39 227.33) (xy 81.28 227.33)
 		)
 		(stroke
@@ -3274,7 +3254,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 173.99) (xy 104.14 173.99)
+			(xy 102.87 173.99) (xy 111.76 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3364,6 +3344,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 181.61) (xy 114.3 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb8f63b-0a96-472b-934b-3b8c1922642a")
+	)
+	(wire
+		(pts
+			(xy 153.67 181.61) (xy 156.21 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8fb382-4e0d-4812-b10c-aeaaf385b7f0")
+	)
+	(wire
+		(pts
 			(xy 166.37 171.45) (xy 176.53 171.45)
 		)
 		(stroke
@@ -3404,7 +3404,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 181.61) (xy 69.85 176.53)
+			(xy 69.85 176.53) (xy 69.85 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3524,23 +3524,13 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 173.99) (xy 22.86 173.99)
+			(xy 21.59 173.99) (xy 30.48 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2610442-3731-40b2-ab5b-665635ff8d44")
-	)
-	(wire
-		(pts
-			(xy 69.85 182.88) (xy 69.85 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d28e712f-f4b5-4790-a2c5-bad0d9f175cc")
 	)
 	(wire
 		(pts
@@ -3644,6 +3634,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 181.61) (xy 166.37 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e384dd5e-bd37-40b4-964f-9e2af91f8045")
+	)
+	(wire
+		(pts
 			(xy 58.42 60.96) (xy 74.93 60.96)
 		)
 		(stroke
@@ -3744,6 +3744,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 181.61) (xy 124.46 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc97619e-fefd-4202-aef7-fb7ebc6c8d1d")
+	)
+	(wire
+		(pts
 			(xy 124.46 181.61) (xy 130.81 181.61)
 		)
 		(stroke
@@ -3771,16 +3781,6 @@
 			(type default)
 		)
 		(uuid "fd43c29a-b3e8-4888-b936-56a2f84d987a")
-	)
-	(wire
-		(pts
-			(xy 60.96 173.99) (xy 62.23 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd8b24db-7aa5-4600-a475-3794c95ef90e")
 	)
 	(wire
 		(pts
@@ -4537,75 +4537,6 @@
 			(project "h2-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 62.23 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06673316-f8fa-4bf4-a450-c59b0c2010e9")
-		(property "Reference" "C19"
-			(at 55.118 181.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 55.118 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 63.1952 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 62.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43ba1c03-2b3c-469c-8e64-8bfc2a4f0290")
-		)
-		(pin "2"
-			(uuid "9ed6e14c-ddaa-4afd-94c9-12748734791a")
-		)
-		(instances
-			(project "h2-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5693,76 +5624,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 146.05 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a71c527-f1d0-403a-9ba7-0a39402c3bbf")
-		(property "Reference" "C21"
-			(at 139.192 181.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 139.192 183.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 147.0152 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 146.05 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69ac2f72-4d02-4496-a18d-73e3cb05ca00")
-		)
-		(pin "2"
-			(uuid "06fdffe9-fef8-40b6-a647-4133681ac897")
-		)
-		(instances
-			(project "h2-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 22.86 177.8 0)
+		(at 36.83 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5770,25 +5632,23 @@
 		(dnp no)
 		(uuid "2c78ff65-e68a-4d68-a33e-cd58ab1d5e9a")
 		(property "Reference" "C18"
-			(at 14.986 180.594 0)
+			(at 40.005 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100u"
-			(at 15.24 182.88 0)
+		(property "Value" "10u"
+			(at 36.83 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 23.8252 181.61 0)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 33.02 182.5752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +5657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 177.8 0)
+			(at 36.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5666,16 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 22.86 177.8 0)
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7171"
+			(at 36.83 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5690,7 @@
 			(uuid "65d63227-40d5-4075-81ea-17af7442eea6")
 		)
 		(instances
-			(project ""
+			(project "h2-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C18")
 					(unit 1)
@@ -5913,6 +5782,82 @@
 			(project "h2-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 118.11 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30ddf5a4-902a-4163-8b0a-17a4a6b831a8")
+		(property "Reference" "C20"
+			(at 121.285 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 118.11 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 114.3 182.5752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 118.11 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7171"
+			(at 118.11 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "656faef4-3c63-4061-b087-54014926cef8")
+		)
+		(pin "2"
+			(uuid "02a7ee69-9e1d-448a-b991-bf09da9411b2")
+		)
+		(instances
+			(project "h2-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7688,6 +7633,82 @@
 			(project "h2-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 76.2 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "840ec863-aa55-4199-a96d-3697b206ec1f")
+		(property "Reference" "C19"
+			(at 79.375 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 76.2 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 72.39 182.5752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7171"
+			(at 76.2 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "902624b7-f701-4ef2-a10b-ae189616fd69")
+		)
+		(pin "2"
+			(uuid "2cfed49d-8e70-42ad-bfc4-332f42027c91")
+		)
+		(instances
+			(project "h2-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9530,6 +9551,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 160.02 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbca5a79-de35-43d9-810f-d678df36caa5")
+		(property "Reference" "C21"
+			(at 163.195 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 160.02 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 156.21 182.5752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 160.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7171"
+			(at 160.02 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73f4a505-82a0-4c7b-9ae6-77f9609bfcd6")
+		)
+		(pin "2"
+			(uuid "d555707b-b442-4ca2-99e9-43bf07d39ece")
+		)
+		(instances
+			(project "h2-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 55.88 255.27 0)
 		(mirror x)
@@ -10844,75 +10941,6 @@
 			(project ""
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 104.14 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e39d9aa5-7738-4fae-8b27-1a94cf56e8ea")
-		(property "Reference" "C20"
-			(at 97.282 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 97.282 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 105.1052 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 104.14 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9abb8179-d10d-46bc-a96f-d5ab29a3aaf8")
-		)
-		(pin "2"
-			(uuid "6e4eba93-a537-48a1-95b9-745c1d0fe7e6")
-		)
-		(instances
-			(project "h2-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "C20")
 					(unit 1)
 				)
 			)
