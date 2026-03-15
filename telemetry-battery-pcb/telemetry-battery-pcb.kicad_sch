@@ -12581,7 +12581,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9674ec00-cd84-4161-be7a-f206fc80cc74")
 		(property "Reference" "J4"
