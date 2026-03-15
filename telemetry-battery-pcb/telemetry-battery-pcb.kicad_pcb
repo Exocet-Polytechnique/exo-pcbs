@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Base board layout")
-		(date "2025-04-06")
-		(rev "v1.0.0")
+		(date "2026-03-15")
+		(rev "v1.1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -672,10 +672,9 @@
 			)
 		)
 		(property "Net Label" "SW"
-			(at 0 0 0)
+			(at 1.25 3 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "4cdf4bb5-c012-4f7b-a626-48ac35e7c9b8")
 			(effects
 				(font
@@ -987,7 +986,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R26"
-			(at -2.51 0 0)
+			(at -3 0 0)
 			(layer "F.SilkS")
 			(uuid "05db5cc5-d5b6-4b4f-9b2b-2b72333f59ee")
 			(effects
@@ -3680,11 +3679,10 @@
 				)
 			)
 		)
-		(property "Net Label" "VCC"
-			(at 0 0 0)
+		(property "Net Label" "+24V"
+			(at 4 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "cccd5f99-28f9-45a0-bdf4-bf90e587e871")
 			(effects
 				(font
@@ -5156,9 +5154,9 @@
 		(descr "01530008")
 		(tags "Fuse")
 		(property "Reference" "F2"
-			(at 0 -10.16 90)
+			(at 0 -10.16 180)
 			(layer "F.SilkS")
-			(uuid "670a66dc-0282-4528-b33d-c5b2eda86ff6")
+			(uuid "0607a56a-5145-4789-b841-1f02d3088b3b")
 			(effects
 				(font
 					(size 1 1)
@@ -5167,15 +5165,15 @@
 			)
 		)
 		(property "Value" "10A"
-			(at -0.4908 -0.1082 90)
+			(at 1.7272 -9.31 180)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c08d41a4-13ab-4cd4-ae30-4d5faf298d33")
+			(uuid "ce96e14e-a7a7-4ad4-b2ef-3e25d67683a4")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Datasheet" "~"
@@ -5183,7 +5181,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68a484b3-c41a-42a5-8502-74ffcd71a7f1")
+			(uuid "6c3f88a7-616e-4dc9-96b1-9e1ee91b2459")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5194,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7155d128-4f15-4998-9d76-52ee331c26cc")
+			(uuid "fa0d5828-b208-4c8b-bea4-fda2a2496414")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12799,7 +12797,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 1.83 0.145 0)
+			(at -2 0 0)
 			(layer "F.SilkS")
 			(uuid "a0454a35-43c0-48da-8192-1ee8923692b3")
 			(effects
@@ -13011,7 +13009,7 @@
 		(descr "surface-mounted straight pin header, 2x07, 1.27mm pitch, double rows")
 		(tags "Surface mounted pin header SMD 2x07 1.27mm double row")
 		(property "Reference" "J2"
-			(at -4.77 -4.08 0)
+			(at 0.16 -5.755 0)
 			(layer "F.SilkS")
 			(uuid "1117e452-906c-4297-baf4-827332c8e074")
 			(effects
@@ -15157,10 +15155,9 @@
 			)
 		)
 		(property "Net Label" "EN_MODE"
-			(at 0 0 0)
+			(at 5 -1.75 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "9e3ed7a4-e10f-4364-970b-d0722c57be49")
 			(effects
 				(font
@@ -16255,10 +16252,9 @@
 			)
 		)
 		(property "Net Label" "FB"
-			(at 0 0 0)
+			(at 3 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "5c03fab8-615b-4ae4-b9d3-ca3cf5e25c03")
 			(effects
 				(font
@@ -17205,11 +17201,10 @@
 				)
 			)
 		)
-		(property "Net Label" "VCC"
-			(at 0 0 0)
+		(property "Net Label" "SDA"
+			(at 3.75 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "f824045a-0bd5-434c-bc0e-a9c002ecb41e")
 			(effects
 				(font
@@ -17568,11 +17563,10 @@
 				)
 			)
 		)
-		(property "Net Label" "VCC"
-			(at 0 0 0)
+		(property "Net Label" "SCL"
+			(at -3.25 1.25 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "982843fb-a09c-4d23-8205-d85bfc20d1ce")
 			(effects
 				(font
@@ -19031,10 +19025,9 @@
 			)
 		)
 		(property "Net Label" "PGOOD"
-			(at 0 0 0)
+			(at 4.25 1.75 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "a2800762-a30d-4fde-8267-616ccd4d824b")
 			(effects
 				(font
@@ -22392,7 +22385,7 @@
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW1"
-			(at 3.25 7.25 0)
+			(at 9.735 2.62 0)
 			(layer "F.SilkS")
 			(uuid "d56bf1e8-3eff-4c1e-a9c5-cdb76e73d4ba")
 			(effects
@@ -23318,10 +23311,9 @@
 			)
 		)
 		(property "Net Label" "VCC"
-			(at 0 0 0)
+			(at -3.75 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "9df2d4dd-fad8-43be-9306-10f561cab946")
 			(effects
 				(font
@@ -24629,7 +24621,7 @@
 			)
 		)
 		(property "Net Label" "+5V"
-			(at 0 -2.89 0)
+			(at 3.49 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b2294cec-2f2d-4d21-ac62-01aabd13edc4")
@@ -24731,7 +24723,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0.55 1.45 180)
+			(at 0.415 1.41 180)
 			(layer "F.SilkS")
 			(uuid "8bf8effd-6e1e-45fc-997d-0b56982daf33")
 			(effects
@@ -28377,6 +28369,28 @@
 		(layer "Edge.Cuts")
 		(uuid "f6de80de-73fe-4a34-a503-51811c5f7965")
 	)
+	(gr_text "Prog. Port"
+		(at 53.25 46.75 90)
+		(layer "F.SilkS")
+		(uuid "27dbdf25-89a1-47cb-be17-ad50e87bff02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Reset"
+		(at 57.25 61.25 0)
+		(layer "F.SilkS")
+		(uuid "353c3093-40ce-49aa-a0e2-a6d0ddbb97d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Temperature"
 		(at 57.25 73 0)
 		(layer "F.SilkS")
@@ -28384,12 +28398,35 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify top)
 		)
 	)
-	(gr_text "${PROJECT_CODE}: ${PROJECT_NAME}"
+	(gr_text "B-"
+		(at 125 32 0)
+		(layer "F.SilkS")
+		(uuid "5bfe1213-1352-4c12-a58e-bf6441633255")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.175)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CAN Net."
+		(at 80.5 27 90)
+		(layer "F.SilkS")
+		(uuid "7715e53f-873b-4f86-85c6-47e981e1cec0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "${PROJECT_CODE}: ${PROJECT_NAME} (${REVISION})"
 		(at 62.5 84 0)
 		(layer "F.SilkS")
 		(uuid "cf160cf2-6ee7-436f-a6a9-78866479d717")
@@ -28397,6 +28434,18 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B+"
+		(at 114.25 32 0)
+		(layer "F.SilkS")
+		(uuid "fdbbd115-5f23-4dc2-b455-18ff81c6250e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.175)
 			)
 			(justify left bottom)
 		)
