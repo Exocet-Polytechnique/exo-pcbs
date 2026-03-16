@@ -5392,7 +5392,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2k"
+		(property "Value" "39k"
 			(at 208.788 81.026 0)
 			(effects
 				(font
@@ -5427,7 +5427,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25893"
+		(property "JLCPCB" "C25783"
 			(at 204.47 80.01 0)
 			(effects
 				(font
