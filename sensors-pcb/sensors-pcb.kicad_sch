@@ -1873,6 +1873,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "0x68"
+		(exclude_from_sim no)
+		(at 144.78 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 213 106 0 1)
+			)
+		)
+		(uuid "eae6aa99-ee79-45c3-a621-a01d988c0d1e")
+	)
 	(junction
 		(at 78.74 97.79)
 		(diameter 0)
