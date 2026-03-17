@@ -5066,10 +5066,6 @@
 		(uuid "977fa4ff-51cb-4901-8eda-fb61811b8fb3")
 	)
 	(no_connect
-		(at 63.5 130.81)
-		(uuid "9f6c91a3-be2c-43ba-8d00-0eeba37ed9ca")
-	)
-	(no_connect
 		(at 63.5 133.35)
 		(uuid "aa490d37-a1e6-4d5f-ad21-3ac27b4ac874")
 	)
@@ -7043,6 +7039,17 @@
 			(justify left)
 		)
 		(uuid "29487a59-9bf1-4a41-b2d6-cd1354f521b2")
+	)
+	(hierarchical_label "IO_23"
+		(shape bidirectional)
+		(at 63.5 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "442b88d9-5223-460b-8267-afd6ed10d031")
 	)
 	(hierarchical_label "I2C3_SCL"
 		(shape bidirectional)
