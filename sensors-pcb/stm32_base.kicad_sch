@@ -11437,7 +11437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Net Label" "CAN_TX"
+		(property "Net Label" "+5v_in"
 			(at 255.27 26.67 0)
 			(effects
 				(font
