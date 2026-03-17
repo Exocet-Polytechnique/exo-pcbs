@@ -2895,7 +2895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
+		(property "Footprint" "Exocet:ANT-SMD_KH-IPEX-K501-29"
 			(at 97.79 97.79 0)
 			(effects
 				(font
@@ -2922,7 +2922,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C434806"
+		(property "JLCPCB" "C411563"
 			(at 97.79 97.79 0)
 			(effects
 				(font
