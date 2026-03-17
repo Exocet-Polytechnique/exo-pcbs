@@ -7663,7 +7663,7 @@
 		(path "/7d59fd70-1fff-4c9c-ae77-583b08aef567/99247100-b56f-45c6-abca-37d14f4fc3ce")
 		(sheetname "/STM32 Base Layout/")
 		(sheetfile "stm32_base.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 3.81 -8.636)
 			(end -3.81 -8.636)
