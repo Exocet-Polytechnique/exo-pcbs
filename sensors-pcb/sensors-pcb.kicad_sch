@@ -1904,12 +1904,6 @@
 		(uuid "5fdd2501-56d3-45e6-b6df-ba156eaeb14b")
 	)
 	(junction
-		(at 78.74 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e91a8d1-e7f9-4a75-903d-94949dc7af73")
-	)
-	(junction
 		(at 163.83 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1926,6 +1920,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1bf27a2-ba97-4fe4-a26c-cfbf527d308c")
+	)
+	(junction
+		(at 78.74 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffe1aa93-9eb2-4e8b-b80e-fa891fb627c4")
 	)
 	(no_connect
 		(at 73.66 105.41)
@@ -1967,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 77.47) (xy 76.2 77.47)
+			(xy 76.2 77.47) (xy 78.74 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2117,6 +2117,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 77.47) (xy 78.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9c008f-22df-4fbb-9149-7ed2e55d4a7f")
+	)
+	(wire
+		(pts
 			(xy 58.42 80.01) (xy 58.42 76.2)
 		)
 		(stroke
@@ -2247,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 96.52) (xy 78.74 97.79)
+			(xy 78.74 95.25) (xy 78.74 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2313,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cffa3d84-303e-46ba-85bb-2d07c1a3dba7")
+		(uuid "d02d7d22-2119-41c0-8a51-cb5da8fe8372")
 	)
 	(wire
 		(pts
@@ -2374,16 +2384,6 @@
 			(type default)
 		)
 		(uuid "f54837b9-e5e5-4836-91b4-1fbc16f85567")
-	)
-	(wire
-		(pts
-			(xy 78.74 88.9) (xy 78.74 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f739b10a-98d1-4d5f-968b-a9c23dd7381e")
 	)
 	(wire
 		(pts
@@ -2575,6 +2575,85 @@
 			(project "sensors-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 78.74 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20611767-eba6-48d8-9290-83f6e48e7bc8")
+		(property "Reference" "L2"
+			(at 80.01 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15n"
+			(at 80.01 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C27143"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8751b33e-ca08-4911-9f1d-032946593408")
+		)
+		(pin "1"
+			(uuid "3a4c55d9-4e47-4bc9-80ea-6ce73df94794")
+		)
+		(instances
+			(project "sensors-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3641,7 +3720,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 78.74 92.71 0)
+		(at 78.74 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3650,7 +3729,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d83360a-d257-480f-9a7e-5f383806bc14")
 		(property "Reference" "L1"
-			(at 80.01 91.4399 0)
+			(at 80.01 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,8 +3737,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27n"
-			(at 80.01 93.9799 0)
+		(property "Value" "10n"
+			(at 80.01 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3747,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 78.74 92.71 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 92.71 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3765,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 78.74 92.71 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,8 +3773,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C12669"
-			(at 78.74 92.71 0)
+		(property "JLCPCB" "C27147"
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
