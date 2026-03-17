@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|227707496|26007548|817770de-828f-4b68-b6fd-5f6e157b13de|836b32ec-bbfc-4d95-ae12-37408f32726a",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|204120000|45667500|8e0e20d1-0776-47a8-b912-aeb11efa481b|00000000-0000-0000-0000-000000000000",
           "Added triangle to indicate pin 1"
         ]

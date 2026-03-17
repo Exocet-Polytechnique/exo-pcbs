@@ -4832,10 +4832,16 @@
 		(uuid "46cac016-b841-4b1f-a3de-c27fd6eac636")
 	)
 	(junction
-		(at 262.89 35.56)
+		(at 265.43 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "472ab42d-fb60-44f6-b984-3a3fedd16460")
+	)
+	(junction
+		(at 255.27 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5667e8db-7924-4c19-ae7f-c36551ce9b8c")
 	)
 	(junction
 		(at 81.28 86.36)
@@ -5271,7 +5277,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 35.56) (xy 254 35.56)
+			(xy 251.46 35.56) (xy 255.27 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5281,7 +5287,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 34.29) (xy 262.89 35.56)
+			(xy 265.43 34.29) (xy 265.43 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5521,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 35.56) (xy 262.89 35.56)
+			(xy 264.16 35.56) (xy 265.43 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5681,7 +5687,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 35.56) (xy 264.16 35.56)
+			(xy 265.43 35.56) (xy 266.7 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6318,6 +6324,26 @@
 			(type default)
 		)
 		(uuid "c4c0013d-b52d-400e-b5fa-5dbf4d521558")
+	)
+	(wire
+		(pts
+			(xy 256.54 35.56) (xy 255.27 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6705d2e-1686-44be-9c36-5b625732aeab")
+	)
+	(wire
+		(pts
+			(xy 255.27 35.56) (xy 255.27 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78babdd-8a0e-48ed-8465-b6d1517375fa")
 	)
 	(wire
 		(pts
@@ -8128,7 +8154,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 262.89 34.29 0)
+		(at 265.43 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8137,7 +8163,7 @@
 		(fields_autoplaced yes)
 		(uuid "239e2dd7-a22c-4ba6-8a9d-1ac909da1a69")
 		(property "Reference" "#PWR0132"
-			(at 262.89 38.1 0)
+			(at 265.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8172,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 262.89 29.21 0)
+			(at 265.43 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +8180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 34.29 0)
+			(at 265.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +8189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 34.29 0)
+			(at 265.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 262.89 34.29 0)
+			(at 265.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +11003,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 257.81 35.56 90)
+		(at 260.35 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10986,7 +11012,7 @@
 		(fields_autoplaced yes)
 		(uuid "99247100-b56f-45c6-abca-37d14f4fc3ce")
 		(property "Reference" "F1"
-			(at 257.81 29.21 90)
+			(at 260.35 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +11020,7 @@
 			)
 		)
 		(property "Value" "2A"
-			(at 257.81 31.75 90)
+			(at 260.35 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,7 +11028,7 @@
 			)
 		)
 		(property "Footprint" "Exocet:Fuse_Holder_Littelfuse_01530008"
-			(at 257.81 37.338 90)
+			(at 260.35 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +11037,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 35.56 0)
+			(at 260.35 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11020,7 +11046,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 257.81 35.56 0)
+			(at 260.35 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +11055,7 @@
 			)
 		)
 		(property "JLCPCB" "C206907"
-			(at 257.81 35.56 0)
+			(at 260.35 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11358,7 +11384,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 204.47 71.12 180)
+		(at 255.27 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11366,6 +11392,82 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ac23dcd9-75fc-4ac1-9be3-282cc6133809")
+		(property "Reference" "TP7"
+			(at 257.81 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 257.81 24.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 260.35 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 260.35 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 255.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Net Label" "CAN_TX"
+			(at 255.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef7b57af-9b47-4eff-b9b6-fdc9f9aeb863")
+		)
+		(instances
+			(project "sensors-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 204.47 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ac23dcd9-75fc-4ac1-9be3-282cc613380a")
 		(property "Reference" "TP4"
 			(at 207.01 73.1519 0)
 			(effects
@@ -11421,7 +11523,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef7b57af-9b47-4eff-b9b6-fdc9f9aeb863")
+			(uuid "ef7b57af-9b47-4eff-b9b6-fdc9f9aeb864")
 		)
 		(instances
 			(project "template"
@@ -12154,7 +12256,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 264.16 35.56 270)
+		(at 266.7 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12163,7 +12265,7 @@
 		(fields_autoplaced yes)
 		(uuid "bef350d4-4b2f-4942-8462-baa1d35691d2")
 		(property "Reference" "#FLG0101"
-			(at 266.065 35.56 0)
+			(at 268.605 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +12274,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 267.97 35.5599 90)
+			(at 270.51 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,7 +12283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 35.56 0)
+			(at 266.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12190,7 +12292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 35.56 0)
+			(at 266.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +12301,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 264.16 35.56 0)
+			(at 266.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
