@@ -10545,7 +10545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.87 126.492 90)
 			(effects
 				(font
@@ -10572,7 +10572,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22843"
+		(property "JLCPCB" "C25867"
 			(at 102.87 128.27 90)
 			(effects
 				(font
@@ -11156,7 +11156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 153.3652 137.16 0)
 			(effects
 				(font
@@ -11183,7 +11183,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1622"
+		(property "JLCPCB" "C96123"
 			(at 152.4 133.35 0)
 			(effects
 				(font
@@ -12756,7 +12756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 143.2052 137.16 0)
 			(effects
 				(font
@@ -12783,7 +12783,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1622"
+		(property "JLCPCB" "C96123"
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -14204,7 +14204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 127.762 123.19 90)
 			(effects
 				(font
@@ -14231,7 +14231,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22809"
+		(property "JLCPCB" "C17475"
 			(at 129.54 123.19 0)
 			(effects
 				(font
@@ -14638,7 +14638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.49 143.8148 0)
 			(effects
 				(font
@@ -14665,7 +14665,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1537"
+		(property "JLCPCB" "C1620"
 			(at 106.68 144.78 90)
 			(effects
 				(font
@@ -15219,7 +15219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 138.938 90)
 			(effects
 				(font
@@ -15246,7 +15246,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25086"
+		(property "JLCPCB" "C22936"
 			(at 116.84 137.16 90)
 			(effects
 				(font
