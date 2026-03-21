@@ -2566,8 +2566,8 @@
 		(uuid 9a67a571-0c4d-4ba6-895f-76ae68acf54e)
 	)
 	(rectangle
-		(start 137.795 27.305)
-		(end 193.675 56.515)
+		(start 349.885 203.835)
+		(end 406.4 233.045)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2579,7 +2579,7 @@
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
-		(at 139.065 28.575 0)
+		(at 351.155 205.105 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2864,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 33.02) (xy 170.18 33.02)
+			(xy 372.11 209.55) (xy 382.27 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2934,7 +2934,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 152.4 33.02)
+			(xy 354.33 209.55) (xy 364.49 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3194,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 45.72) (xy 191.77 45.72)
+			(xy 389.89 222.25) (xy 403.86 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 45.72) (xy 173.99 45.72)
+			(xy 372.11 222.25) (xy 386.08 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3234,7 +3234,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 46.99) (xy 160.02 45.72)
+			(xy 372.11 223.52) (xy 372.11 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3384,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 33.02) (xy 187.96 33.02)
+			(xy 389.89 209.55) (xy 400.05 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3404,7 +3404,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 46.99) (xy 142.24 45.72)
+			(xy 354.33 223.52) (xy 354.33 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3464,7 +3464,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 34.29) (xy 177.8 33.02)
+			(xy 389.89 210.82) (xy 389.89 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3494,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 34.29) (xy 142.24 33.02)
+			(xy 354.33 210.82) (xy 354.33 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3744,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 46.99) (xy 177.8 45.72)
+			(xy 389.89 223.52) (xy 389.89 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3864,7 +3864,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 34.29) (xy 160.02 33.02)
+			(xy 372.11 210.82) (xy 372.11 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3904,7 +3904,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 45.72) (xy 156.21 45.72)
+			(xy 354.33 222.25) (xy 368.3 222.25)
 		)
 		(stroke
 			(width 0)
@@ -4173,7 +4173,7 @@
 		(uuid "29e5eab2-316f-4070-ba75-c1f5cbc65d60")
 	)
 	(label "SCL_TEMP"
-		(at 170.18 33.02 180)
+		(at 382.27 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4233,7 +4233,7 @@
 		(uuid "5be8afb8-a76b-472a-9be8-5fc0c02ab21c")
 	)
 	(label "ONEWIRE"
-		(at 187.96 33.02 180)
+		(at 400.05 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4243,7 +4243,7 @@
 		(uuid "5cce8bf5-791c-41ff-a2c9-ceed84ad49f8")
 	)
 	(label "MANOMETER_1"
-		(at 156.21 45.72 180)
+		(at 368.3 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4463,7 +4463,7 @@
 		(uuid "ae9bbc1d-f96a-46ba-a48d-b234a3a5f3da")
 	)
 	(label "SDA_TEMP"
-		(at 152.4 33.02 180)
+		(at 364.49 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4583,7 +4583,7 @@
 		(uuid "da1f0834-34d6-45db-926c-3d4300e0b6ef")
 	)
 	(label "MANOMETER_3"
-		(at 191.77 45.72 180)
+		(at 403.86 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4603,7 +4603,7 @@
 		(uuid "e2428e4f-105c-4c43-8455-0cbc452c478b")
 	)
 	(label "MANOMETER_2"
-		(at 173.99 45.72 180)
+		(at 386.08 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5934,7 +5934,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 177.8 34.29 180)
+		(at 389.89 210.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5943,7 +5943,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b6cd0e7-9b21-4173-addc-4ac5eab4bbf9")
 		(property "Reference" "TP10"
-			(at 180.34 36.3219 0)
+			(at 392.43 212.8519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +5952,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 180.34 38.8619 0)
+			(at 392.43 215.3919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +5961,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 172.72 34.29 0)
+			(at 384.81 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5970,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 172.72 34.29 0)
+			(at 384.81 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5979,7 +5979,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 177.8 34.29 0)
+			(at 389.89 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +5988,7 @@
 			)
 		)
 		(property "Net Label" "1-Wire"
-			(at 177.8 34.29 0)
+			(at 389.89 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +6251,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 142.24 46.99 180)
+		(at 354.33 223.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6260,7 +6260,7 @@
 		(fields_autoplaced yes)
 		(uuid "3936d8d4-5100-4885-b299-6258d3720b22")
 		(property "Reference" "TP8"
-			(at 144.78 49.0219 0)
+			(at 356.87 225.5519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6269,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 144.78 51.5619 0)
+			(at 356.87 228.0919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6278,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 137.16 46.99 0)
+			(at 349.25 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6287,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 137.16 46.99 0)
+			(at 349.25 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6296,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 142.24 46.99 0)
+			(at 354.33 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6305,7 @@
 			)
 		)
 		(property "Net Label" "Man. 1"
-			(at 142.24 46.99 0)
+			(at 354.33 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7256,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 160.02 46.99 180)
+		(at 372.11 223.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7265,7 +7265,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c93e453-7d7e-47aa-8be8-2cad980d71e3")
 		(property "Reference" "TP9"
-			(at 162.56 49.0219 0)
+			(at 374.65 225.5519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7274,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.56 51.5619 0)
+			(at 374.65 228.0919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7283,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 154.94 46.99 0)
+			(at 367.03 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7292,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 154.94 46.99 0)
+			(at 367.03 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7301,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 160.02 46.99 0)
+			(at 372.11 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7310,7 @@
 			)
 		)
 		(property "Net Label" "Man. 2"
-			(at 160.02 46.99 0)
+			(at 372.11 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +7332,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 160.02 34.29 180)
+		(at 372.11 210.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7341,7 +7341,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e288372-c932-4f16-84b6-4f458a79ca67")
 		(property "Reference" "TP7"
-			(at 162.56 36.3219 0)
+			(at 374.65 212.8519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7350,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.56 38.8619 0)
+			(at 374.65 215.3919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +7359,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 154.94 34.29 0)
+			(at 367.03 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7368,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 154.94 34.29 0)
+			(at 367.03 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7377,7 +7377,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 160.02 34.29 0)
+			(at 372.11 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7386,7 +7386,7 @@
 			)
 		)
 		(property "Net Label" "SCL"
-			(at 160.02 34.29 0)
+			(at 372.11 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,7 +8927,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 177.8 46.99 180)
+		(at 389.89 223.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8936,7 +8936,7 @@
 		(fields_autoplaced yes)
 		(uuid "92974ae6-5f67-45fa-8b77-9abe2dbe09ad")
 		(property "Reference" "TP11"
-			(at 180.34 49.0219 0)
+			(at 392.43 225.5519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +8945,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 180.34 51.5619 0)
+			(at 392.43 228.0919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +8954,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 172.72 46.99 0)
+			(at 384.81 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +8963,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 172.72 46.99 0)
+			(at 384.81 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8972,7 +8972,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 177.8 46.99 0)
+			(at 389.89 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,7 +8981,7 @@
 			)
 		)
 		(property "Net Label" "Man. 3"
-			(at 177.8 46.99 0)
+			(at 389.89 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +9220,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 142.24 34.29 180)
+		(at 354.33 210.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9229,7 +9229,7 @@
 		(fields_autoplaced yes)
 		(uuid "9adedd06-a454-4fb5-8ce6-fd3056a359d2")
 		(property "Reference" "TP6"
-			(at 144.78 36.3219 0)
+			(at 356.87 212.8519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9238,7 +9238,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 144.78 38.8619 0)
+			(at 356.87 215.3919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9247,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 137.16 34.29 0)
+			(at 349.25 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9256,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 137.16 34.29 0)
+			(at 349.25 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9265,7 +9265,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 142.24 34.29 0)
+			(at 354.33 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9274,7 @@
 			)
 		)
 		(property "Net Label" "SDA"
-			(at 142.24 34.29 0)
+			(at 354.33 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
