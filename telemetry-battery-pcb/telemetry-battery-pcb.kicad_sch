@@ -14204,7 +14204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.762 123.19 90)
 			(effects
 				(font
@@ -14231,7 +14231,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17475"
+		(property "JLCPCB" "C22809"
 			(at 129.54 123.19 0)
 			(effects
 				(font
