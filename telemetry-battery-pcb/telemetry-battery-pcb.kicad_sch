@@ -8230,7 +8230,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C601838"
+		(property "JLCPCB" "C17797"
 			(at 135.89 123.19 0)
 			(effects
 				(font
@@ -12466,7 +12466,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Tps1htc"
 			(at 139.7 53.34 0)
 			(effects
 				(font
