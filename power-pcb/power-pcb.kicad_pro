@@ -664,10 +664,10 @@
     ]
   ],
   "text_variables": {
-    "AUTHOR": "Guillaume Chénier",
-    "CONTRIBUTORS": "Eliot F., Wilfred P.",
-    "PROJECT_CODE": "TEM.00",
-    "PROJECT_NAME": "STM32 PCB Template",
-    "REVIEWERS": "Eliot F."
+    "AUTHOR": "Daphné H.",
+    "CONTRIBUTORS": "",
+    "PROJECT_CODE": "PCB.04",
+    "PROJECT_NAME": "Power Control PCB",
+    "REVIEWERS": ""
   }
 }

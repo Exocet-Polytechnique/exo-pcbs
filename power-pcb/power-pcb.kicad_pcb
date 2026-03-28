@@ -8,9 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Base board layout")
-		(date "2025-04-06")
-		(rev "v1.0.0")
+		(title "Board layout")
+		(date "2026-03-28")
+		(rev "v1.1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -87,11 +87,11 @@
 			(outputdirectory "")
 		)
 	)
-	(property "AUTHOR" "Guillaume Chénier")
-	(property "CONTRIBUTORS" "Eliot F., Wilfred P.")
-	(property "PROJECT_CODE" "TEM.00")
-	(property "PROJECT_NAME" "STM32 PCB Template")
-	(property "REVIEWERS" "Eliot F.")
+	(property "AUTHOR" "Daphné H.")
+	(property "CONTRIBUTORS" "")
+	(property "PROJECT_CODE" "PCB.04")
+	(property "PROJECT_NAME" "Power Control PCB")
+	(property "REVIEWERS" "")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "+5V")
@@ -12036,6 +12036,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "17d65d64-a8b5-493b-9c59-0dcde94ed24a")
+	)
+	(gr_text "${PROJECT_CODE}: ${PROJECT_NAME} (${REVISION})"
+		(at 209.5 74.5 0)
+		(layer "F.SilkS")
+		(uuid "7abc65dd-a60f-44e4-9e4c-230560ffc35d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 238.2 33.92)
