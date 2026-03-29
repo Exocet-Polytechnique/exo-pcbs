@@ -5463,7 +5463,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1c08118c-6770-4363-91c4-7a86aee434e9")
 		(property "Reference" "J9"
 			(at 185.674 214.376 0)
@@ -6928,7 +6928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Exocet:LED_0805_2012Metric_With_Annotations"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 328.93 105.41 0)
 			(effects
 				(font
@@ -7205,7 +7205,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5becf0f9-dfdc-4b6e-8775-4ed048b22581")
 		(property "Reference" "J8"
 			(at 132.588 214.63 0)
@@ -8876,7 +8876,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "91d66542-7d2d-4e73-8973-ae059b7f22cc")
 		(property "Reference" "J10"
 			(at 237.236 214.376 0)
@@ -9337,7 +9337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6k"
+		(property "Value" "6.8k"
 			(at 33.274 213.36 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.972 212.09 90)
 			(effects
 				(font
@@ -9373,7 +9373,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C114627"
+		(property "JLCPCB" "C23212"
 			(at 31.75 212.09 0)
 			(effects
 				(font
@@ -11379,7 +11379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2 k"
+		(property "Value" "6.8k"
 			(at 41.148 213.106 0)
 			(effects
 				(font
@@ -11415,7 +11415,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C113303"
+		(property "JLCPCB" "C23212"
 			(at 39.37 212.09 0)
 			(effects
 				(font
@@ -12387,7 +12387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6k"
+		(property "Value" "6.8k"
 			(at 25.908 213.36 0)
 			(effects
 				(font
@@ -12396,7 +12396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.352 212.09 90)
 			(effects
 				(font
@@ -12423,7 +12423,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C114627"
+		(property "JLCPCB" "C23212"
 			(at 24.13 212.09 0)
 			(effects
 				(font
