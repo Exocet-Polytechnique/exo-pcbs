@@ -8016,7 +8016,7 @@
 			(uuid "56b797f3-ee1e-4ff2-b488-3f8ce5f31eb3")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "Q1")
 					(unit 1)
@@ -8811,7 +8811,7 @@
 			(uuid "937884e7-d72d-44aa-8052-4ead57891a60")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR043")
 					(unit 1)
@@ -9173,7 +9173,7 @@
 			(uuid "b37704ff-2075-4c8d-9ef6-e999ba987e22")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "L1")
 					(unit 1)
@@ -9251,7 +9251,7 @@
 			(uuid "9bf8a8df-d898-4e28-8ab3-fc92572df6ed")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C26")
 					(unit 1)
@@ -9314,7 +9314,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C555356"
+		(property "JLCPCB" "C1355299"
 			(at 87.63 105.41 0)
 			(effects
 				(font
@@ -9363,7 +9363,7 @@
 			(uuid "9f0bbcda-fd6c-4a70-b111-76a796445cef")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "U5")
 					(unit 1)
@@ -9460,7 +9460,7 @@
 			(uuid "ba99670e-2c04-4c39-b31a-20c77a9b8115")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "U6")
 					(unit 1)
@@ -9592,7 +9592,7 @@
 			(uuid "9e94c690-4175-4e8a-a3b4-808b7160ad70")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR037")
 					(unit 1)
@@ -9771,7 +9771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 60.452 137.16 90)
 			(effects
 				(font
@@ -9798,7 +9798,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C8329"
+		(property "JLCPCB" "C23172 "
 			(at 62.23 137.16 0)
 			(effects
 				(font
@@ -10263,7 +10263,7 @@
 			(uuid "e3b57aeb-0157-4c75-927c-a9c7fccf4906")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C22")
 					(unit 1)
@@ -10436,7 +10436,7 @@
 			(uuid "f43ad590-c327-468f-9c11-5f0489166809")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "D6")
 					(unit 1)
@@ -10545,7 +10545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 102.87 126.492 90)
 			(effects
 				(font
@@ -10572,7 +10572,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25867"
+		(property "JLCPCB" "C1370569"
 			(at 102.87 128.27 90)
 			(effects
 				(font
@@ -11012,7 +11012,7 @@
 			(uuid "2de42f36-c797-4d61-b72e-cc63d7fac10a")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R23")
 					(unit 1)
@@ -11121,7 +11121,7 @@
 			(uuid "d99bf26d-4538-4641-9c24-97ccba3c351a")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "Q2")
 					(unit 1)
@@ -11351,7 +11351,7 @@
 			(uuid "621071c8-93ec-4ee2-aafd-48b2bebf14c1")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "D3")
 					(unit 1)
@@ -11494,7 +11494,7 @@
 			(uuid "71556c77-31b7-4858-a76a-6a372a18f270")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR035")
 					(unit 1)
@@ -11668,7 +11668,7 @@
 			(uuid "98087b0a-2627-449c-b6b9-a7187bf056a0")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "U4")
 					(unit 1)
@@ -12007,7 +12007,7 @@
 			(uuid "5a01066b-6e16-43b0-a715-a5147fc359a9")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR041")
 					(unit 1)
@@ -12073,7 +12073,7 @@
 			(uuid "fc9e0407-be22-4467-90c9-8d7d0e4dc93b")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR057")
 					(unit 1)
@@ -12108,7 +12108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 55.5752 140.97 0)
 			(effects
 				(font
@@ -12135,7 +12135,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5142571"
+		(property "JLCPCB" "C1622 "
 			(at 54.61 137.16 0)
 			(effects
 				(font
@@ -12151,7 +12151,7 @@
 			(uuid "3843e025-8fb8-445e-9e6a-c1997b7b2b5b")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C19")
 					(unit 1)
@@ -12283,7 +12283,7 @@
 			(uuid "be95315d-914d-476e-97f4-e3684ff5909b")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR056")
 					(unit 1)
@@ -12298,7 +12298,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9651f66a-d4ea-4f94-b2fd-914d3493b6e3")
 		(property "Reference" "F2"
 			(at 76.2 90.932 90)
@@ -12441,7 +12441,7 @@
 			(uuid "949e0167-b291-451f-8d67-648561dd3bf7")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "J4")
 					(unit 1)
@@ -12557,7 +12557,7 @@
 			(uuid "9a97a874-7f8e-4f8d-8121-11714a3dc2cb")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "U7")
 					(unit 1)
@@ -12705,7 +12705,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" " C2286"
+		(property "JLCPCB" "C2286"
 			(at 111.76 172.72 0)
 			(effects
 				(font
@@ -12721,7 +12721,7 @@
 			(uuid "55064f0b-d4e5-49b2-994b-c4d348169e14")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "D4")
 					(unit 1)
@@ -12875,7 +12875,7 @@
 			(uuid "916be8a9-b81d-46aa-b11a-135709456d55")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R18")
 					(unit 1)
@@ -12953,7 +12953,7 @@
 			(uuid "6c826cce-7197-4724-9f83-b2fd164c52b5")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R10")
 					(unit 1)
@@ -13019,7 +13019,7 @@
 			(uuid "6f524c96-e631-4717-bb35-e8a9dec00c2b")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR067")
 					(unit 1)
@@ -13236,7 +13236,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" " C1523"
+		(property "JLCPCB" "C1523"
 			(at 102.87 176.53 0)
 			(effects
 				(font
@@ -13252,7 +13252,7 @@
 			(uuid "0ce2408a-1f83-40f8-9142-9a5f0cb42f18")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C30")
 					(unit 1)
@@ -13396,7 +13396,7 @@
 			(uuid "9ce2a403-a931-4c89-bdd3-5abe7ad4ce2d")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R33")
 					(unit 1)
@@ -13505,7 +13505,7 @@
 			(uuid "32148f14-5470-4326-9d24-cfbcdffb3d7e")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "Q4")
 					(unit 1)
@@ -13647,7 +13647,7 @@
 			(uuid "84949974-4332-4a00-994f-27b0a2e22dab")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R14")
 					(unit 1)
@@ -13789,7 +13789,7 @@
 			(uuid "58cbb9f3-1b69-4326-ba16-3b97926b68f8")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR038")
 					(unit 1)
@@ -13868,7 +13868,7 @@
 			(uuid "16c4c8d3-f181-49fd-bfbd-8ddde7c59a50")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C31")
 					(unit 1)
@@ -13894,7 +13894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 70.485 135.89 0)
 			(effects
 				(font
@@ -13946,7 +13946,7 @@
 			(uuid "650b07c4-9918-434b-b964-4499b18ece07")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C25")
 					(unit 1)
@@ -14024,7 +14024,7 @@
 			(uuid "e6ee58dc-8bdd-480b-b885-1647e0105a25")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "C18")
 					(unit 1)
@@ -14283,7 +14283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.302 137.16 90)
 			(effects
 				(font
@@ -14310,7 +14310,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17667"
+		(property "JLCPCB" "C4109"
 			(at 132.08 137.16 0)
 			(effects
 				(font
@@ -14603,7 +14603,7 @@
 			(uuid "99048db1-5abd-42aa-a53e-980e2daa0ecc")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "J5")
 					(unit 1)
@@ -15045,7 +15045,7 @@
 			(uuid "e0ddde60-4be2-49e8-8395-21054bdea1e9")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR036")
 					(unit 1)
@@ -15262,7 +15262,7 @@
 			(uuid "f68758d0-8583-40aa-b7f2-6c2cee77c53e")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R27")
 					(unit 1)
@@ -15329,7 +15329,7 @@
 			(uuid "590ab33b-ea5e-4d32-99b0-847606f7186b")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#FLG01")
 					(unit 1)
@@ -15473,7 +15473,7 @@
 			(uuid "2bc170d6-849a-4411-83d4-c86f08e0f9b1")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R9")
 					(unit 1)
@@ -15715,7 +15715,7 @@
 			(uuid "32783fd7-aa96-452b-86ef-41cef78ef986")
 		)
 		(instances
-			(project ""
+			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "U8")
 					(unit 1)
