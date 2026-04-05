@@ -7859,7 +7859,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "286e5e9b-455b-41d8-a713-b2303e33b056")
@@ -7894,7 +7894,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25076"
+		(property "JLCPCB" "C11702"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8626,7 +8626,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "24e0b86f-ed6b-430b-9249-d1ab8acf6bbf")
@@ -8661,7 +8661,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25076"
+		(property "JLCPCB" "C11702"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
