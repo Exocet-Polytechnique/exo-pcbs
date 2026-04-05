@@ -8107,7 +8107,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "10c7fb9e-15ed-4185-b6b6-2b6e469330bc")
 		(property "Reference" "R30"
 			(at 127 78.994 90)
@@ -8125,7 +8125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 128.778 78.74 90)
 			(effects
 				(font
@@ -8145,15 +8145,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 127 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C4184"
-			(at 127 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +10518,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "609f6461-5000-4e19-bc86-dc4771083bd5")
 		(property "Reference" "RLIM1"
 			(at 102.87 123.19 90)
@@ -10545,7 +10536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 102.87 126.492 90)
 			(effects
 				(font
@@ -10565,15 +10556,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 102.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C1370569"
-			(at 102.87 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
