@@ -4197,7 +4197,7 @@
 		)
 		(uuid "25db4a77-742a-4c31-9ec7-4aa5aff71479")
 	)
-	(label "NC_4"
+	(label "NC_3"
 		(at 66.04 66.04 180)
 		(effects
 			(font
@@ -4317,7 +4317,7 @@
 		)
 		(uuid "71fbc3a1-6554-4a56-8f86-2cefe58dc667")
 	)
-	(label "NO_3"
+	(label "NO_4"
 		(at 66.04 48.26 180)
 		(effects
 			(font
@@ -4447,7 +4447,7 @@
 		)
 		(uuid "a54b051f-b958-4925-b5b7-74544d7f4f2f")
 	)
-	(label "NC_3"
+	(label "NC_4"
 		(at 66.04 50.8 180)
 		(effects
 			(font
@@ -4567,7 +4567,7 @@
 		)
 		(uuid "c954978e-f2ee-46c5-b5b8-7a92ef507840")
 	)
-	(label "NO_4"
+	(label "NO_3"
 		(at 66.04 63.5 180)
 		(effects
 			(font
