@@ -9482,7 +9482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 387.35 99.0599 0)
 			(effects
 				(font
@@ -9518,7 +9518,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25076"
+		(property "JLCPCB" "C11702"
 			(at 384.81 97.79 0)
 			(effects
 				(font
@@ -9640,7 +9640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 359.41 99.0599 0)
 			(effects
 				(font
@@ -9676,7 +9676,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25076"
+		(property "JLCPCB" "C11702"
 			(at 356.87 97.79 0)
 			(effects
 				(font
@@ -9874,7 +9874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 331.47 99.0599 0)
 			(effects
 				(font
@@ -9910,7 +9910,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25076"
+		(property "JLCPCB" "C11702"
 			(at 328.93 97.79 0)
 			(effects
 				(font
