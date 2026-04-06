@@ -4832,13 +4832,13 @@
 		(uuid "46cac016-b841-4b1f-a3de-c27fd6eac636")
 	)
 	(junction
-		(at 261.62 33.02)
+		(at 262.89 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "472ab42d-fb60-44f6-b984-3a3fedd16460")
 	)
 	(junction
-		(at 259.08 24.13)
+		(at 246.38 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5490e8be-bba2-45af-8470-819ccd374086")
@@ -4938,6 +4938,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc13a923-826c-41a4-94f0-995ecde79e1b")
+	)
+	(junction
+		(at 252.73 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0020d67-0478-48b4-970c-0d704fcbe85b")
 	)
 	(junction
 		(at 146.05 104.14)
@@ -5077,7 +5083,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 34.29) (xy 252.73 36.83)
+			(xy 252.73 35.56) (xy 252.73 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5117,7 +5123,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 24.13) (xy 259.08 25.4)
+			(xy 246.38 26.67) (xy 246.38 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5134,16 +5140,6 @@
 			(type default)
 		)
 		(uuid "069f6b9e-5ea4-449e-96f7-6980a3074531")
-	)
-	(wire
-		(pts
-			(xy 248.92 36.83) (xy 252.73 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06cd44fd-5695-4b8e-ad5a-0843526e7442")
 	)
 	(wire
 		(pts
@@ -5184,16 +5180,6 @@
 			(type default)
 		)
 		(uuid "0af76b2a-e77e-442b-908e-5ebc02937c37")
-	)
-	(wire
-		(pts
-			(xy 259.08 24.13) (xy 260.35 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd8fa7e-f29b-438b-bbad-44bcdc594071")
 	)
 	(wire
 		(pts
@@ -5247,7 +5233,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 31.75) (xy 261.62 33.02)
+			(xy 262.89 34.29) (xy 262.89 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +5283,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 39.37) (xy 259.08 39.37)
+			(xy 245.11 45.72) (xy 252.73 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5357,6 +5343,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 43.18) (xy 254 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2daf78e6-9129-4548-83ff-995becefa063")
+	)
+	(wire
+		(pts
 			(xy 64.77 45.72) (xy 81.28 45.72)
 		)
 		(stroke
@@ -5404,16 +5400,6 @@
 			(type default)
 		)
 		(uuid "33e86146-19b7-445c-85f5-439e998fc504")
-	)
-	(wire
-		(pts
-			(xy 261.62 34.29) (xy 261.62 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34127624-da15-45f8-8bac-bd2b267aa322")
 	)
 	(wire
 		(pts
@@ -5477,6 +5463,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 43.18) (xy 262.89 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4030b897-a44e-4770-b89d-ee19ac5d98fb")
+	)
+	(wire
+		(pts
 			(xy 43.18 41.91) (xy 43.18 45.72)
 		)
 		(stroke
@@ -5517,7 +5513,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 34.29) (xy 261.62 34.29)
+			(xy 261.62 35.56) (xy 262.89 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5607,6 +5603,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 43.18) (xy 262.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbf286b-f4f0-455e-b92b-d943050cacdf")
+	)
+	(wire
+		(pts
 			(xy 31.75 45.72) (xy 43.18 45.72)
 		)
 		(stroke
@@ -5627,7 +5633,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 44.45) (xy 250.19 45.72)
+			(xy 246.38 50.8) (xy 246.38 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5677,16 +5683,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 25.4) (xy 259.08 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7baa14-a1b7-4502-8277-80232da0f919")
-	)
-	(wire
-		(pts
 			(xy 118.11 93.98) (xy 118.11 106.68)
 		)
 		(stroke
@@ -5707,7 +5703,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 33.02) (xy 262.89 33.02)
+			(xy 262.89 35.56) (xy 264.16 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5967,6 +5963,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 35.56) (xy 254 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdb5bb7-0c9c-4626-9021-9b72974151bc")
+	)
+	(wire
+		(pts
 			(xy 60.96 123.19) (xy 63.5 123.19)
 		)
 		(stroke
@@ -6057,7 +6063,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 44.45) (xy 250.19 44.45)
+			(xy 245.11 50.8) (xy 246.38 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6157,7 +6163,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 22.86) (xy 259.08 24.13)
+			(xy 246.38 25.4) (xy 246.38 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6367,6 +6373,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 26.67) (xy 246.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedd30c3-109f-415e-84b8-2a4f8b28dcee")
+	)
+	(wire
+		(pts
 			(xy 36.83 105.41) (xy 36.83 118.11)
 		)
 		(stroke
@@ -6397,7 +6413,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 41.91) (xy 259.08 41.91)
+			(xy 245.11 48.26) (xy 252.73 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6577,7 +6593,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 34.29) (xy 248.92 34.29)
+			(xy 246.38 40.64) (xy 245.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6757,7 +6773,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 25.4) (xy 250.19 34.29)
+			(xy 246.38 35.56) (xy 246.38 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6774,6 +6790,16 @@
 			(type default)
 		)
 		(uuid "e9bd5dc7-f08f-4950-b455-4ab42a38e3b9")
+	)
+	(wire
+		(pts
+			(xy 252.73 43.18) (xy 245.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf5cde6-8b65-4ebd-8e0a-c7bd4f013533")
 	)
 	(wire
 		(pts
@@ -6936,7 +6962,7 @@
 		(uuid "10c8b06e-3b71-4bc8-921d-c248a4e7fecf")
 	)
 	(label "CAN_L"
-		(at 259.08 39.37 180)
+		(at 252.73 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6956,7 +6982,7 @@
 		(uuid "1db33126-2f81-4a67-b510-e1c0e23caec8")
 	)
 	(label "CAN_H"
-		(at 259.08 41.91 180)
+		(at 252.73 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7635,32 +7661,34 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 254 25.4 90)
+		(at 246.38 31.75 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "06029840-2645-4084-950a-708417d8eac3")
-		(property "Reference" "F2"
-			(at 254 19.05 90)
+		(property "Reference" "F3"
+			(at 244.348 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "5A"
-			(at 254 21.59 90)
+			(at 244.348 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Exocet:Fuse_Holder_Littelfuse_01530008"
-			(at 254 27.178 90)
+			(at 244.602 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 25.4 0)
+			(at 246.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7706,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 254 25.4 0)
+			(at 246.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7723,7 @@
 		(instances
 			(project "h2-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "F2")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -7967,16 +7995,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 260.35 24.13 270)
+		(at 245.11 26.67 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "167a9c9b-b07c-4384-ba9c-2b050b6f1ca4")
 		(property "Reference" "#FLG02"
-			(at 262.255 24.13 0)
+			(at 243.205 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +8013,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 264.16 24.1299 90)
+			(at 241.3 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +8022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 24.13 0)
+			(at 245.11 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +8031,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 24.13 0)
+			(at 245.11 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +8040,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 260.35 24.13 0)
+			(at 245.11 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +8577,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 261.62 31.75 0)
+		(at 262.89 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8558,7 +8586,7 @@
 		(fields_autoplaced yes)
 		(uuid "239e2dd7-a22c-4ba6-8a9d-1ac909da1a69")
 		(property "Reference" "#PWR034"
-			(at 261.62 35.56 0)
+			(at 262.89 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8567,7 +8595,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 261.62 26.67 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8575,7 +8603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 31.75 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8584,7 +8612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 31.75 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +8621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 261.62 31.75 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +9667,7 @@
 	)
 	(symbol
 		(lib_id "Exocet:Network_Connector")
-		(at 242.57 31.75 0)
+		(at 238.76 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9647,7 +9675,7 @@
 		(dnp no)
 		(uuid "4f301d95-004b-454f-a0a0-ea0ee6ef9ab7")
 		(property "Reference" "J1"
-			(at 242.57 29.845 0)
+			(at 238.76 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +9683,7 @@
 			)
 		)
 		(property "Value" "Network Connector"
-			(at 242.57 30.48 0)
+			(at 238.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,7 +9692,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_SPOX_5268-05A_1x05_P2.50mm_Horizontal"
-			(at 242.57 31.75 0)
+			(at 238.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9701,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22057055"
-			(at 242.57 31.75 0)
+			(at 238.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,7 +9710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 31.75 0)
+			(at 238.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +9719,7 @@
 			)
 		)
 		(property "JLCPCB" "C185201"
-			(at 242.57 31.75 0)
+			(at 238.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11187,16 +11215,15 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 256.54 34.29 90)
+		(at 257.81 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "99247100-b56f-45c6-abca-37d14f4fc3ce")
 		(property "Reference" "F1"
-			(at 256.54 27.94 90)
+			(at 257.81 31.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +11231,7 @@
 			)
 		)
 		(property "Value" "2A"
-			(at 256.54 30.48 90)
+			(at 257.81 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +11239,7 @@
 			)
 		)
 		(property "Footprint" "Exocet:Fuse_Holder_Littelfuse_01530008"
-			(at 256.54 36.068 90)
+			(at 257.81 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,7 +11248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 34.29 0)
+			(at 257.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,7 +11257,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 256.54 34.29 0)
+			(at 257.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11239,7 +11266,7 @@
 			)
 		)
 		(property "JLCPCB" "C206907"
-			(at 256.54 34.29 0)
+			(at 257.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,7 +12234,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 259.08 22.86 0)
+		(at 246.38 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12216,7 +12243,7 @@
 		(fields_autoplaced yes)
 		(uuid "beb8be93-7922-49a7-a8d5-e244fa82ba89")
 		(property "Reference" "#PWR032"
-			(at 259.08 26.67 0)
+			(at 246.38 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12225,7 +12252,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 259.08 17.78 0)
+			(at 246.38 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12233,7 +12260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 22.86 0)
+			(at 246.38 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12242,7 +12269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 22.86 0)
+			(at 246.38 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +12278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 259.08 22.86 0)
+			(at 246.38 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12273,7 +12300,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 262.89 33.02 270)
+		(at 264.16 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12282,7 +12309,7 @@
 		(fields_autoplaced yes)
 		(uuid "bef350d4-4b2f-4942-8462-baa1d35691d2")
 		(property "Reference" "#FLG01"
-			(at 264.795 33.02 0)
+			(at 266.065 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12291,7 +12318,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 266.7 33.0199 90)
+			(at 267.97 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,7 +12327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 33.02 0)
+			(at 264.16 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12309,7 +12336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 33.02 0)
+			(at 264.16 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12318,7 +12345,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 262.89 33.02 0)
+			(at 264.16 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12886,7 +12913,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 45.72 0)
+		(at 246.38 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12895,7 +12922,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcf54faa-0ac4-4b87-bfcb-aad63c31ac71")
 		(property "Reference" "#PWR033"
-			(at 250.19 52.07 0)
+			(at 246.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12904,7 +12931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 50.8 0)
+			(at 246.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12912,7 +12939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 45.72 0)
+			(at 246.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12921,7 +12948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 45.72 0)
+			(at 246.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12930,7 +12957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 45.72 0)
+			(at 246.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13143,6 +13170,73 @@
 			(project "h2-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 257.81 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f665f020-9556-4e3b-b0fb-1d30d8f6fb37")
+		(property "Reference" "F2"
+			(at 257.81 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 257.81 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal"
+			(at 257.81 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d698d30c-bc75-4804-a0e9-69209f601b70")
+		)
+		(pin "2"
+			(uuid "ae6ad19c-a7fb-41dd-abb7-06a778d71c86")
+		)
+		(instances
+			(project "h2-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
+					(reference "F2")
 					(unit 1)
 				)
 			)
