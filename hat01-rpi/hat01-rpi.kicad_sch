@@ -117,6 +117,114 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -4383,156 +4491,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers
@@ -5341,6 +5299,26 @@
 		)
 		(uuid "fca5821e-a3b6-42b3-a2c3-9e259394c71d")
 	)
+	(text_box "Connect test point to ground to manually reset."
+		(exclude_from_sim no)
+		(at 259.08 137.16 0)
+		(size 20.955 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cd50a944-60b9-43a2-a6e3-8f397a043363")
+	)
 	(junction
 		(at 254 95.25)
 		(diameter 0)
@@ -5424,12 +5402,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "790e1b69-1fc9-4704-a14f-79461b29d597")
-	)
-	(junction
-		(at 259.08 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79cbcf47-3286-4e5b-8adc-4f7c050d127a")
 	)
 	(junction
 		(at 69.85 153.67)
@@ -5520,6 +5492,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6a0b569-d595-44ee-9bbb-cd520acd9d39")
+	)
+	(junction
+		(at 259.08 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8874dbc-4199-4850-92a6-4a5f79125ea6")
 	)
 	(junction
 		(at 95.25 43.18)
@@ -6189,16 +6167,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 135.89) (xy 262.89 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9f2d6b-ee02-4b6c-84ac-ee9f7716ac64")
-	)
-	(wire
-		(pts
 			(xy 115.57 163.83) (xy 101.6 163.83)
 		)
 		(stroke
@@ -6799,16 +6767,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 135.89) (xy 276.86 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a54bacdf-e269-4641-be1c-bf8a10eb1ec7")
-	)
-	(wire
-		(pts
 			(xy 147.32 144.78) (xy 157.48 144.78)
 		)
 		(stroke
@@ -6896,16 +6854,6 @@
 			(type default)
 		)
 		(uuid "b37ef8e8-db53-4416-bc60-5d8e646dc28d")
-	)
-	(wire
-		(pts
-			(xy 276.86 135.89) (xy 276.86 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5c6a845-7af9-4376-a72c-15a11c1b4dfb")
 	)
 	(wire
 		(pts
@@ -7106,16 +7054,6 @@
 			(type default)
 		)
 		(uuid "d07235d1-8720-4015-a998-d4f467dc8ba7")
-	)
-	(wire
-		(pts
-			(xy 259.08 135.89) (xy 259.08 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e46127-742c-4bd2-957b-c24e0823686f")
 	)
 	(wire
 		(pts
@@ -7698,6 +7636,73 @@
 		(uuid "fc843871-3ee7-4cca-b9f9-b0d24d10f9c0")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 259.08 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0700fcb6-1b1f-4911-b979-36899f9681c3")
+		(property "Reference" "TP13"
+			(at 264.16 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pad"
+			(at 264.16 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2515_RST"
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2fb3f8c-6058-4725-8e5c-1db81ad89456")
+		)
+		(instances
+			(project "hat01-rpi"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 254 116.84 0)
 		(unit 1)
@@ -7791,7 +7796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 148.082 49.53 90)
 			(effects
 				(font
@@ -7818,16 +7823,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22962"
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Net Label" ""
+		(property "JLCPCB" "C25091"
 			(at 149.86 49.53 0)
 			(effects
 				(font
@@ -7870,7 +7866,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MISO"
+		(property "Value" "Loop"
 			(at 137.16 169.6719 0)
 			(effects
 				(font
@@ -7897,7 +7893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "MISO"
 			(at 134.62 165.1 0)
 			(effects
 				(font
@@ -8015,7 +8011,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GPIO25"
+		(property "Value" "Loop"
 			(at 130.81 186.1819 0)
 			(effects
 				(font
@@ -8042,7 +8038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "GPIO25"
 			(at 128.27 181.61 0)
 			(effects
 				(font
@@ -8168,7 +8164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink"
+		(property "Value" "Fan"
 			(at 257.81 50.1649 0)
 			(effects
 				(font
@@ -8177,7 +8173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:RPi_Fan_Mount"
 			(at 254.3048 50.8 0)
 			(effects
 				(font
@@ -8196,15 +8192,6 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 254 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Net Label" ""
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -8241,7 +8228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "Loop"
 			(at 102.87 150.3679 0)
 			(effects
 				(font
@@ -8268,7 +8255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "GND"
 			(at 100.33 152.4 0)
 			(effects
 				(font
@@ -9290,7 +9277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+		(property "Description" "N_CS"
 			(at 74.93 166.37 0)
 			(effects
 				(font
@@ -9694,7 +9681,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "N_CS"
+		(property "Value" "Loop"
 			(at 162.56 169.6719 0)
 			(effects
 				(font
@@ -9721,7 +9708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "N_CS"
 			(at 160.02 165.1 0)
 			(effects
 				(font
@@ -9922,7 +9909,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "Pad"
 			(at 125.73 150.6219 0)
 			(effects
 				(font
@@ -9931,7 +9918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 118.11 146.05 0)
 			(effects
 				(font
@@ -9940,7 +9927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 118.11 146.05 0)
 			(effects
 				(font
@@ -9949,7 +9936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "+3.3V"
 			(at 123.19 146.05 0)
 			(effects
 				(font
@@ -10084,7 +10071,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAN_RX"
+		(property "Value" "Loop"
 			(at 149.86 150.6219 0)
 			(effects
 				(font
@@ -10111,16 +10098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 147.32 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Net Label" ""
+		(property "Description" "CAN_RX"
 			(at 147.32 146.05 0)
 			(effects
 				(font
@@ -10722,7 +10700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+		(property "Description" "GPIO25"
 			(at 74.93 163.83 0)
 			(effects
 				(font
@@ -11051,82 +11029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 267.97 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "7ddb9207-2242-47a4-b019-7d12596a767b")
-		(property "Reference" "SW1"
-			(at 267.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 267.97 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 267.97 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 267.97 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Net Label" ""
-			(at 267.97 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5b28c62-791c-4fac-8259-ec96a12bc337")
-		)
-		(pin "2"
-			(uuid "a55a16a8-e584-4fa0-8d62-6da55b7ea828")
-		)
-		(instances
-			(project "hat01-rpi"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 133.35 26.67 90)
 		(unit 1)
@@ -11297,7 +11199,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DCDC_VSENSE"
+		(property "Value" "Pad"
 			(at 104.14 169.6719 0)
 			(effects
 				(font
@@ -11306,7 +11208,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 96.52 165.1 0)
 			(effects
 				(font
@@ -11315,7 +11217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 96.52 165.1 0)
 			(effects
 				(font
@@ -11324,7 +11226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "VSENSE"
 			(at 101.6 165.1 0)
 			(effects
 				(font
@@ -12259,7 +12161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 193.04 112.0648 0)
 			(effects
 				(font
@@ -12286,7 +12188,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1653"
+		(property "JLCPCB" "C1555"
 			(at 189.23 113.03 90)
 			(effects
 				(font
@@ -12514,7 +12416,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "Pad"
 			(at 138.43 150.6219 0)
 			(effects
 				(font
@@ -12523,7 +12425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 130.81 146.05 0)
 			(effects
 				(font
@@ -12532,7 +12434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 130.81 146.05 0)
 			(effects
 				(font
@@ -12541,7 +12443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "+24V"
 			(at 135.89 146.05 0)
 			(effects
 				(font
@@ -12646,7 +12548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAN_TX"
+		(property "Value" "Loop"
 			(at 163.83 150.6219 0)
 			(effects
 				(font
@@ -12673,7 +12575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "CAN_TX"
 			(at 161.29 146.05 0)
 			(effects
 				(font
@@ -13316,7 +13218,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "Pad"
 			(at 114.3 150.6219 0)
 			(effects
 				(font
@@ -13325,7 +13227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 106.68 146.05 0)
 			(effects
 				(font
@@ -13334,7 +13236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 106.68 146.05 0)
 			(effects
 				(font
@@ -13343,7 +13245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "+5V"
 			(at 111.76 146.05 0)
 			(effects
 				(font
@@ -13610,7 +13512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 193.04 122.2248 0)
 			(effects
 				(font
@@ -13637,7 +13539,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1653"
+		(property "JLCPCB" "C1555"
 			(at 189.23 123.19 90)
 			(effects
 				(font
@@ -13863,7 +13765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+		(property "Description" "Shield"
 			(at 40.64 102.87 0)
 			(effects
 				(font
@@ -13915,7 +13817,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MOSI"
+		(property "Value" "Loop"
 			(at 124.46 169.6719 0)
 			(effects
 				(font
@@ -13942,7 +13844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "MOSI"
 			(at 121.92 165.1 0)
 			(effects
 				(font
@@ -14482,72 +14384,6 @@
 			(project "hat01-rpi"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 276.86 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e95c5d44-b14e-4df5-b207-2e0f82fd8630")
-		(property "Reference" "#PWR018"
-			(at 276.86 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9b66dbc-545b-4807-a594-2e58de43ee39")
-		)
-		(instances
-			(project "hat01-rpi"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15094,7 +14930,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SCLK"
+		(property "Value" "Loop"
 			(at 149.86 169.6719 0)
 			(effects
 				(font
@@ -15121,7 +14957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "SCLK"
 			(at 147.32 165.1 0)
 			(effects
 				(font
