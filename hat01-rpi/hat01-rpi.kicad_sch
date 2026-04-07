@@ -7,7 +7,7 @@
 	(title_block
 		(title "Main page")
 		(date "2026-04-04")
-		(rev "v1.1.0")
+		(rev "v1.1.1")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -7642,7 +7642,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0700fcb6-1b1f-4911-b979-36899f9681c3")
 		(property "Reference" "TP13"
@@ -8152,7 +8152,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1dd6f51a-9457-4d48-8035-4bc2ceb00ac1")
 		(property "Reference" "HS1"
