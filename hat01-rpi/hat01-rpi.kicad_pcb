@@ -4946,7 +4946,7 @@
 		(descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, thermal vias with large copper area, as proposed in http://www.ti.com/lit/ds/symlink/tps5430.pdf")
 		(tags "HTSOP 1.27")
 		(property "Reference" "U2"
-			(at -4.45 -0.55 180)
+			(at -4.45 -0.55 0)
 			(layer "F.SilkS")
 			(uuid "a3e43ec5-9339-4b0e-98a7-f906d97c0b3a")
 			(effects
@@ -5345,7 +5345,7 @@
 			(uuid "d34bf1fe-dfb1-45a3-af50-b47d606174b5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_P1.27mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9306,15 +9306,15 @@
 			(uuid "f1b90889-3f62-4f9d-a29f-c85765ec31aa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_SPOX_5268-05A_1x05_P2.50mm_Horizontal.step"
+		(model "${EXOCET_PCB_MODELS}/Connectors/Molex/Molex_SPOX_5268-05A_1x05_P2.50mm_Horizontal.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -9.75 1.75)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 -0 -0)
 			)
 		)
 	)
