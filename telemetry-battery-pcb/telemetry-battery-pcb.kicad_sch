@@ -4550,12 +4550,6 @@
 		(uuid "598ee7a4-6272-4406-a770-9a8fecc4430c")
 	)
 	(junction
-		(at 81.28 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "653e6415-a9fe-47ca-b8ea-499189fe1f6a")
-	)
-	(junction
 		(at 142.24 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4590,12 +4584,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83c1d758-3a29-4159-854f-dfc390071bc0")
-	)
-	(junction
-		(at 71.12 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90b74dd7-ca42-427a-9f45-464e0c845af2")
 	)
 	(junction
 		(at 34.29 82.55)
@@ -4955,7 +4943,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 82.55) (xy 81.28 82.55)
+			(xy 80.01 88.9) (xy 87.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5253,16 +5241,6 @@
 		)
 		(uuid "384873d7-e5bc-4b55-8223-a2a4d9a38519")
 	)
-	(wire
-		(pts
-			(xy 72.39 82.55) (xy 71.12 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e21ea7-76b0-420d-ad3c-f54bc4ad3c8d")
-	)
 	(polyline
 		(pts
 			(xy 283.21 86.36) (xy 233.68 86.36)
@@ -5482,16 +5460,6 @@
 			(type default)
 		)
 		(uuid "5460a094-220f-4020-b997-f2056f18d6c9")
-	)
-	(wire
-		(pts
-			(xy 81.28 88.9) (xy 80.01 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55283aeb-9445-4cb1-9206-90e6c1b69d98")
 	)
 	(wire
 		(pts
@@ -5862,16 +5830,6 @@
 			(type default)
 		)
 		(uuid "7611075a-936b-4b7c-97e7-8c1970134b5c")
-	)
-	(wire
-		(pts
-			(xy 71.12 88.9) (xy 72.39 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7738cc50-cdac-4306-9490-8b00a5240431")
 	)
 	(wire
 		(pts
@@ -6335,16 +6293,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 82.55) (xy 81.28 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a862adb8-0baa-4150-9ec7-e488238bd1af")
-	)
-	(wire
-		(pts
 			(xy 154.94 69.85) (xy 154.94 72.39)
 		)
 		(stroke
@@ -6565,16 +6513,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 82.55) (xy 71.12 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0fdeeac-c911-4fd8-9988-ae8c1c899711")
-	)
-	(wire
-		(pts
 			(xy 21.59 124.46) (xy 21.59 125.73)
 		)
 		(stroke
@@ -6635,7 +6573,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 88.9) (xy 71.12 88.9)
+			(xy 68.58 88.9) (xy 72.39 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6872,16 +6810,6 @@
 			(type default)
 		)
 		(uuid "df49a85d-e253-44bd-9a99-3de41b035fa0")
-	)
-	(wire
-		(pts
-			(xy 87.63 88.9) (xy 81.28 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfbd6e54-f515-422f-9c52-8793043bd33a")
 	)
 	(wire
 		(pts
@@ -11339,7 +11267,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 76.2 82.55 90)
+		(at 76.2 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11347,7 +11275,7 @@
 		(dnp yes)
 		(uuid "756e7c91-e437-4cd6-aeeb-ee48504b4bc5")
 		(property "Reference" "F1"
-			(at 76.2 84.582 90)
+			(at 76.2 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,8 +11290,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal"
-			(at 76.2 84.328 90)
+		(property "Footprint" "Exocet:Fuseholder_Littelfuse_Combined"
+			(at 76.2 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11372,7 +11300,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 82.55 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11380,8 +11308,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 76.2 82.55 0)
+		(property "Description" ""
+			(at 76.2 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12407,82 +12335,6 @@
 			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 76.2 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9651f66a-d4ea-4f94-b2fd-914d3493b6e3")
-		(property "Reference" "F2"
-			(at 76.2 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10A"
-			(at 76.2 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Exocet:Fuse_Holder_Littelfuse_01530008"
-			(at 76.2 90.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 76.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C206907"
-			(at 76.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fd3ac76-f5e2-4e31-8e8e-8155dea4e948")
-		)
-		(pin "2"
-			(uuid "6f32e7cd-5b58-4708-8b77-276b2abbd0f7")
-		)
-		(instances
-			(project "telemetry-battery-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "F2")
 					(unit 1)
 				)
 			)
