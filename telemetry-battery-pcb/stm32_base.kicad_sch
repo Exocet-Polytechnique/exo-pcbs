@@ -4503,10 +4503,6 @@
 		(uuid "80f66905-2680-437b-9ebf-f249260804ab")
 	)
 	(no_connect
-		(at 63.5 128.27)
-		(uuid "810742cf-8a75-45f1-82c2-426477453310")
-	)
-	(no_connect
 		(at 63.5 120.65)
 		(uuid "91b49f58-e057-4bad-8486-7dd733bec15a")
 	)
@@ -4549,6 +4545,10 @@
 	(no_connect
 		(at 63.5 123.19)
 		(uuid "dca5afb2-20f4-4ec4-95df-967e0c0facb0")
+	)
+	(no_connect
+		(at 99.06 95.25)
+		(uuid "e46b0fc0-aee1-4cb8-8cb2-ce2dedefea4b")
 	)
 	(no_connect
 		(at 99.06 166.37)
@@ -6383,8 +6383,19 @@
 		)
 		(uuid "24188f7b-a3cd-4445-bf78-79a0935905d1")
 	)
-	(hierarchical_label "~{ALCC}"
+	(hierarchical_label "24V_SNS"
 		(shape input)
+		(at 63.5 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26ae8f8b-2826-4e1c-bed2-ef92f848d73f")
+	)
+	(hierarchical_label "~{ALCC}"
+		(shape bidirectional)
 		(at 63.5 138.43 180)
 		(effects
 			(font
@@ -6394,7 +6405,7 @@
 		)
 		(uuid "34c0f87b-c5ce-4c8e-b7ab-ff49ead37ffb")
 	)
-	(hierarchical_label "24V_nFAULT"
+	(hierarchical_label "24V_~{FAULT}"
 		(shape input)
 		(at 99.06 107.95 0)
 		(effects
@@ -6405,7 +6416,7 @@
 		)
 		(uuid "5ca030ac-e6ed-4b8a-9d14-b46e4c40bd4c")
 	)
-	(hierarchical_label "24V_EN"
+	(hierarchical_label "24V_SWITCH_CTL"
 		(shape output)
 		(at 99.06 110.49 0)
 		(effects
@@ -6438,18 +6449,7 @@
 		)
 		(uuid "f4fa340c-5947-4594-b325-c595937ef0cd")
 	)
-	(hierarchical_label "24V_SNS"
-		(shape input)
-		(at 99.06 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8a44921-4452-47a6-86d7-c285f178ca7f")
-	)
-	(hierarchical_label "open_circuit_control"
+	(hierarchical_label "5V_SWITCH_CTL"
 		(shape output)
 		(at 63.5 140.97 180)
 		(effects
@@ -7183,6 +7183,7 @@
 		)
 		(pin "22"
 			(uuid "069e7bf1-98c9-4c9d-a1f9-94a1ef2bf7b4")
+			(alternate "ADC2_IN5")
 		)
 		(pin "19"
 			(uuid "73c09bbb-a1c4-491f-985c-561d15c6467d")
@@ -7244,7 +7245,6 @@
 		)
 		(pin "12"
 			(uuid "a84b3602-a47d-4dd8-a109-f69209e87169")
-			(alternate "ADC1_IN1")
 		)
 		(pin "41"
 			(uuid "0c6b6a70-226c-49e0-9290-4605da5ac0a2")
