@@ -613,6 +613,18 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switching Frequency",
+          "name": "Switching Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
         }
       ],
       "filter_string": "",

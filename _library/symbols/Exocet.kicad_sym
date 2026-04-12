@@ -1931,31 +1931,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "XR76208"
+			(at 0 15.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Exocet:MaxLinear_XR76208ELTR-F_QFN-30(5x5)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1964,7 +1955,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588913823235784704"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V, 8A, Synchronous Step Down COT Regulator"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1975,26 +1975,18 @@
 		)
 		(symbol "XR76208_1_1"
 			(rectangle
-				(start -10.16 -6.35)
-				(end 8.89 -33.02)
+				(start -8.89 13.97)
+				(end 8.89 -13.97)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(text "XR76208"
-				(at 0 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin power_in line
-				(at -12.7 -8.89 0)
+				(at -11.43 11.43 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -2012,7 +2004,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -12.7 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "EN/MODE"
 					(effects
@@ -2030,7 +2022,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -16.51 0)
+				(at -11.43 3.81 0)
 				(length 2.54)
 				(name "PGOOD"
 					(effects
@@ -2048,7 +2040,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 -20.32 0)
+				(at -11.43 0 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2066,7 +2058,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -24.13 0)
+				(at -11.43 -3.81 0)
 				(length 2.54)
 				(name "SS"
 					(effects
@@ -2084,7 +2076,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -27.94 0)
+				(at -11.43 -7.62 0)
 				(length 2.54)
 				(name "TON"
 					(effects
@@ -2102,7 +2094,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -31.75 0)
+				(at -11.43 -11.43 0)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -2120,7 +2112,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -8.89 180)
+				(at 11.43 11.43 180)
 				(length 2.54)
 				(name "PVIN"
 					(effects
@@ -2138,7 +2130,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -12.7 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "BST"
 					(effects
@@ -2156,7 +2148,7 @@
 				)
 			)
 			(pin power_out line
-				(at 11.43 -16.51 180)
+				(at 11.43 3.81 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -2174,7 +2166,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -22.86 180)
+				(at 11.43 -2.54 180)
 				(length 2.54)
 				(name "ILIM"
 					(effects
@@ -2192,7 +2184,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -26.67 180)
+				(at 11.43 -6.35 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -2210,7 +2202,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -30.48 180)
+				(at 11.43 -10.16 180)
 				(length 2.54)
 				(name "PGND"
 					(effects
