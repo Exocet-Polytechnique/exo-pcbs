@@ -919,20 +919,20 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TPS1HC30-Q1"
+	(symbol "TPS1HTC30-Q1"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 12.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TPS1HC30-Q1"
-			(at 0 0 0)
+		(property "Value" "TPS1HTC30-Q1"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1hc30-q1.pdf?ts=1773507958090"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1htc30-q1.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -957,7 +957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-Channel Automotive Smart High-Side Switch, 30 mΩ, 5 A"
+		(property "Description" "Single-Channel Automotive Smart High-Side Switch, 30 mΩ, 6 A, 6-60 V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -966,10 +966,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS1HC30-Q1_1_1"
+		(symbol "TPS1HTC30-Q1_1_1"
 			(rectangle
-				(start -8.89 -5.08)
-				(end 8.89 -22.86)
+				(start -8.89 8.89)
+				(end 8.89 -8.89)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -978,16 +978,8 @@
 					(type background)
 				)
 			)
-			(text "TPS1HC30-Q1"
-				(at 0.254 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin power_in line
-				(at -11.43 -6.35 0)
+			(pin passive line
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1005,7 +997,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -8.89 0)
+				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -1023,7 +1015,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -11.43 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "DIAG_EN"
 					(effects
@@ -1041,7 +1033,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -13.97 0)
+				(at -11.43 0 0)
 				(length 2.54)
 				(name "~{FAULT}"
 					(effects
@@ -1059,7 +1051,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -16.51 0)
+				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "LATCH"
 					(effects
@@ -1077,7 +1069,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -19.05 0)
+				(at -11.43 -5.08 0)
 				(length 2.54)
 				(name "SNS"
 					(effects
@@ -1094,8 +1086,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -11.43 -21.59 0)
+			(pin passive line
+				(at -11.43 -7.62 0)
 				(length 2.54)
 				(name "ILIM"
 					(effects
@@ -1112,8 +1104,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -25.4 90)
+			(pin passive line
+				(at 0 -11.43 90)
 				(length 2.54)
 				(name "Pad"
 					(effects
@@ -1131,7 +1123,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -8.89 180)
+				(at 11.43 5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "VS"
@@ -1150,7 +1142,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -8.89 180)
+				(at 11.43 5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "VS"
@@ -1169,7 +1161,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -8.89 180)
+				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "VS"
 					(effects
@@ -1187,7 +1179,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 11.43 -13.97 180)
+				(at 11.43 0 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1205,7 +1197,7 @@
 				)
 			)
 			(pin power_out line
-				(at 11.43 -19.05 180)
+				(at 11.43 -5.08 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -1223,7 +1215,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -19.05 180)
+				(at 11.43 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "VOUT"
@@ -1242,7 +1234,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -19.05 180)
+				(at 11.43 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "VOUT"
