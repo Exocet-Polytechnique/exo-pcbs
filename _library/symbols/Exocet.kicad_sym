@@ -814,10 +814,10 @@
 		)
 		(symbol "Network_Connector_1_1"
 			(rectangle
-				(start -3.81 0)
-				(end 3.81 -15.24)
+				(start -5.08 0)
+				(end 5.08 -15.24)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type solid)
 				)
 				(fill
@@ -825,7 +825,7 @@
 				)
 			)
 			(pin power_out line
-				(at 6.35 -2.54 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "+24V"
 					(effects
@@ -841,9 +841,10 @@
 						)
 					)
 				)
+				(alternate "+24V IN" power_in line)
 			)
 			(pin power_out line
-				(at 6.35 -5.08 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "+5V"
 					(effects
@@ -859,9 +860,10 @@
 						)
 					)
 				)
+				(alternate "+5V IN" power_in line)
 			)
 			(pin bidirectional line
-				(at 6.35 -7.62 180)
+				(at 7.62 -7.62 180)
 				(length 2.54)
 				(name "CAN_L"
 					(effects
@@ -879,7 +881,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 -10.16 180)
+				(at 7.62 -10.16 180)
 				(length 2.54)
 				(name "CAN_H"
 					(effects
@@ -897,7 +899,7 @@
 				)
 			)
 			(pin power_out line
-				(at 6.35 -12.7 180)
+				(at 7.62 -12.7 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -929,7 +931,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TPS1HC30-Q1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -937,7 +939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Tps1htc_Exocet_Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
 			(at 0 0 0)
 			(effects
 				(font
@@ -955,7 +957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single-Channel Automotive Smart High-Side Switch, 30 mΩ, 5 A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -969,7 +971,7 @@
 				(start -8.89 -5.08)
 				(end 8.89 -22.86)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type solid)
 				)
 				(fill
@@ -1128,9 +1130,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 11.43 -6.35 180)
+			(pin passive line
+				(at 11.43 -8.89 180)
 				(length 2.54)
+				(hide yes)
 				(name "VS"
 					(effects
 						(font
@@ -1138,7 +1141,26 @@
 						)
 					)
 				)
-				(number "14"
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -8.89 180)
+				(length 2.54)
+				(hide yes)
+				(name "VS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1156,25 +1178,7 @@
 						)
 					)
 				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 11.43 -11.43 180)
-				(length 2.54)
-				(name "VS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1201,7 +1205,7 @@
 				)
 			)
 			(pin power_out line
-				(at 11.43 -16.51 180)
+				(at 11.43 -19.05 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -1218,27 +1222,10 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 11.43 -19.05 180)
 				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 11.43 -21.59 180)
-				(length 2.54)
+				(hide yes)
 				(name "VOUT"
 					(effects
 						(font
@@ -1247,6 +1234,25 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 -19.05 180)
+				(length 2.54)
+				(hide yes)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1359,9 +1365,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 2.54 0)
+			(pin passive line
+				(at -10.16 5.08 0)
 				(length 2.54)
+				(hide yes)
 				(name "VIN"
 					(effects
 						(font
@@ -1378,7 +1385,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "VBIAS"
 					(effects
@@ -1431,9 +1438,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 10.16 5.08 180)
+			(pin passive line
+				(at 10.16 3.81 180)
 				(length 2.54)
+				(hide yes)
 				(name "VOUT"
 					(effects
 						(font
@@ -1441,7 +1449,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1449,9 +1457,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 10.16 2.54 180)
+			(pin passive line
+				(at 10.16 3.81 180)
 				(length 2.54)
+				(hide yes)
 				(name "VOUT"
 					(effects
 						(font
@@ -1468,7 +1477,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 0 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -1477,7 +1486,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1486,7 +1495,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -5.08 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "GND"
 					(effects
