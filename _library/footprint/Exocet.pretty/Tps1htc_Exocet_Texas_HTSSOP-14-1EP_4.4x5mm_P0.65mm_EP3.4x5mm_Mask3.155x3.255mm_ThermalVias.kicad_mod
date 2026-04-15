@@ -433,9 +433,9 @@
 		(size 0.5 0.5)
 		(drill 0.3)
 		(property pad_prop_heatsink)
-		(layers "*.Cu" "B.SilkS")
+		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "044913c3-914f-41f4-8581-c3327b1c16a3")
+		(uuid "4a540530-f5aa-49f2-83dc-196d6749fb56")
 	)
 	(pad "15" thru_hole circle
 		(at -1.1 0)

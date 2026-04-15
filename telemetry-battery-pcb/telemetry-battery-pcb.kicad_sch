@@ -11051,7 +11051,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Loop"
+		(property "Value" "Pad"
 			(at 21.59 174.7519 0)
 			(effects
 				(font
@@ -11060,7 +11060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 13.97 170.18 0)
 			(effects
 				(font
@@ -13527,7 +13527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5V_SWITCH_CTL"
+		(property "Description" "5V_CTL"
 			(at 102.87 170.18 0)
 			(effects
 				(font
@@ -14268,7 +14268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VCC"
+		(property "Description" "+24V"
 			(at 138.43 170.18 0)
 			(effects
 				(font
@@ -14879,7 +14879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SCL"
+		(property "Description" "24V_LATCH"
 			(at 76.2 184.15 0)
 			(effects
 				(font
@@ -15102,7 +15102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "24V_DIAG_ENABLE"
+		(property "Description" "24V_DIAG_EN"
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -16545,7 +16545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SCL"
+		(property "Description" "24V_~{FAULT}"
 			(at 60.96 184.15 0)
 			(effects
 				(font
