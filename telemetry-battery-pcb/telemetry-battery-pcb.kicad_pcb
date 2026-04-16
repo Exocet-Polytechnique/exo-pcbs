@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Base board layout")
-		(date "2026-03-15")
+		(date "2026-04-14")
 		(rev "v1.1.0")
 	)
 	(layers
