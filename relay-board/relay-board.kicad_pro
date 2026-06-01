@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1.1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -666,7 +666,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://drawing_sheet.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -726,7 +726,13 @@
       "Auxiliary Battery Switch"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "AUTHOR": "Daphné H.",
+    "CONTRIBUTORS": "Eliot F.",
+    "PROJECT_CODE": "BRD01",
+    "PROJECT_NAME": "Relay Board",
+    "REVIEWERS": ""
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
