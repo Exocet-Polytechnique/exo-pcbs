@@ -685,7 +685,7 @@
         "uuid": "35014b8f-a7d4-4398-be8d-6f1338f2031d"
       }
     ],
-    "used_designators": "R1-2,U1-2,Q1,J3,D1,D9,#PWR1-2,#PWR28-29,#PWR45",
+    "used_designators": "R1-2,R17-30,U1-2,U17-30,Q1,Q9-15,J3,J10-17,D1,D9,D17-30,#PWR1-2,#PWR28-29,#PWR31-32,#PWR34,#PWR36,#PWR38-40,#PWR42-43,#PWR45-46,#PWR53-76",
     "variants": []
   },
   "sheets": [
@@ -696,6 +696,34 @@
     [
       "65989d85-0060-4114-b0c4-fc52f8337eb4",
       "BOP Switch"
+    ],
+    [
+      "bb3ccbc0-0f13-4d70-9f71-043dbe207865",
+      "Storage Battery Switch"
+    ],
+    [
+      "93dff5de-cf8d-4d72-afeb-69b52fb8c324",
+      "MPPT Precharge Stage 1"
+    ],
+    [
+      "2943c9ec-88d5-4c06-b460-8d9236eed70d",
+      "MPPT Precharge Stage 2"
+    ],
+    [
+      "c2b7cf2b-7ea7-485a-82ca-314c8ae79b50",
+      "Motor Precharge Stage 1"
+    ],
+    [
+      "7f3667be-7854-4a3b-9a02-7c0a9df0ae94",
+      "Motor Precharge Stage 2"
+    ],
+    [
+      "10dd0859-495d-4110-a14e-b8722b710697",
+      "Braking Resistor Switch"
+    ],
+    [
+      "5ec3a6e6-8989-43a5-bce1-8dc0edf3b0f6",
+      "Auxiliary Battery Switch"
     ]
   ],
   "text_variables": {},
