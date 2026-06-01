@@ -2261,7 +2261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b4ffffd-02d4-4a3a-a8e0-c4d0518746a4")
-		(property "Reference" "H2"
+		(property "Reference" "H1"
 			(at 214.3627 127.7074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2322,7 +2322,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2340,7 +2340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18aa31f6-cff1-433a-b480-7445c9c328a5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR01"
 			(at 211.8227 139.1375 0)
 			(hide yes)
 			(show_name no)
@@ -2400,7 +2400,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "#PWR018")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2418,7 +2418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "261e7249-54ac-4fc7-8b99-be83e52e3106")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 214.63 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +2479,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2497,7 +2497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "306b1901-6979-4409-ad44-907353d4e709")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR05"
 			(at 242.57 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -2557,7 +2557,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "#PWR024")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2654,7 +2654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "565986e9-a689-4969-b2ca-9bf59927d5df")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR02"
 			(at 212.09 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2714,7 +2714,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "#PWR017")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2732,7 +2732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6635bfce-412a-49a0-bfd2-d598bed10891")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR03"
 			(at 237.49 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -2792,7 +2792,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "#PWR021")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2889,7 +2889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e00845e-5811-4702-b1e9-cc6a55dd5039")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR07"
 			(at 247.65 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -2949,7 +2949,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "#PWR027")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2967,7 +2967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d05a11ea-6014-4ae1-8c99-694adff16a19")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR08"
 			(at 247.65 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3027,7 +3027,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "#PWR020")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3045,7 +3045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9a07cca-35d9-4414-8715-a24fd3f9f018")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR06"
 			(at 246.147 121.5498 0)
 			(hide yes)
 			(show_name no)
@@ -3105,7 +3105,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "#PWR019")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3123,7 +3123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc53b102-8d93-40d8-875d-366c17eff82e")
-		(property "Reference" "J9"
+		(property "Reference" "J1"
 			(at 257.81 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +3256,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "J9")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3274,7 +3274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dff4fa1c-c583-4562-9183-9bdbc566ac24")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR04"
 			(at 240.03 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3334,7 +3334,7 @@
 		(instances
 			(project "relay-board"
 				(path "/35014b8f-a7d4-4398-be8d-6f1338f2031d"
-					(reference "#PWR030")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
