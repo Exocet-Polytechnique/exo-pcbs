@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -533,7 +533,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://drawing_sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -627,6 +627,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Fuse Size",
+          "name": "Fuse Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIST",
+          "name": "DIST",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -685,7 +709,7 @@
         "uuid": "35014b8f-a7d4-4398-be8d-6f1338f2031d"
       }
     ],
-    "used_designators": "#FLG1-4,TP2-9,R1-16,U1-16,Q1-16,J1-10,H1-4,C14-21,D1-16,#PWR1-52",
+    "used_designators": "H1-4,D1-16,R1-24,#PWR1-48,#FLG1-4,U1-16,Q1-8,F1,J1-18",
     "variants": []
   },
   "sheets": [
