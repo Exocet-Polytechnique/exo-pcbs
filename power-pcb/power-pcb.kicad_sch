@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Overview")
-		(date "2026-05-31")
+		(date "2026-06-13")
 		(rev "v1.1.0")
 	)
 	(lib_symbols
@@ -415,8 +415,8 @@
 		)
 	)
 	(rectangle
-		(start 233.045 120.015)
-		(end 280.035 147.955)
+		(start 128.27 167.64)
+		(end 175.26 196.85)
 		(stroke
 			(width 0)
 			(type dash)
@@ -428,7 +428,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 234.315 121.285 0)
+		(at 129.54 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -579,16 +579,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 106.68 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b23b2cd-cdc6-4b91-8e98-b9d4697f3023")
-	)
-	(wire
-		(pts
 			(xy 147.32 40.64) (xy 157.48 40.64)
 		)
 		(stroke
@@ -716,16 +706,6 @@
 			(type default)
 		)
 		(uuid "977332ad-9c45-4292-bdf3-d792d8160a08")
-	)
-	(wire
-		(pts
-			(xy 93.98 83.82) (xy 106.68 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a064496b-9a89-4b43-a180-d007220a064b")
 	)
 	(wire
 		(pts
@@ -975,7 +955,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 137.16 0)
+		(at 147.32 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -986,7 +966,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c82c581-d721-45b5-aa68-3c77b555d120")
 		(property "Reference" "#PWR02"
-			(at 251.46 143.51 0)
+			(at 147.32 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -997,7 +977,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 142.24 0)
+			(at 147.32 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1007,7 +987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 137.16 0)
+			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1018,7 +998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 137.16 0)
+			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1029,7 +1009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 137.16 0)
+			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1053,7 +1033,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 242.57 134.62 0)
+		(at 138.43 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1063,7 +1043,7 @@
 		(dnp no)
 		(uuid "1dd4336b-018d-4fe6-9497-f7946b447142")
 		(property "Reference" "H1"
-			(at 242.57 126.365 0)
+			(at 138.43 174.625 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1073,7 +1053,7 @@
 			)
 		)
 		(property "Value" "2.7mm"
-			(at 242.57 128.27 0)
+			(at 138.43 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1083,7 +1063,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad"
-			(at 242.57 134.62 0)
+			(at 138.43 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1094,7 +1074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 134.62 0)
+			(at 138.43 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1105,7 +1085,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 242.57 134.62 0)
+			(at 138.43 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1129,7 +1109,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 251.46 134.62 0)
+		(at 147.32 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1139,7 +1119,7 @@
 		(dnp no)
 		(uuid "35f3c4ad-fd3d-4880-849c-a03c6f81cdcd")
 		(property "Reference" "H2"
-			(at 251.46 126.365 0)
+			(at 147.32 174.625 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1149,7 +1129,7 @@
 			)
 		)
 		(property "Value" "2.7mm"
-			(at 251.46 128.27 0)
+			(at 147.32 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1159,7 +1139,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad"
-			(at 251.46 134.62 0)
+			(at 147.32 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1170,7 +1150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 134.62 0)
+			(at 147.32 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1181,7 +1161,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 251.46 134.62 0)
+			(at 147.32 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1205,7 +1185,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 269.24 134.62 0)
+		(at 165.1 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1215,7 +1195,7 @@
 		(dnp no)
 		(uuid "476f25ea-94e0-4f60-b59d-882ce362b3da")
 		(property "Reference" "H4"
-			(at 269.24 126.365 0)
+			(at 165.1 174.625 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1225,7 +1205,7 @@
 			)
 		)
 		(property "Value" "2.7mm"
-			(at 269.24 128.27 0)
+			(at 165.1 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1235,7 +1215,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad"
-			(at 269.24 134.62 0)
+			(at 165.1 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1246,7 +1226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 134.62 0)
+			(at 165.1 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1257,7 +1237,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 269.24 134.62 0)
+			(at 165.1 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1281,7 +1261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 137.16 0)
+		(at 165.1 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1292,7 +1272,7 @@
 		(fields_autoplaced yes)
 		(uuid "722c7cbc-3223-4d4c-bcbd-81856af109ac")
 		(property "Reference" "#PWR04"
-			(at 269.24 143.51 0)
+			(at 165.1 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1303,7 +1283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 142.24 0)
+			(at 165.1 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1313,7 +1293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 137.16 0)
+			(at 165.1 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1324,7 +1304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 137.16 0)
+			(at 165.1 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1335,7 +1315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 137.16 0)
+			(at 165.1 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1359,7 +1339,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 137.16 0)
+		(at 138.43 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1370,7 +1350,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b04e2ad-18e1-4a35-9391-53500bd852b7")
 		(property "Reference" "#PWR01"
-			(at 242.57 143.51 0)
+			(at 138.43 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1381,7 +1361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 142.24 0)
+			(at 138.43 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1391,7 +1371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 137.16 0)
+			(at 138.43 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1402,7 +1382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 137.16 0)
+			(at 138.43 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1413,7 +1393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 137.16 0)
+			(at 138.43 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1437,7 +1417,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 137.16 0)
+		(at 156.21 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1448,7 +1428,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6519b10-479d-483a-852c-897d7a1418cc")
 		(property "Reference" "#PWR03"
-			(at 260.35 143.51 0)
+			(at 156.21 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1459,7 +1439,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 142.24 0)
+			(at 156.21 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1469,7 +1449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 137.16 0)
+			(at 156.21 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1480,7 +1460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 137.16 0)
+			(at 156.21 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1491,7 +1471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 137.16 0)
+			(at 156.21 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1515,7 +1495,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 260.35 134.62 0)
+		(at 156.21 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1525,7 +1505,7 @@
 		(dnp no)
 		(uuid "d611b3e7-1223-4c96-b263-cb10d22ad5e1")
 		(property "Reference" "H3"
-			(at 260.35 126.365 0)
+			(at 156.21 174.625 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1535,7 +1515,7 @@
 			)
 		)
 		(property "Value" "2.7mm"
-			(at 260.35 128.27 0)
+			(at 156.21 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1545,7 +1525,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad"
-			(at 260.35 134.62 0)
+			(at 156.21 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1556,7 +1536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 134.62 0)
+			(at 156.21 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1567,7 +1547,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 260.35 134.62 0)
+			(at 156.21 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,7 +1710,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(page "7")
+					(page "9")
 				)
 			)
 		)
@@ -1762,7 +1742,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "battery_measurement.kicad_sch"
+		(property "Sheetfile" "battery_sensing.kicad_sch"
 			(at 157.48 47.5746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1773,7 +1753,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SCL" bidirectional
+		(pin "SCL" input
 			(at 157.48 40.64 180)
 			(uuid "dff9addb-6ba2-407c-9318-218a5dd89ccb")
 			(effects
@@ -1796,7 +1776,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -1899,7 +1879,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL" bidirectional
+		(pin "SCL" output
 			(at 147.32 40.64 0)
 			(uuid "be5852f5-3834-431d-88ad-5ff90db0a465")
 			(effects
@@ -2189,30 +2169,10 @@
 				(justify left)
 			)
 		)
-		(pin "USB_MUX" output
-			(at 106.68 80.01 180)
-			(uuid "3cbdca6c-7021-48ec-99f2-c1b8e0d3b0b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{USB_EN}" output
-			(at 106.68 83.82 180)
-			(uuid "4863df2b-4a89-4899-9bd7-e1befd702207")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -2348,7 +2308,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -2380,7 +2340,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fuel_cell_connection.kicad_sch"
+		(property "Sheetfile" "isolated_interfaces.kicad_sch"
 			(at 48.26 114.2496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2464,7 +2424,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(page "6")
+					(page "8")
 				)
 			)
 		)
@@ -2496,7 +2456,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "programming_interfaces.kicad_sch"
+		(property "Sheetfile" "non_isolated_interfaces.kicad_sch"
 			(at 48.26 88.8496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2607,16 +2567,6 @@
 				(justify right)
 			)
 		)
-		(pin "USB_MUX" input
-			(at 93.98 80.01 0)
-			(uuid "c74a7646-4663-4182-ac9b-26e0f5aa3019")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VCP_RX" output
 			(at 93.98 63.5 0)
 			(uuid "6bfe23ac-71d0-43bf-88f4-bce83fbb459b")
@@ -2647,20 +2597,10 @@
 				(justify right)
 			)
 		)
-		(pin "~{USB_EN}" input
-			(at 93.98 83.82 0)
-			(uuid "16e21aa9-82f8-466a-a81b-09e6e77f4855")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(page "5")
+					(page "2")
 				)
 			)
 		)
