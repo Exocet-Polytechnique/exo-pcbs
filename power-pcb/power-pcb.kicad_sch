@@ -1808,7 +1808,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "stm32_base.kicad_sch"
+		(property "Sheetfile" "stm32_mcu.kicad_sch"
 			(at 106.68 145.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
