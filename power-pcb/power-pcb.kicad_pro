@@ -279,7 +279,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "ground_pin_not_ground|2044700|1054100|2545bd07-36db-48f7-9ff6-24f66b202930|00000000-0000-0000-0000-000000000000|/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368|/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368|",
+        "GNS_ISO is an isolated \"GND\""
+      ],
+      [
+        "ground_pin_not_ground|2044700|1054100|2545bd07-36db-48f7-9ff6-24f66b202930|00000000-0000-0000-0000-000000000000|/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5|/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5|",
+        "GNS_ISO is an isolated \"GND\""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -468,7 +477,7 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -561,7 +570,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "bom.csv",
     "bom_fmt_presets": [],
@@ -576,7 +585,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": true,
@@ -607,12 +616,6 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
         },
         {
           "group_by": false,
@@ -684,7 +687,13 @@
           "group_by": false,
           "label": "EXCLUDE_FROM_BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -743,10 +752,9 @@
         "uuid": "4b4cf3aa-c94c-4150-b9c5-35049cd71136"
       }
     ],
-    "used_designators": "L4-7,TP12-13,TP16,TP18,TP20-21,TP23,TP25-26,TP38,TP40,TP43-44,TP96-103,R7,R9,R13-15,R20-23,R27-28,R35,J3,J5,J20-21,C22,C25,C27,C29,C31,#PWR24-25,#PWR28-29,#PWR33,#PWR35,#PWR37-38,#PWR41,#PWR46-48,#PWR50,#PWR53-54,#PWR56-57,#PWR81,#FLG3-4,U2,U5,U7,U9,U11,U14,U16-17,F4",
+    "used_designators": "TP1-98,Y1,#PWR1-138,#FLG1-8,#SYM1,H1-4,C1-68,U1-32,D1-16,F1-4,Q1-8,J1-18,JP1-6,R1-55,L1-8,SW1",
     "variants": [
       {
-        "description": "Some components marked as DNP for JLCPCB assembly",
         "name": "JLCPCB"
       }
     ]
@@ -770,7 +778,7 @@
     ],
     [
       "50636587-2815-4d8e-b0bd-5f3d88757853",
-      "Battery Sensors"
+      "Battery Sensing"
     ],
     [
       "82c46a0b-eb43-4701-b45e-f82f376cbba5",
@@ -782,7 +790,19 @@
     ],
     [
       "98c47c69-e753-45d5-a949-1f6e782e8c07",
-      "Fuel Cell and Charge Controller Connections"
+      "Isolated Interfaces"
+    ],
+    [
+      "d07c0ed4-3b58-4869-8743-63525d6d46a2",
+      "Fuel Cell Isolated UART"
+    ],
+    [
+      "2d58b10e-b287-4680-9ee0-dcd6b4903146",
+      "Charge Controller Isolated UART"
+    ],
+    [
+      "be987d2c-a213-4c25-b0fe-9b4345968d50",
+      "Storage Battery Isolated UART"
     ],
     [
       "05adacf9-dba4-4936-b6fe-ec5f18c7259d",

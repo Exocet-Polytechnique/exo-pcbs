@@ -439,7 +439,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 60.96) (xy 157.48 60.96)
+			(xy 147.32 54.61) (xy 157.48 54.61)
 		)
 		(stroke
 			(width 0)
@@ -449,17 +449,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 142.24) (xy 157.48 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1689d000-d7c1-40a4-8894-6e1c4273339c")
-	)
-	(wire
-		(pts
-			(xy 147.32 86.36) (xy 157.48 86.36)
+			(xy 147.32 80.01) (xy 157.48 80.01)
 		)
 		(stroke
 			(width 0)
@@ -469,7 +459,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 106.68 97.79)
+			(xy 93.98 91.44) (xy 106.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 157.48 68.58)
+			(xy 147.32 62.23) (xy 157.48 62.23)
 		)
 		(stroke
 			(width 0)
@@ -489,7 +479,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 97.79) (xy 46.99 97.79)
+			(xy 48.26 91.44) (xy 46.99 91.44)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +499,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 106.68) (xy 154.94 90.17)
+			(xy 93.98 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331a83d7-0548-4e13-b477-41262562b6ba")
+	)
+	(wire
+		(pts
+			(xy 154.94 100.33) (xy 154.94 83.82)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +519,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 81.28) (xy 44.45 100.33)
+			(xy 44.45 74.93) (xy 44.45 93.98)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +529,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 83.82) (xy 48.26 83.82)
+			(xy 46.99 77.47) (xy 48.26 77.47)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 93.98 76.2)
+			(xy 106.68 69.85) (xy 93.98 69.85)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 93.98 71.12)
+			(xy 106.68 64.77) (xy 93.98 64.77)
 		)
 		(stroke
 			(width 0)
@@ -559,7 +559,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 119.38) (xy 157.48 119.38)
+			(xy 147.32 113.03) (xy 157.48 113.03)
 		)
 		(stroke
 			(width 0)
@@ -569,7 +569,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 157.48 124.46)
+			(xy 147.32 118.11) (xy 157.48 118.11)
 		)
 		(stroke
 			(width 0)
@@ -579,7 +579,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 40.64) (xy 157.48 40.64)
+			(xy 147.32 34.29) (xy 157.48 34.29)
 		)
 		(stroke
 			(width 0)
@@ -589,7 +589,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 55.88) (xy 93.98 55.88)
+			(xy 106.68 49.53) (xy 93.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -599,7 +599,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 40.64) (xy 93.98 40.64)
+			(xy 106.68 34.29) (xy 93.98 34.29)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +609,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 157.48 66.04)
+			(xy 147.32 59.69) (xy 157.48 59.69)
 		)
 		(stroke
 			(width 0)
@@ -619,7 +619,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 106.68 104.14)
+			(xy 147.32 138.43) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5bb10d-81df-409e-b591-8723e097e0dd")
+	)
+	(wire
+		(pts
+			(xy 93.98 97.79) (xy 106.68 97.79)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +639,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 157.48 73.66)
+			(xy 147.32 67.31) (xy 157.48 67.31)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 106.68 100.33)
+			(xy 93.98 93.98) (xy 106.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 43.18) (xy 157.48 43.18)
+			(xy 147.32 36.83) (xy 157.48 36.83)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 43.18) (xy 93.98 43.18)
+			(xy 106.68 36.83) (xy 93.98 36.83)
 		)
 		(stroke
 			(width 0)
@@ -669,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 114.3) (xy 157.48 114.3)
+			(xy 147.32 107.95) (xy 157.48 107.95)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 63.5) (xy 93.98 63.5)
+			(xy 106.68 57.15) (xy 93.98 57.15)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 93.98 50.8)
+			(xy 106.68 44.45) (xy 93.98 44.45)
 		)
 		(stroke
 			(width 0)
@@ -699,7 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 97.79) (xy 46.99 83.82)
+			(xy 46.99 91.44) (xy 46.99 77.47)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +719,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 157.48 127)
+			(xy 93.98 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e9eb09-f41b-44a4-b2af-bfc9fb1b0e5c")
+	)
+	(wire
+		(pts
+			(xy 147.32 120.65) (xy 157.48 120.65)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 111.76) (xy 157.48 111.76)
+			(xy 147.32 105.41) (xy 157.48 105.41)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +749,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 134.62) (xy 157.48 134.62)
+			(xy 147.32 128.27) (xy 157.48 128.27)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +759,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 100.33) (xy 48.26 100.33)
+			(xy 147.32 135.89) (xy 157.48 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b560b58e-84fe-4ee6-99ff-9c1a8b0feb33")
+	)
+	(wire
+		(pts
+			(xy 44.45 93.98) (xy 48.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -749,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 81.28) (xy 157.48 81.28)
+			(xy 147.32 74.93) (xy 157.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 93.98 48.26)
+			(xy 106.68 41.91) (xy 93.98 41.91)
 		)
 		(stroke
 			(width 0)
@@ -769,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 154.94 106.68)
+			(xy 157.48 100.33) (xy 154.94 100.33)
 		)
 		(stroke
 			(width 0)
@@ -779,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 81.28) (xy 44.45 81.28)
+			(xy 48.26 74.93) (xy 44.45 74.93)
 		)
 		(stroke
 			(width 0)
@@ -789,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 60.96) (xy 93.98 60.96)
+			(xy 106.68 54.61) (xy 93.98 54.61)
 		)
 		(stroke
 			(width 0)
@@ -799,7 +829,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 132.08) (xy 157.48 132.08)
+			(xy 147.32 125.73) (xy 157.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -809,7 +839,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 90.17) (xy 157.48 90.17)
+			(xy 154.94 83.82) (xy 157.48 83.82)
 		)
 		(stroke
 			(width 0)
@@ -819,7 +849,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 157.48 78.74)
+			(xy 147.32 72.39) (xy 157.48 72.39)
 		)
 		(stroke
 			(width 0)
@@ -829,7 +859,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 139.7) (xy 157.48 139.7)
+			(xy 147.32 133.35) (xy 157.48 133.35)
 		)
 		(stroke
 			(width 0)
@@ -839,7 +869,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 55.88) (xy 157.48 55.88)
+			(xy 147.32 49.53) (xy 157.48 49.53)
 		)
 		(stroke
 			(width 0)
@@ -849,7 +879,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 106.68) (xy 106.68 106.68)
+			(xy 93.98 100.33) (xy 106.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 53.34) (xy 93.98 53.34)
+			(xy 106.68 46.99) (xy 93.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -869,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 93.98 68.58)
+			(xy 106.68 62.23) (xy 93.98 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1103,6 +1133,9 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "H1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -1179,6 +1212,9 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "H2")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -1255,6 +1291,9 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "H4")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -1565,13 +1604,16 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "H3")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 157.48 103.505)
-		(size 36.195 41.275)
+		(at 157.48 97.79)
+		(size 36.195 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1586,7 +1628,7 @@
 		)
 		(uuid "05adacf9-dba4-4936-b6fe-ec5f18c7259d")
 		(property "Sheetname" "Safety Systems"
-			(at 157.48 102.7934 0)
+			(at 157.48 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1597,7 +1639,7 @@
 			)
 		)
 		(property "Sheetfile" "safety_systems.kicad_sch"
-			(at 157.48 145.3646 0)
+			(at 157.48 144.0946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1608,7 +1650,7 @@
 			)
 		)
 		(pin "DMS_STATUS" output
-			(at 157.48 127 180)
+			(at 157.48 120.65 180)
 			(uuid "f9c90d32-f4e6-4fa0-ac5c-91392c4ef53f")
 			(effects
 				(font
@@ -1617,18 +1659,8 @@
 				(justify left)
 			)
 		)
-		(pin "KEY_EN" input
-			(at 157.48 124.46 180)
-			(uuid "868b6e92-3c2f-4534-80e3-700f2fcfd2df")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "THROTTLE" output
-			(at 157.48 119.38 180)
+			(at 157.48 113.03 180)
 			(uuid "0e80f709-dd67-4776-8978-88d737043f0b")
 			(effects
 				(font
@@ -1638,7 +1670,7 @@
 			)
 		)
 		(pin "+24V_CONTACTORS" output
-			(at 157.48 106.68 180)
+			(at 157.48 100.33 180)
 			(uuid "bbc39e73-c892-4c5e-a6eb-9f2835119b03")
 			(effects
 				(font
@@ -1648,7 +1680,7 @@
 			)
 		)
 		(pin "ALARM_FORCE" input
-			(at 157.48 132.08 180)
+			(at 157.48 125.73 180)
 			(uuid "d5de489b-bad0-4b91-b369-474f04e2c732")
 			(effects
 				(font
@@ -1658,7 +1690,7 @@
 			)
 		)
 		(pin "ALARM_STATUS" output
-			(at 157.48 134.62 180)
+			(at 157.48 128.27 180)
 			(uuid "796982c7-2e62-4bc5-ae48-587d2cb26ade")
 			(effects
 				(font
@@ -1668,7 +1700,7 @@
 			)
 		)
 		(pin "IMD_CAN_RX" output
-			(at 157.48 111.76 180)
+			(at 157.48 105.41 180)
 			(uuid "7f9387a9-8f3b-42b7-8ebc-36ba340680cc")
 			(effects
 				(font
@@ -1678,7 +1710,7 @@
 			)
 		)
 		(pin "IMD_CAN_TX" input
-			(at 157.48 114.3 180)
+			(at 157.48 107.95 180)
 			(uuid "a4dca3a7-532f-400a-b0e3-7d644cbac44b")
 			(effects
 				(font
@@ -1687,9 +1719,9 @@
 				(justify left)
 			)
 		)
-		(pin "SIM200_DSO_0" output
-			(at 157.48 139.7 180)
-			(uuid "85fa8a91-6349-4ecf-ae24-803364958f52")
+		(pin "DMS_OUT_EN" input
+			(at 157.48 118.11 180)
+			(uuid "4475b3d2-58e3-4e6d-b953-efe9534155f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,9 +1729,29 @@
 				(justify left)
 			)
 		)
-		(pin "SIM200_DSO_1" output
-			(at 157.48 142.24 180)
-			(uuid "1b5a5a06-ea48-48a2-bef0-167cd6177905")
+		(pin "DMS_LATCH" output
+			(at 157.48 138.43 180)
+			(uuid "9365a7ac-17d4-47de-a0c8-c7e5363b9a39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DMS_RESET" input
+			(at 157.48 133.35 180)
+			(uuid "6babc521-989a-47bf-8bda-119f373640c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{DMS_PULSE_CLR}" input
+			(at 157.48 135.89 180)
+			(uuid "91c9e0f3-ba45-46d4-a1f2-55a3272d3424")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,13 +1762,13 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(page "9")
+					(page "12")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 157.48 36.83)
+		(at 157.48 30.48)
 		(size 36.195 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1731,8 +1783,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "50636587-2815-4d8e-b0bd-5f3d88757853")
-		(property "Sheetname" "Battery Sensors"
-			(at 157.48 36.1184 0)
+		(property "Sheetname" "Battery Sensing"
+			(at 157.48 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1743,7 +1795,7 @@
 			)
 		)
 		(property "Sheetfile" "battery_sensing.kicad_sch"
-			(at 157.48 47.5746 0)
+			(at 157.48 41.2246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1754,7 +1806,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 157.48 40.64 180)
+			(at 157.48 34.29 180)
 			(uuid "dff9addb-6ba2-407c-9318-218a5dd89ccb")
 			(effects
 				(font
@@ -1764,7 +1816,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 157.48 43.18 180)
+			(at 157.48 36.83 180)
 			(uuid "d8192a12-27bd-435a-8a8b-1d9b2475e8b6")
 			(effects
 				(font
@@ -1782,8 +1834,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 36.83)
-		(size 40.64 107.95)
+		(at 106.68 30.48)
+		(size 40.64 113.03)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1798,7 +1850,7 @@
 		)
 		(uuid "7d59fd70-1fff-4c9c-ae77-583b08aef567")
 		(property "Sheetname" "STM32 Microcontroller"
-			(at 106.68 36.1184 0)
+			(at 106.68 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1809,7 +1861,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32_mcu.kicad_sch"
-			(at 106.68 145.3646 0)
+			(at 106.68 144.0946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1820,7 +1872,7 @@
 			)
 		)
 		(pin "CAN_RX" input
-			(at 106.68 40.64 180)
+			(at 106.68 34.29 180)
 			(uuid "ce4177f8-635e-46b2-9c62-db9927ebe016")
 			(effects
 				(font
@@ -1830,7 +1882,7 @@
 			)
 		)
 		(pin "CAN_TX" output
-			(at 106.68 43.18 180)
+			(at 106.68 36.83 180)
 			(uuid "8a3add17-0649-4364-b712-7e251edd8c97")
 			(effects
 				(font
@@ -1840,7 +1892,7 @@
 			)
 		)
 		(pin "JCLK{slash}SWCLK" input
-			(at 106.68 48.26 180)
+			(at 106.68 41.91 180)
 			(uuid "30352307-a44a-4f73-9d07-243c43afcb55")
 			(effects
 				(font
@@ -1850,7 +1902,7 @@
 			)
 		)
 		(pin "JDTO{slash}SWO" output
-			(at 106.68 50.8 180)
+			(at 106.68 44.45 180)
 			(uuid "f1da00e5-be89-43d6-b908-65c247f7ea40")
 			(effects
 				(font
@@ -1860,7 +1912,7 @@
 			)
 		)
 		(pin "JTDI" input
-			(at 106.68 53.34 180)
+			(at 106.68 46.99 180)
 			(uuid "b106ec4e-9d11-434e-8af4-7cfe405b028f")
 			(effects
 				(font
@@ -1870,7 +1922,7 @@
 			)
 		)
 		(pin "JTMS{slash}SWDIO" bidirectional
-			(at 106.68 55.88 180)
+			(at 106.68 49.53 180)
 			(uuid "4009318e-b728-4ce7-8edb-b4546d62e719")
 			(effects
 				(font
@@ -1880,7 +1932,7 @@
 			)
 		)
 		(pin "SCL" output
-			(at 147.32 40.64 0)
+			(at 147.32 34.29 0)
 			(uuid "be5852f5-3834-431d-88ad-5ff90db0a465")
 			(effects
 				(font
@@ -1890,7 +1942,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 147.32 43.18 0)
+			(at 147.32 36.83 0)
 			(uuid "45074b23-4546-4109-8eb1-2c44f89ccb14")
 			(effects
 				(font
@@ -1900,7 +1952,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 106.68 68.58 180)
+			(at 106.68 62.23 180)
 			(uuid "482c29f8-a589-4196-b2dd-2b938a4240bd")
 			(effects
 				(font
@@ -1910,7 +1962,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 106.68 71.12 180)
+			(at 106.68 64.77 180)
 			(uuid "c80105ae-09b8-4e1b-8921-e9f9c7856260")
 			(effects
 				(font
@@ -1920,7 +1972,7 @@
 			)
 		)
 		(pin "VCP_RX" input
-			(at 106.68 63.5 180)
+			(at 106.68 57.15 180)
 			(uuid "4c3b1811-70a5-4a54-ae66-2ef270efbdc9")
 			(effects
 				(font
@@ -1930,7 +1982,7 @@
 			)
 		)
 		(pin "VCP_TX" output
-			(at 106.68 60.96 180)
+			(at 106.68 54.61 180)
 			(uuid "3f1677aa-71f7-478c-bf3f-2507ad41e1b8")
 			(effects
 				(font
@@ -1940,7 +1992,7 @@
 			)
 		)
 		(pin "~{RST}" input
-			(at 106.68 76.2 180)
+			(at 106.68 69.85 180)
 			(uuid "944001dd-aa87-47b4-a5d5-d539792bd573")
 			(effects
 				(font
@@ -1950,7 +2002,7 @@
 			)
 		)
 		(pin "ALARM_FORCE" output
-			(at 147.32 132.08 0)
+			(at 147.32 125.73 0)
 			(uuid "4a166d40-577c-468c-a4af-52712ae784c7")
 			(effects
 				(font
@@ -1960,7 +2012,7 @@
 			)
 		)
 		(pin "ALARM_STATUS" input
-			(at 147.32 134.62 0)
+			(at 147.32 128.27 0)
 			(uuid "06273055-00ac-428c-9e0b-63a54acc715f")
 			(effects
 				(font
@@ -1970,7 +2022,7 @@
 			)
 		)
 		(pin "AUXILIARY_BATTERY_SWITCH" output
-			(at 147.32 73.66 0)
+			(at 147.32 67.31 0)
 			(uuid "2e24b4a1-7afb-4373-a629-7cdb6ac9a0b2")
 			(effects
 				(font
@@ -1980,7 +2032,7 @@
 			)
 		)
 		(pin "BOP_SWITCH" output
-			(at 147.32 55.88 0)
+			(at 147.32 49.53 0)
 			(uuid "af0e0cea-c31f-4eef-ac4d-d775012d8691")
 			(effects
 				(font
@@ -1990,7 +2042,7 @@
 			)
 		)
 		(pin "BRAKING_RESISTOR_SWITCH" output
-			(at 147.32 60.96 0)
+			(at 147.32 54.61 0)
 			(uuid "3f4808c9-5308-4981-98bb-2433afde3de6")
 			(effects
 				(font
@@ -2000,7 +2052,7 @@
 			)
 		)
 		(pin "DMS_STATUS" input
-			(at 147.32 127 0)
+			(at 147.32 120.65 0)
 			(uuid "bd7d878e-5fab-4d28-8a8f-deadca614ff2")
 			(effects
 				(font
@@ -2010,7 +2062,7 @@
 			)
 		)
 		(pin "FC_RX" input
-			(at 106.68 97.79 180)
+			(at 106.68 91.44 180)
 			(uuid "a9bef8a9-409b-485f-95e2-11894d3ff881")
 			(effects
 				(font
@@ -2020,7 +2072,7 @@
 			)
 		)
 		(pin "FC_TX" output
-			(at 106.68 100.33 180)
+			(at 106.68 93.98 180)
 			(uuid "3221c47f-3a7a-4efe-811d-cae5cd9918de")
 			(effects
 				(font
@@ -2030,7 +2082,7 @@
 			)
 		)
 		(pin "IMD_CAN_RX" input
-			(at 147.32 111.76 0)
+			(at 147.32 105.41 0)
 			(uuid "491d3869-4d6d-4469-803a-47f827ae5a4d")
 			(effects
 				(font
@@ -2040,7 +2092,7 @@
 			)
 		)
 		(pin "IMD_CAN_TX" output
-			(at 147.32 114.3 0)
+			(at 147.32 107.95 0)
 			(uuid "53a2ccbe-be23-4a4a-9cde-193745c9e3a0")
 			(effects
 				(font
@@ -2049,18 +2101,8 @@
 				(justify right)
 			)
 		)
-		(pin "KEY_EN" output
-			(at 147.32 124.46 0)
-			(uuid "06eb76fd-ed01-4e14-9404-e3657e13fb1f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MOTOR_PRECHARGE_STAGE_1" output
-			(at 147.32 66.04 0)
+			(at 147.32 59.69 0)
 			(uuid "392589d4-5386-4cfb-aed7-b31f18d8c2b6")
 			(effects
 				(font
@@ -2070,7 +2112,7 @@
 			)
 		)
 		(pin "MOTOR_PRECHARGE_STAGE_2" output
-			(at 147.32 68.58 0)
+			(at 147.32 62.23 0)
 			(uuid "47229581-b48d-493e-805e-58b9e98554c0")
 			(effects
 				(font
@@ -2080,7 +2122,7 @@
 			)
 		)
 		(pin "MPPT_PRECHARGE_STAGE_1" output
-			(at 147.32 78.74 0)
+			(at 147.32 72.39 0)
 			(uuid "a0d53407-0c9a-414a-b487-709ceaea5c04")
 			(effects
 				(font
@@ -2090,7 +2132,7 @@
 			)
 		)
 		(pin "MPPT_PRECHARGE_STAGE_2" output
-			(at 147.32 81.28 0)
+			(at 147.32 74.93 0)
 			(uuid "0b0d2d2f-22e4-4ce3-92a8-75c33842c211")
 			(effects
 				(font
@@ -2100,7 +2142,7 @@
 			)
 		)
 		(pin "MPPT_RX" input
-			(at 106.68 104.14 180)
+			(at 106.68 97.79 180)
 			(uuid "f95cd50a-18e2-4973-9fc8-e7b19d717a38")
 			(effects
 				(font
@@ -2110,7 +2152,7 @@
 			)
 		)
 		(pin "MPPT_TX" output
-			(at 106.68 106.68 180)
+			(at 106.68 100.33 180)
 			(uuid "2a448547-5006-48e6-b054-fb6638a0b670")
 			(effects
 				(font
@@ -2119,28 +2161,8 @@
 				(justify left)
 			)
 		)
-		(pin "SIM200_DSO_0" input
-			(at 147.32 139.7 0)
-			(uuid "a992031e-9ac6-46b8-bd3c-6488b88807ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SIM200_DSO_1" input
-			(at 147.32 142.24 0)
-			(uuid "f02235dc-580a-4718-9439-e589b44effa0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "STORAGE_BATTERY_SWITCH" output
-			(at 147.32 86.36 0)
+			(at 147.32 80.01 0)
 			(uuid "40466a65-b72c-4299-87af-5ccf3e3ef519")
 			(effects
 				(font
@@ -2150,7 +2172,7 @@
 			)
 		)
 		(pin "THROTTLE" input
-			(at 147.32 119.38 0)
+			(at 147.32 113.03 0)
 			(uuid "b9f81cd0-b3e8-4e2d-8285-4488d05f18c8")
 			(effects
 				(font
@@ -2169,6 +2191,66 @@
 				(justify left)
 			)
 		)
+		(pin "DMS_OUT_EN" output
+			(at 147.32 118.11 0)
+			(uuid "72165187-fd6a-4864-badd-7dfa79a7f064")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STORAGE_BATT_RX" input
+			(at 106.68 104.14 180)
+			(uuid "556ec48d-9d55-46be-89ae-a42b8a7a2720")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STORAGE_BATT_TX" output
+			(at 106.68 106.68 180)
+			(uuid "e20fb342-ec4a-4491-a05f-064ac3a50d26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DMS_LATCH" input
+			(at 147.32 138.43 0)
+			(uuid "ade66b08-3a44-4d46-951b-a30d205b9b1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DMS_RESET" output
+			(at 147.32 133.35 0)
+			(uuid "2aeca93f-6010-4058-a62c-e9d9c3da6fcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DMS_PULSE_CLEAR" output
+			(at 147.32 135.89 0)
+			(uuid "7e7369b0-5d0a-4bef-a8bb-b28566a814cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
@@ -2178,8 +2260,8 @@
 		)
 	)
 	(sheet
-		(at 157.48 53.34)
-		(size 36.195 42.545)
+		(at 157.48 46.99)
+		(size 36.195 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2194,7 +2276,7 @@
 		)
 		(uuid "9838bcc9-e766-495a-ad52-0ec70b90713f")
 		(property "Sheetname" "Relay Board Connection"
-			(at 157.48 52.6284 0)
+			(at 157.48 46.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2205,7 +2287,7 @@
 			)
 		)
 		(property "Sheetfile" "relay_board_connection.kicad_sch"
-			(at 157.48 96.4696 0)
+			(at 157.48 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2216,7 +2298,7 @@
 			)
 		)
 		(pin "STORAGE_BATTERY_SWITCH" input
-			(at 157.48 86.36 180)
+			(at 157.48 80.01 180)
 			(uuid "94aebd12-afa8-4003-a0e3-dad6300eee66")
 			(effects
 				(font
@@ -2226,7 +2308,7 @@
 			)
 		)
 		(pin "DC_DC_PRECHARGE_STAGE_2" input
-			(at 157.48 81.28 180)
+			(at 157.48 74.93 180)
 			(uuid "2693e1e4-43e8-4593-95c7-9215cdc46b1f")
 			(effects
 				(font
@@ -2236,7 +2318,7 @@
 			)
 		)
 		(pin "DC_DC_PRECHARGE_STAGE_1" input
-			(at 157.48 78.74 180)
+			(at 157.48 72.39 180)
 			(uuid "7f02f002-6423-4bfd-a6c0-23f483d2df0f")
 			(effects
 				(font
@@ -2246,7 +2328,7 @@
 			)
 		)
 		(pin "AUXILIARY_BATTERY_SWITCH" input
-			(at 157.48 73.66 180)
+			(at 157.48 67.31 180)
 			(uuid "8a04f43b-18c9-4b52-aceb-6944beda5ba5")
 			(effects
 				(font
@@ -2256,7 +2338,7 @@
 			)
 		)
 		(pin "MOTOR_PRECHARGE_STAGE_2" input
-			(at 157.48 68.58 180)
+			(at 157.48 62.23 180)
 			(uuid "f5d6727e-e7be-4060-971b-3062facc4689")
 			(effects
 				(font
@@ -2266,7 +2348,7 @@
 			)
 		)
 		(pin "MOTOR_PRECHARGE_STAGE_1" input
-			(at 157.48 66.04 180)
+			(at 157.48 59.69 180)
 			(uuid "e4c58e0e-f1e7-4b1b-b04a-b2ce844a709a")
 			(effects
 				(font
@@ -2276,7 +2358,7 @@
 			)
 		)
 		(pin "BRAKING_RESISTOR_SWITCH" input
-			(at 157.48 60.96 180)
+			(at 157.48 54.61 180)
 			(uuid "27f2aa4a-6005-454f-8a23-21da3a8fd99f")
 			(effects
 				(font
@@ -2286,7 +2368,7 @@
 			)
 		)
 		(pin "BOP_SWITCH" input
-			(at 157.48 55.88 180)
+			(at 157.48 49.53 180)
 			(uuid "b7f3e4a5-a228-43ba-bb8e-1b137dd9d04e")
 			(effects
 				(font
@@ -2296,7 +2378,7 @@
 			)
 		)
 		(pin "+24V_CONTACTORS" input
-			(at 157.48 90.17 180)
+			(at 157.48 83.82 180)
 			(uuid "9c3fe9a5-c6fa-49d5-a504-b2f03a97a54b")
 			(effects
 				(font
@@ -2314,8 +2396,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 94.615)
-		(size 45.72 19.05)
+		(at 48.26 87.63)
+		(size 45.72 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2329,8 +2411,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "98c47c69-e753-45d5-a949-1f6e782e8c07")
-		(property "Sheetname" "Fuel Cell and Charge Controller Connections"
-			(at 48.26 93.9034 0)
+		(property "Sheetname" "Isolated Interfaces"
+			(at 48.26 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2341,7 +2423,7 @@
 			)
 		)
 		(property "Sheetfile" "isolated_interfaces.kicad_sch"
-			(at 48.26 114.2496 0)
+			(at 48.26 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2352,7 +2434,7 @@
 			)
 		)
 		(pin "FC_D+" bidirectional
-			(at 48.26 100.33 180)
+			(at 48.26 93.98 180)
 			(uuid "8eedfc78-6506-4c40-99cf-149f31a18a23")
 			(effects
 				(font
@@ -2362,7 +2444,7 @@
 			)
 		)
 		(pin "FC_D-" bidirectional
-			(at 48.26 97.79 180)
+			(at 48.26 91.44 180)
 			(uuid "7be0c265-b582-4cd6-92a9-6e004b0b3348")
 			(effects
 				(font
@@ -2372,7 +2454,7 @@
 			)
 		)
 		(pin "FC_RX" output
-			(at 93.98 97.79 0)
+			(at 93.98 91.44 0)
 			(uuid "e4523de9-49ba-41e4-bd40-7fe78c323afc")
 			(effects
 				(font
@@ -2382,7 +2464,7 @@
 			)
 		)
 		(pin "FC_TX" input
-			(at 93.98 100.33 0)
+			(at 93.98 93.98 0)
 			(uuid "f2f505aa-1096-4a70-9a13-88818eb86219")
 			(effects
 				(font
@@ -2392,7 +2474,7 @@
 			)
 		)
 		(pin "MPPT_RX" output
-			(at 93.98 104.14 0)
+			(at 93.98 97.79 0)
 			(uuid "9dd6639d-d837-4549-ac70-6b5186510b49")
 			(effects
 				(font
@@ -2402,7 +2484,7 @@
 			)
 		)
 		(pin "MPPT_TX" input
-			(at 93.98 106.68 0)
+			(at 93.98 100.33 0)
 			(uuid "b31c589d-2d1b-4b36-a278-6ea78e2800df")
 			(effects
 				(font
@@ -2421,6 +2503,26 @@
 				(justify right)
 			)
 		)
+		(pin "STORAGE_BATT_TX" input
+			(at 93.98 106.68 0)
+			(uuid "81283a64-58d1-407e-864a-06e73cd84d58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STORAGE_BATT_RX" output
+			(at 93.98 104.14 0)
+			(uuid "1cf0fe64-99fe-4e3e-92d1-00e31a633a7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
@@ -2430,8 +2532,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 36.83)
-		(size 45.72 51.435)
+		(at 48.26 30.48)
+		(size 45.72 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2446,7 +2548,7 @@
 		)
 		(uuid "d2b1a814-a8ab-491d-a39f-63fa9799b0cb")
 		(property "Sheetname" "Non-Isolated Interfaces and Power"
-			(at 48.26 36.1184 0)
+			(at 48.26 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2457,7 +2559,7 @@
 			)
 		)
 		(property "Sheetfile" "non_isolated_interfaces.kicad_sch"
-			(at 48.26 88.8496 0)
+			(at 48.26 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2468,7 +2570,7 @@
 			)
 		)
 		(pin "CAN_RX" output
-			(at 93.98 40.64 0)
+			(at 93.98 34.29 0)
 			(uuid "4623a56c-eb93-4e08-a01d-f501595ed2d3")
 			(effects
 				(font
@@ -2478,7 +2580,7 @@
 			)
 		)
 		(pin "CAN_TX" input
-			(at 93.98 43.18 0)
+			(at 93.98 36.83 0)
 			(uuid "30f54e4a-9295-45e2-b417-538c6a669f4d")
 			(effects
 				(font
@@ -2488,7 +2590,7 @@
 			)
 		)
 		(pin "FC_D+" input
-			(at 48.26 81.28 180)
+			(at 48.26 74.93 180)
 			(uuid "037c6ba9-9d7d-476a-b8bc-de0769a9b6d3")
 			(effects
 				(font
@@ -2498,7 +2600,7 @@
 			)
 		)
 		(pin "FC_D-" input
-			(at 48.26 83.82 180)
+			(at 48.26 77.47 180)
 			(uuid "c800c251-f26b-4230-a0a1-f4297cca6433")
 			(effects
 				(font
@@ -2508,7 +2610,7 @@
 			)
 		)
 		(pin "JCLK{slash}SWCLK" output
-			(at 93.98 48.26 0)
+			(at 93.98 41.91 0)
 			(uuid "d0c519f7-24be-4e70-9dcd-a30813c00a28")
 			(effects
 				(font
@@ -2518,7 +2620,7 @@
 			)
 		)
 		(pin "JTDI" output
-			(at 93.98 53.34 0)
+			(at 93.98 46.99 0)
 			(uuid "b053890d-560b-4ed9-9e11-5d797210fee5")
 			(effects
 				(font
@@ -2528,7 +2630,7 @@
 			)
 		)
 		(pin "JTDO{slash}SWO" input
-			(at 93.98 50.8 0)
+			(at 93.98 44.45 0)
 			(uuid "34a37107-d701-4baa-a4b9-f021385e2407")
 			(effects
 				(font
@@ -2538,7 +2640,7 @@
 			)
 		)
 		(pin "JTMS{slash}SWDIO" bidirectional
-			(at 93.98 55.88 0)
+			(at 93.98 49.53 0)
 			(uuid "b68d682f-1d7e-41b1-b960-0f2099037bc9")
 			(effects
 				(font
@@ -2548,7 +2650,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 93.98 68.58 0)
+			(at 93.98 62.23 0)
 			(uuid "cb01bc2f-ec29-44a7-8ec8-3de5946c6023")
 			(effects
 				(font
@@ -2558,7 +2660,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 93.98 71.12 0)
+			(at 93.98 64.77 0)
 			(uuid "7da664c5-cd88-487a-8e47-c6a3e47946cb")
 			(effects
 				(font
@@ -2568,7 +2670,7 @@
 			)
 		)
 		(pin "VCP_RX" output
-			(at 93.98 63.5 0)
+			(at 93.98 57.15 0)
 			(uuid "6bfe23ac-71d0-43bf-88f4-bce83fbb459b")
 			(effects
 				(font
@@ -2578,7 +2680,7 @@
 			)
 		)
 		(pin "VCP_TX" input
-			(at 93.98 60.96 0)
+			(at 93.98 54.61 0)
 			(uuid "e3df5596-c6ef-47bc-903d-2f2daabeb258")
 			(effects
 				(font
@@ -2588,7 +2690,7 @@
 			)
 		)
 		(pin "~{RST}" output
-			(at 93.98 76.2 0)
+			(at 93.98 69.85 0)
 			(uuid "54f05286-c860-4ed7-98a5-e5a431eb3751")
 			(effects
 				(font
