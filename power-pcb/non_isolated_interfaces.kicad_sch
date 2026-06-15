@@ -9028,7 +9028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04db7b6a-e28b-4da7-94bf-7aa066ee91da")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 59.69 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9104,7 +9104,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -9928,7 +9928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19271722-09e9-44ef-801c-87c92e83bc3d")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 73.66 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10013,7 +10013,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -12794,7 +12794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d90157f-84c3-471d-86d6-debed2b9dc4d")
-		(property "Reference" "D6"
+		(property "Reference" "D8"
 			(at 105.7275 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12867,7 +12867,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "D6")
+					(reference "D8")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -15018,7 +15018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e81448a-820e-4456-8cdd-778170b38b57")
-		(property "Reference" "D?"
+		(property "Reference" "D6"
 			(at 39.37 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15093,7 +15093,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "D?")
+					(reference "D6")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -15318,7 +15318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7b47e57-e947-4e56-b451-06896989dd69")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 76.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15378,7 +15378,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15818,7 +15818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b769e0df-bc45-42b7-92aa-7f33b56b7a5a")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 155.575 183.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15911,7 +15911,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -16552,7 +16552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0ec9b6b-491f-40e1-a8c3-1887098bec0b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 60.96 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16612,7 +16612,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16708,7 +16708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4a0092b-ab1c-47d8-b01d-f1de80e7b304")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16768,7 +16768,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17010,7 +17010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e020aef0-61c5-4c65-a401-fe673f7cecc6")
-		(property "Reference" "D?"
+		(property "Reference" "D7"
 			(at 49.53 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17085,7 +17085,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "D?")
+					(reference "D7")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17262,7 +17262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e76a53f3-d3ad-4cf9-95f3-326a2c63ea07")
-		(property "Reference" "D7"
+		(property "Reference" "D9"
 			(at 66.04 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17337,7 +17337,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/d2b1a814-a8ab-491d-a39f-63fa9799b0cb"
-					(reference "D7")
+					(reference "D9")
 					(unit 1)
 					(variant
 						(name "JLCPCB")

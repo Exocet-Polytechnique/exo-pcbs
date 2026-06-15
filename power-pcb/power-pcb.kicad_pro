@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|204120000|45667500|8e0e20d1-0776-47a8-b912-aeb11efa481b|00000000-0000-0000-0000-000000000000",
-          "Added triangle to indicate pin 1"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
