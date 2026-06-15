@@ -675,13 +675,13 @@
           "group_by": false,
           "label": "MFR",
           "name": "MFR",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -752,7 +752,7 @@
         "uuid": "4b4cf3aa-c94c-4150-b9c5-35049cd71136"
       }
     ],
-    "used_designators": "TP1-98,Y1,#PWR1-138,#FLG1-8,#SYM1,H1-4,C1-68,U1-32,D1-16,F1-4,Q1-8,J1-18,JP1-6,R1-55,L1-8,SW1",
+    "used_designators": "TP1-99,#FLG1-8,Y1,#PWR1-136,C1-67,U1-32,D1-16,F1-4,Q1-8,H1-4,J1-18,JP1-6,R1-55,L1-8,SW1,SYM1",
     "variants": [
       {
         "name": "JLCPCB"

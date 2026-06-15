@@ -1,0 +1,194 @@
+(footprint "Wuerth_Term_Blk_6pos_Side_Entry_5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 12.5 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c2687525-5911-4b90-877b-0b92ed06b58b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Wuerth_Term_Blk_6pos_Side_Entry_5mm"
+		(at 12.5 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9e4b585d-35ad-4b17-8673-33536d1c98f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ffb6992-0af4-4120-b04d-a63dd6ca0fcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0faf9110-520b-4558-9164-24d0cc4efd33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -3.5)
+		(end -2.5 4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e02e9d34-02fe-47cd-a56b-467e5c207bea")
+	)
+	(fp_line
+		(start 27.5 -3.5)
+		(end -2.5 -3.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ea99d10-a937-449f-b6fb-b92556bae905")
+	)
+	(fp_line
+		(start 27.5 -3)
+		(end -2.5 -3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dafebe4a-1235-4133-b882-f610dd37c8e1")
+	)
+	(fp_line
+		(start 27.5 4)
+		(end 27.5 -3.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ac6f4c1-dec3-46a9-b37d-d03c535110a2")
+	)
+	(fp_poly
+		(pts
+			(xy -3.2 3) (xy -3.7 2.5) (xy -3.7 3.5)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "de3483dc-5dc5-4faa-b9c8-9f3a0f059442")
+	)
+	(fp_rect
+		(start -2.6 -3.6)
+		(end 27.6 4.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "65c44ed6-dc59-45cd-8aba-00f2d467ab9e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.5 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "625bc923-d47a-4712-9330-1b9b5f992230")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "935d8331-b2aa-457c-91f7-ebacd49102ba")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "479bacdc-d473-4ee9-ad78-06bb8c8f1258")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "635c4c40-fe30-40d3-a5b0-0890c7dc0fd5")
+	)
+	(pad "4" thru_hole circle
+		(at 15 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "420e6c16-3269-4baa-8f64-826f6eddef70")
+	)
+	(pad "5" thru_hole circle
+		(at 20 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5cc78914-d480-4140-90a9-051c6bd73e5f")
+	)
+	(pad "6" thru_hole circle
+		(at 25 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2922482a-ccd0-4a86-ae3b-ac01e7e1abb6")
+	)
+	(embedded_fonts no)
+	(model "${EXOCET_PCB_MODELS}/Connectors/Wurth/Wurth_Term_Blk_2pos_Side_Entry_5mm.stp"
+		(offset
+			(xyz -5 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

@@ -3389,6 +3389,17 @@
 		)
 		(uuid "1f1f371b-cf8e-46d9-afde-796f31a0a2f5")
 	)
+	(text "Pin 42 is 5V-tolerant"
+		(exclude_from_sim no)
+		(at 133.35 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32f03813-a54e-48b1-a0a0-8f2af30f7b50")
+	)
 	(text "Status LEDs"
 		(exclude_from_sim no)
 		(at 13.97 149.86 0)
@@ -6134,7 +6145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 71.1199 90)
 			(hide yes)
 			(show_name no)
@@ -6168,7 +6179,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6612,7 +6623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 103.1748 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6634,7 +6645,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V X5R ±10%"
 			(at 104.14 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6645,7 +6656,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C377773"
 			(at 104.14 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6958,7 +6969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 17.272 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -6980,7 +6991,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 19.05 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6991,7 +7002,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C11702"
 			(at 19.05 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7042,7 +7053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 106.6799 90)
 			(hide yes)
 			(show_name no)
@@ -7076,7 +7087,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7111,7 +7122,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a4ac488-269b-4689-bf40-1c3acb55ea68")
 		(property "Reference" "SW1"
@@ -7169,6 +7180,28 @@
 				)
 			)
 		)
+		(property "MFR" "TE Connectivity"
+			(at 87.63 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1825910-6"
+			(at 87.63 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a06d0d0c-a991-46d3-81bc-bd4e88e9434a")
 		)
@@ -7182,6 +7215,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 			)
@@ -7403,7 +7437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -7436,7 +7470,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25744"
+		(property "JLCPCB" "C25804"
 			(at 140.97 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7755,7 +7789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 91.4399 90)
 			(hide yes)
 			(show_name no)
@@ -7789,7 +7823,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7940,7 +7974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 148.59 51.1048 0)
 			(hide yes)
 			(show_name no)
@@ -7973,7 +8007,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C57112"
+		(property "JLCPCB" "C15195"
 			(at 144.78 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8235,7 +8269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +8291,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 128.27 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8399,7 +8433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 104.1399 90)
 			(hide yes)
 			(show_name no)
@@ -8433,7 +8467,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8547,7 +8581,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a5b7f99b-bd35-420b-ad6b-e33c030368c1")
 		(property "Reference" "JP4"
 			(at 153.67 107.95 90)
@@ -8572,7 +8606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 151.13 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8605,6 +8639,28 @@
 				)
 			)
 		)
+		(property "MFR" "METZ CONNECT USA Inc."
+			(at 151.13 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PR20203VBNN"
+			(at 151.13 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "80c4bba1-a6a1-4e8d-9c7d-5f6a684e141d")
 		)
@@ -8621,6 +8677,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 			)
@@ -8657,7 +8714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -8914,7 +8971,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5121"
+		(property "Value" "Green"
 			(at 31.75 97.2819 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8925,7 +8982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 24.13 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8947,7 +9004,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 29.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5121"
+			(at 29.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 29.21 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9099,7 +9178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 166.37 34.5948 0)
 			(hide yes)
 			(show_name no)
@@ -9132,7 +9211,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C57112"
+		(property "JLCPCB" "C15195"
 			(at 162.56 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9195,7 +9274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.782 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -9218,6 +9297,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 35.56 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C13167"
 			(at 35.56 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9440,7 +9530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 93.9799 90)
 			(hide yes)
 			(show_name no)
@@ -9474,7 +9564,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9706,7 +9796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 23.622 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -9729,6 +9819,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.4 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C13167"
 			(at 25.4 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9779,7 +9880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 88.8999 90)
 			(hide yes)
 			(show_name no)
@@ -9813,7 +9914,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9861,7 +9962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 126.9999 90)
 			(hide yes)
 			(show_name no)
@@ -9895,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10039,7 +10140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 101.5999 90)
 			(hide yes)
 			(show_name no)
@@ -10073,7 +10174,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10121,7 +10222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 111.7599 90)
 			(hide yes)
 			(show_name no)
@@ -10155,7 +10256,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10281,7 +10382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 121.92 124.4599 90)
 			(hide yes)
 			(show_name no)
@@ -10315,7 +10416,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 116.84 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10364,7 +10465,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5009"
+		(property "Value" "Yellow"
 			(at 41.91 97.2819 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10375,7 +10476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 34.29 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10397,7 +10498,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 39.37 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5009"
+			(at 39.37 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 39.37 92.71 0)
 			(hide yes)
 			(show_name no)

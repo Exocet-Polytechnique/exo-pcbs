@@ -2712,7 +2712,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5009"
+		(property "Value" "Yellow"
 			(at 160.02 27.1779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2723,7 +2723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 162.56 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2745,7 +2745,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5009"
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 157.48 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2808,7 +2830,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5121"
+		(property "Value" "Green"
 			(at 50.8 46.4819 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +2841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 43.18 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2841,7 +2863,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 48.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5121"
+			(at 48.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2904,7 +2948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5009"
+		(property "Value" "Yellow"
 			(at 50.8 32.2579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2915,7 +2959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 53.34 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2937,7 +2981,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 48.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5009"
+			(at 48.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 48.26 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3010,7 +3076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Wuerth_Term_Blk_4pos_Side_Entry_5mm"
 			(at 25.4 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3033,6 +3099,28 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 25.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Wuerth Eletronik"
+			(at 25.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "691137710004"
 			(at 25.4 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3386,7 +3474,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5121"
+		(property "Value" "Green"
 			(at 160.02 46.4819 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3397,7 +3485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 152.4 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3419,7 +3507,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 157.48 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5121"
+			(at 157.48 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 157.48 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3591,7 +3701,7 @@
 				)
 			)
 		)
-		(property "Value" "ADuM1201AR"
+		(property "Value" "ADUM1201AR"
 			(at 130.81 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3625,6 +3735,17 @@
 			)
 		)
 		(property "Description" "Dual-channel digital isolator, bidirectional communication, 3V/5V level translation, SOIC-8"
+			(at 130.81 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C9669"
 			(at 130.81 35.56 0)
 			(hide yes)
 			(show_name no)

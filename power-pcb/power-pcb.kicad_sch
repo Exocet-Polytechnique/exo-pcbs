@@ -919,7 +919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a5fcb3-c690-476c-bcce-c9b43e8c356b")
-		(property "Reference" "#SYM1"
+		(property "Reference" "SYM1"
 			(at 21.59 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -977,7 +977,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "#SYM1")
+					(reference "SYM1")
 					(unit 1)
 				)
 			)

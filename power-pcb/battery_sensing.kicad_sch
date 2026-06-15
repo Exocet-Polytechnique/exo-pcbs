@@ -2314,7 +2314,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "08fd050c-8d94-4dfc-a12d-7bc6d113cf5e")
 		(property "Reference" "C37"
 			(at 60.96 73.6599 0)
@@ -2407,6 +2407,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp no)
 					)
 				)
 			)
@@ -2979,6 +2980,28 @@
 				)
 			)
 		)
+		(property "MFR" "Recom Power"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RFM-0505S"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c2364e02-111b-4996-82aa-0d12810e3c61")
 		)
@@ -3068,6 +3091,28 @@
 				)
 			)
 		)
+		(property "MFR" "Recom Power"
+			(at 33.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RFM-0505S"
+			(at 33.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "aff97193-16c9-43bc-b267-a412ca0eff0a")
 		)
@@ -3127,7 +3172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 184.658 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -3150,6 +3195,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 182.88 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C4190"
 			(at 182.88 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3298,7 +3354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5005"
+		(property "Value" "Red"
 			(at 49.53 67.8179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3309,7 +3365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 52.07 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3331,7 +3387,29 @@
 				)
 			)
 		)
-		(property "Description" "PC TEST POINT COMPACT RED"
+		(property "Description" "Test Point"
+			(at 46.99 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5005"
+			(at 46.99 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 46.99 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3487,7 +3565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5005"
+		(property "Value" "Red"
 			(at 49.53 25.9079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3498,7 +3576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3520,7 +3598,29 @@
 				)
 			)
 		)
-		(property "Description" "PC TEST POINT COMPACT RED"
+		(property "Description" "Test Point"
+			(at 46.99 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5005"
+			(at 46.99 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 46.99 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3659,7 +3759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 134.62 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3682,6 +3782,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "JST Sales America Inc."
+			(at 134.62 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "S3B-PH-K-S"
 			(at 134.62 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3737,7 +3859,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5007"
+		(property "Value" "White"
 			(at 152.4 57.9119 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,7 +3870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 160.02 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3770,7 +3892,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5007"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 154.94 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3831,7 +3975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 134.62 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3854,6 +3998,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "JST Sales America Inc."
+			(at 134.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "S3B-PH-K-S"
 			(at 134.62 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4220,7 +4386,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5006"
+		(property "Value" "Black"
 			(at 49.53 84.5819 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4231,7 +4397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 41.91 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4253,7 +4419,29 @@
 				)
 			)
 		)
-		(property "Description" "PC TEST POINT COMPACT BLACK"
+		(property "Description" "Test Point"
+			(at 46.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5006"
+			(at 46.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 46.99 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4301,7 +4489,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5006"
+		(property "Value" "Black"
 			(at 49.53 42.6719 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,7 +4500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 41.91 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4334,7 +4522,29 @@
 				)
 			)
 		)
-		(property "Description" "PC TEST POINT COMPACT BLACK"
+		(property "Description" "Test Point"
+			(at 46.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5006"
+			(at 46.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 46.99 38.1 0)
 			(hide yes)
 			(show_name no)

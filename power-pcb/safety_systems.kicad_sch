@@ -3546,6 +3546,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SMAJ24CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ24CA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ24CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ24CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:SMF28A"
 			(pin_numbers
 				(hide yes)
@@ -4012,7 +4190,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Exocet:NCV7357"
+		(symbol "Exocet:TJA1050"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4028,7 +4206,7 @@
 					)
 				)
 			)
-			(property "Value" "NCV7357"
+			(property "Value" "TJA1050"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4049,7 +4227,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv7357-d.pdf"
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1050.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4060,7 +4238,7 @@
 					)
 				)
 			)
-			(property "Description" "CAN FD Transceiver, High Speed"
+			(property "Description" "High speed CAN transceiver"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4071,7 +4249,7 @@
 					)
 				)
 			)
-			(symbol "NCV7357_0_1"
+			(symbol "TJA1050_0_1"
 				(rectangle
 					(start -7.62 6.35)
 					(end 7.62 -6.35)
@@ -4084,11 +4262,11 @@
 					)
 				)
 			)
-			(symbol "NCV7357_1_1"
+			(symbol "TJA1050_1_1"
 				(pin input line
 					(at -10.16 3.81 0)
 					(length 2.54)
-					(name "TxD"
+					(name "TXD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4142,7 +4320,7 @@
 				(pin output line
 					(at -10.16 1.27 0)
 					(length 2.54)
-					(name "RxD"
+					(name "RXD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4157,10 +4335,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -10.16 -1.27 0)
 					(length 2.54)
-					(name "V_{IO}"
+					(name "V_{ref}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4222,265 +4400,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Exocet:PESD2CAN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD2CAN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAN bus ESD protection diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PESD2CAN_1_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.27) (xy -1.905 -1.27) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -3.175 1.27) (xy -1.905 1.27) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.54) (xy -3.175 2.54) (xy -3.175 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -2.54 -2.54) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -2.54) (xy 2.54 -2.54) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 3.175 -1.27) (xy 3.175 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.905 1.27) (xy 3.175 1.27) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 3.175 0) (xy 1.905 0) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 2.54) (xy 1.905 2.54) (xy 1.905 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 6.35 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 6.35 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5870,6 +5789,12 @@
 		(uuid "0ac74bd1-cabe-408f-9747-453220117528")
 	)
 	(junction
+		(at 182.88 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11a23870-43a8-4f7c-968b-bbe61f53ab97")
+	)
+	(junction
 		(at 251.46 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5924,6 +5849,12 @@
 		(uuid "32e8c015-0ad5-4e77-b848-bb7902f9ca13")
 	)
 	(junction
+		(at 170.18 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3344da1a-6ba4-4867-b205-d035cb8aca43")
+	)
+	(junction
 		(at 167.64 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5934,12 +5865,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "380da3e5-e8db-4325-808c-1b5370e197d1")
-	)
-	(junction
-		(at 168.91 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39575160-0c6f-4ef4-ad3f-4c697a398629")
 	)
 	(junction
 		(at 154.94 177.8)
@@ -5960,12 +5885,6 @@
 		(uuid "3cbd4b27-7583-4fe6-989c-a8a4e14c1d5d")
 	)
 	(junction
-		(at 252.73 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51e6f7b5-9d0c-48a8-bdac-f58a986d8acf")
-	)
-	(junction
 		(at 55.88 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5982,12 +5901,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65e23a86-cc6f-4315-9dc6-1e77091f2759")
-	)
-	(junction
-		(at 173.99 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66745188-e1a5-4391-9c40-1a8fdfd47938")
 	)
 	(junction
 		(at 148.59 104.14)
@@ -6050,7 +5963,7 @@
 		(uuid "871b1790-cbaa-486c-9dde-a69db6e0aba4")
 	)
 	(junction
-		(at 256.54 38.1)
+		(at 264.16 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a4b5d21-0333-45e9-a7a2-b28127587e29")
@@ -6122,7 +6035,7 @@
 		(uuid "bcfcd957-50db-4038-b279-c1db08a29383")
 	)
 	(junction
-		(at 256.54 35.56)
+		(at 264.16 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bea94740-e56b-48c8-9876-5ece38ca2868")
@@ -6150,6 +6063,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4cbe0a3-180b-4882-bea3-69f81144b8ab")
+	)
+	(junction
+		(at 167.64 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5bc7b53-ee36-49bc-bf82-cabbbcdeeff1")
 	)
 	(junction
 		(at 60.96 29.21)
@@ -6182,12 +6101,6 @@
 		(uuid "e6280f72-cba6-4dd4-99a2-25ac2f5c9ab9")
 	)
 	(junction
-		(at 182.88 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e675d4cb-1ae7-4908-a9d8-113e4533018a")
-	)
-	(junction
 		(at 148.59 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6210,6 +6123,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed39d028-3834-47a3-b8ce-f64a117a0a48")
+	)
+	(junction
+		(at 172.72 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed69b08e-83f4-49a2-a17e-5423ecaf75c8")
 	)
 	(junction
 		(at 154.94 29.21)
@@ -6537,6 +6456,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 50.8) (xy 172.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13bcc7e6-d3a3-4ef4-8796-5efdcfc9b46d")
+	)
+	(wire
+		(pts
 			(xy 52.07 158.75) (xy 52.07 160.02)
 		)
 		(stroke
@@ -6827,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 35.56) (xy 250.19 35.56)
+			(xy 267.97 35.56) (xy 250.19 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6917,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 34.29) (xy 182.88 34.29)
+			(xy 167.64 34.29) (xy 182.88 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7127,16 +7056,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 40.64) (xy 250.19 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46041bbe-71f1-48a9-8713-1a79c1a8d046")
-	)
-	(wire
-		(pts
 			(xy 64.77 186.69) (xy 66.04 186.69)
 		)
 		(stroke
@@ -7237,6 +7156,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 53.34) (xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56bfd98e-93e1-4200-91de-f24315666df5")
+	)
+	(wire
+		(pts
 			(xy 76.2 181.61) (xy 76.2 186.69)
 		)
 		(stroke
@@ -7307,7 +7236,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 34.29) (xy 168.91 34.29)
+			(xy 144.78 34.29) (xy 167.64 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7457,7 +7386,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 33.02) (xy 256.54 35.56)
+			(xy 264.16 33.02) (xy 264.16 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7537,16 +7466,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 26.67) (xy 252.73 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7306ba2d-a0d2-4b79-a8e1-4f9c5c104790")
-	)
-	(wire
-		(pts
 			(xy 86.36 88.9) (xy 97.79 88.9)
 		)
 		(stroke
@@ -7557,7 +7476,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 38.1) (xy 250.19 38.1)
+			(xy 267.97 38.1) (xy 250.19 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7597,7 +7516,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 34.29) (xy 168.91 44.45)
+			(xy 167.64 34.29) (xy 167.64 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7654,16 +7573,6 @@
 			(type default)
 		)
 		(uuid "7d5f834b-6a44-4e78-9b5b-19e34f2bf98f")
-	)
-	(wire
-		(pts
-			(xy 252.73 26.67) (xy 252.73 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ecb281c-eca9-42f4-83d5-62c5f6deb5b3")
 	)
 	(wire
 		(pts
@@ -7857,7 +7766,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 38.1) (xy 256.54 40.64)
+			(xy 264.16 38.1) (xy 264.16 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8237,16 +8146,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 29.21) (xy 276.86 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3a0312b-3cb0-4797-83d3-bcab48c8de0f")
-	)
-	(wire
-		(pts
 			(xy 269.24 129.54) (xy 269.24 116.84)
 		)
 		(stroke
@@ -8497,6 +8396,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 46.99) (xy 167.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb68a05-3952-40b2-b1e8-2d2c4be48fb3")
+	)
+	(wire
+		(pts
 			(xy 31.75 40.64) (xy 34.29 40.64)
 		)
 		(stroke
@@ -8524,16 +8433,6 @@
 			(type default)
 		)
 		(uuid "e1b1a5c8-a914-4cc2-88db-e3526cc5b944")
-	)
-	(wire
-		(pts
-			(xy 252.73 22.86) (xy 252.73 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b44d7e-00c5-4eac-a29f-00ed6cedd61f")
 	)
 	(wire
 		(pts
@@ -8597,7 +8496,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 36.83) (xy 173.99 36.83)
+			(xy 144.78 36.83) (xy 172.72 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8657,7 +8556,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 44.45) (xy 173.99 36.83)
+			(xy 172.72 43.18) (xy 172.72 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8714,16 +8613,6 @@
 			(type default)
 		)
 		(uuid "f016f5dd-b84c-4fe6-961c-c0cb03ddc9ec")
-	)
-	(wire
-		(pts
-			(xy 276.86 26.67) (xy 270.51 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f211deb0-2525-45b1-a021-3cf8fca00d78")
 	)
 	(wire
 		(pts
@@ -8784,6 +8673,16 @@
 			(type default)
 		)
 		(uuid "f5fdc6b7-a32a-493e-8432-1b1c8fbefece")
+	)
+	(wire
+		(pts
+			(xy 250.19 40.64) (xy 252.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b2866a-e90e-4cd5-b480-b6362383dd51")
 	)
 	(wire
 		(pts
@@ -8857,7 +8756,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 36.83) (xy 179.07 36.83)
+			(xy 170.18 53.34) (xy 170.18 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdd3230-6aec-433c-885d-698085c0a32b")
+	)
+	(wire
+		(pts
+			(xy 172.72 36.83) (xy 179.07 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8874,6 +8783,16 @@
 			(type default)
 		)
 		(uuid "fd1e6b32-128a-4005-aecc-3da128902e13")
+	)
+	(wire
+		(pts
+			(xy 167.64 53.34) (xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7c0944-a51c-408f-81ce-0084aefc4368")
 	)
 	(wire
 		(pts
@@ -9099,7 +9018,7 @@
 	)
 	(hierarchical_label "IMD_CAN_RX"
 		(shape output)
-		(at 260.35 38.1 0)
+		(at 267.97 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9121,7 +9040,7 @@
 	)
 	(hierarchical_label "IMD_CAN_TX"
 		(shape input)
-		(at 260.35 35.56 0)
+		(at 267.97 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9231,7 +9150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 239.268 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -9254,6 +9173,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 237.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25905"
 			(at 237.49 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9317,7 +9247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Wuerth_Term_Blk_4pos_Side_Entry_5mm"
 			(at 254 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9340,6 +9270,28 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 254 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Wuerth Eletronik"
+			(at 254 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "691137710004"
 			(at 254 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9387,7 +9339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0512b208-ddab-41c5-8524-a70259c94536")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0126"
 			(at 26.67 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9447,7 +9399,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0128")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -9487,7 +9439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 212.852 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -9520,7 +9472,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C22765"
 			(at 214.63 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9550,6 +9502,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ24CA")
+		(at 167.64 43.18 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a14995b-3175-4113-a99e-b71e068ee3a9")
+		(property "Reference" "D?"
+			(at 165.1 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMF24CA"
+			(at 165.1 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 162.56 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C19077515"
+			(at 167.64 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec3ca139-3546-42f2-a779-67ad1aff8f8e")
+		)
+		(pin "1"
+			(uuid "1d4278e2-5247-4aef-8755-3e6de4970e4e")
+		)
+		(instances
+			(project "power-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 58.42 158.75 90)
 		(mirror x)
@@ -9561,7 +9606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a95f403-b052-4e37-9d96-9b2a5b1f8b0a")
-		(property "Reference" "C67"
+		(property "Reference" "C66"
 			(at 58.42 151.765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,7 +9679,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C67")
+					(reference "C66")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -9732,6 +9777,28 @@
 				)
 			)
 		)
+		(property "MFR" "onsemi"
+			(at 30.48 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1N4148"
+			(at 30.48 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c577b572-1bbc-4e72-95bf-f34404c02e85")
 		)
@@ -9781,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 133.35 142.748 90)
 			(hide yes)
 			(show_name no)
@@ -9849,13 +9916,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d715ec2-86b6-4571-bab4-20df39c2609d")
-		(property "Reference" "TP86"
+		(property "Reference" "TP87"
 			(at 154.94 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9877,7 +9944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 149.86 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9899,7 +9966,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 149.86 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9916,10 +9983,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP86")
+					(reference "TP87")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -9938,7 +10006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eca446f-a776-47ef-8eda-4911a9f405ae")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0133"
 			(at 66.04 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9998,7 +10066,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0135")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -10016,7 +10084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f9665ff-a5de-40c4-b324-368a5e85bdd2")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0125"
 			(at 250.19 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10076,7 +10144,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0127")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -10088,13 +10156,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1005de39-3807-4775-b8c8-39d504b65f6e")
-		(property "Reference" "TP96"
+		(property "Reference" "TP97"
 			(at 157.48 181.1019 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10116,7 +10184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 149.86 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10138,7 +10206,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 154.94 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10155,10 +10223,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP96")
+					(reference "TP97")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -10176,7 +10245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "104a3535-66c9-475a-b122-1ad23925b16d")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR095"
 			(at 146.05 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10236,7 +10305,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR097")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -10277,7 +10346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 252.73 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10362,7 +10431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Wuerth_Term_Blk_2pos_Side_Entry_5mm"
 			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10384,7 +10453,29 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "DMS Input Connector"
+			(at 24.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Wuerth Eletronik"
+			(at 24.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "691137710002"
 			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10441,7 +10532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 48.768 90)
 			(hide yes)
 			(show_name no)
@@ -10465,6 +10556,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 88.9 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10504,7 +10606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1738864d-29a2-4f2d-996c-03bc144f71b9")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR091"
 			(at 36.83 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10564,7 +10666,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR092")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -10604,7 +10706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.738 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -10688,7 +10790,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC02"
+		(property "Value" "SN74HC02N"
 			(at 120.65 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10698,7 +10800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 120.65 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10721,6 +10823,28 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
+			(at 120.65 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 120.65 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74HC02N"
 			(at 120.65 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10797,7 +10921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a8b627f-8d95-428d-9715-c22f4ff8b599")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0107"
 			(at 247.65 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10857,7 +10981,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0109")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -10919,6 +11043,28 @@
 		)
 		(property "Description" "Dual retriggerable monostable multivibrator"
 			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 81.28 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74AHC123AN"
+			(at 81.28 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10997,7 +11143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d4675a6-94ba-408e-836c-a57b4627454b")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0136"
 			(at 151.13 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -11057,7 +11203,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0138")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -11076,7 +11222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "202281a1-1660-4d9d-9ea9-2566377c97c5")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR094"
 			(at 78.74 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11136,7 +11282,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR096")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -11148,13 +11294,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20699394-3b45-463b-a218-cdff71794b64")
-		(property "Reference" "TP98"
+		(property "Reference" "TP99"
 			(at 133.35 184.6579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11176,7 +11322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 135.89 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -11198,7 +11344,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 130.81 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -11215,10 +11361,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP98")
+					(reference "TP99")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -11257,7 +11404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 117.602 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -11280,6 +11427,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 119.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
 			(at 119.38 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11320,7 +11478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23bbc8a4-12ec-4e86-a299-b79869f2a65b")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0131"
 			(at 105.41 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11380,7 +11538,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0133")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -11417,7 +11575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 101.6 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -11441,6 +11599,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 101.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 101.6 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11481,7 +11650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2706bf13-6189-4bcd-b902-05ad7cc87cba")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0130"
 			(at 95.25 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -11541,86 +11710,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 252.73 22.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29627f2c-c5ce-47d6-817f-1e79aaffcdc2")
-		(property "Reference" "#PWR091"
-			(at 252.73 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 252.73 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f0c891d-f79e-4718-a3ff-9b3c0631c4c6")
-		)
-		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR091")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -11639,7 +11729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e5558a-5da7-47c3-bc19-1e0418fbc4ca")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR097"
 			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11699,7 +11789,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR099")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -11717,7 +11807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2be6cf74-dad4-425a-8c2c-09f79d798849")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0134"
 			(at 125.73 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -11777,7 +11867,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0136")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -11795,7 +11885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f95b5cc-2dd5-49a2-badb-be5c4ba5224e")
-		(property "Reference" "TP95"
+		(property "Reference" "TP96"
 			(at 105.918 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +11895,7 @@
 				)
 			)
 		)
-		(property "Value" "5121"
+		(property "Value" "Green"
 			(at 105.918 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11815,7 +11905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 109.22 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -11837,8 +11927,30 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5121"
+			(at 109.22 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
+			(at 109.22 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11854,7 +11966,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP95")
+					(reference "TP96")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -11897,7 +12009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.738 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -12024,53 +12136,75 @@
 				)
 			)
 		)
+		(property "MFR" "Texas Instruments"
+			(at 185.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74AHC123AN"
+			(at 185.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
-			(uuid "b75a23f5-03e0-4839-8997-c31f3c46b17f")
+			(uuid "b75a23f5-03e0-4839-8997-c31f3c46b180")
 		)
 		(pin "14"
-			(uuid "04a3606d-da69-4f58-b102-5d4ae1bb0b10")
+			(uuid "04a3606d-da69-4f58-b102-5d4ae1bb0b11")
 		)
 		(pin "13"
-			(uuid "61f10dfa-d101-4742-9327-205c6a12c9fa")
+			(uuid "61f10dfa-d101-4742-9327-205c6a12c9fb")
 		)
 		(pin "2"
-			(uuid "66086665-1c09-42cb-9c4e-360ddd24c08f")
+			(uuid "66086665-1c09-42cb-9c4e-360ddd24c090")
 		)
 		(pin "10"
-			(uuid "573cc703-a03e-444d-bc7d-2379acd17036")
+			(uuid "573cc703-a03e-444d-bc7d-2379acd17037")
 		)
 		(pin "1"
-			(uuid "f23addec-f793-4012-99ec-23dfbd882b3a")
+			(uuid "f23addec-f793-4012-99ec-23dfbd882b3b")
 		)
 		(pin "4"
-			(uuid "1a0344c6-c01f-4bfd-9697-ad6d066d637a")
+			(uuid "1a0344c6-c01f-4bfd-9697-ad6d066d637b")
 		)
 		(pin "8"
-			(uuid "7e53f74b-925c-405e-a6a9-2a217d692b8c")
+			(uuid "7e53f74b-925c-405e-a6a9-2a217d692b8d")
 		)
 		(pin "16"
-			(uuid "5ea55cc2-aa94-478e-a1bc-53c06ba8cccc")
+			(uuid "5ea55cc2-aa94-478e-a1bc-53c06ba8cccd")
 		)
 		(pin "15"
-			(uuid "8282a43f-3158-480c-a4d5-c9c1a3999f12")
+			(uuid "8282a43f-3158-480c-a4d5-c9c1a3999f13")
 		)
 		(pin "11"
-			(uuid "5cd3f48f-93f3-41f9-b416-cadb0cf056f2")
+			(uuid "5cd3f48f-93f3-41f9-b416-cadb0cf056f3")
 		)
 		(pin "3"
-			(uuid "f3618739-3111-469b-a4dc-8d3e0238d9fd")
+			(uuid "f3618739-3111-469b-a4dc-8d3e0238d9fe")
 		)
 		(pin "5"
-			(uuid "3f2610c3-9202-4a40-bbf7-0d19dd539027")
+			(uuid "3f2610c3-9202-4a40-bbf7-0d19dd539028")
 		)
 		(pin "9"
-			(uuid "eb9943ee-f683-4118-a1a6-cdf274602484")
+			(uuid "eb9943ee-f683-4118-a1a6-cdf274602485")
 		)
 		(pin "12"
-			(uuid "4812c9bb-f302-4e43-9a62-d72f0c079cdb")
+			(uuid "4812c9bb-f302-4e43-9a62-d72f0c079cdc")
 		)
 		(pin "7"
-			(uuid "72ca7ef1-2bbf-4388-bf20-8097e2a45f4b")
+			(uuid "72ca7ef1-2bbf-4388-bf20-8097e2a45f4c")
 		)
 		(instances
 			(project "power-pcb"
@@ -12093,7 +12227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34e009bf-be7f-4109-8f2e-1af14ddaa8a3")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0105"
 			(at 123.19 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12153,7 +12287,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0107")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -12266,7 +12400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48ae6d1f-da96-4e7a-9b6b-8bf8b6d5695e")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0122"
 			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12326,7 +12460,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0124")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -12363,7 +12497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.26 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -12387,6 +12521,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 48.26 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12445,7 +12590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 146.05 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -12469,6 +12614,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 146.05 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 146.05 190.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12503,12 +12659,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d34f677-ec63-4239-a2d6-a7bf600b4719")
-		(property "Reference" "TP84"
+		(property "Reference" "TP85"
 			(at 177.8 80.5181 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12530,7 +12686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 170.18 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12552,7 +12708,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 175.26 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12569,10 +12725,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP84")
+					(reference "TP85")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -12591,7 +12748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e826f9f-6479-4e22-ba45-ca3207084b86")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR092"
 			(at 240.03 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12651,7 +12808,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR093")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -12746,6 +12903,28 @@
 				)
 			)
 		)
+		(property "MFR" "onsemi"
+			(at 220.98 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1N4148"
+			(at 220.98 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1bb2f04d-04f5-4a2a-a90c-525d82c8c4a1")
 		)
@@ -12776,7 +12955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ae8071-2308-42c0-8823-b8697d080803")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0128"
 			(at 66.04 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12836,7 +13015,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0130")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -12864,7 +13043,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC02"
+		(property "Value" "SN74HC02N"
 			(at 81.28 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12874,7 +13053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 81.28 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12898,6 +13077,28 @@
 		)
 		(property "Description" "quad 2-input NOR gate"
 			(at 81.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 81.28 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74HC02N"
+			(at 81.28 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12962,39 +13163,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 266.7 26.67 90)
-		(mirror x)
+		(lib_id "Connector:TestPoint")
+		(at 252.73 40.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5426e7a5-d56e-4fce-8fd8-477164fe9eda")
-		(property "Reference" "C63"
-			(at 266.7 19.685 90)
+		(uuid "5241c2be-19b9-4f74-b9f5-512315e7cbd2")
+		(property "Reference" "TP79"
+			(at 257.81 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 266.6365 22.2885 90)
+		(property "Value" "Hole"
+			(at 257.81 41.9099 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 270.51 27.6352 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 252.73 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13005,7 +13208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 26.67 0)
+			(at 252.73 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13015,8 +13218,8 @@
 				)
 			)
 		)
-		(property "Description" "50V X7R ±10%"
-			(at 266.7 26.67 0)
+		(property "Description" "Test Point"
+			(at 252.73 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13025,28 +13228,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "JLCPCB" "C14663"
-			(at 266.7 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "add24981-d993-4601-8daa-e76983aa1379")
 		)
 		(pin "1"
-			(uuid "1af8726d-b020-4ec6-ba6b-d5735b6e026e")
+			(uuid "62bc5a58-10ca-45f3-8e55-8d66886a72f8")
 		)
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C63")
+					(reference "TP79")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13086,7 +13275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.67 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -13110,6 +13299,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 153.67 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 153.67 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13149,7 +13349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "564cdf79-390d-4c78-b0c3-de69b7c720d2")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0101"
 			(at 154.94 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13209,7 +13409,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0103")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -13246,7 +13446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 143.51 142.748 90)
 			(hide yes)
 			(show_name no)
@@ -13321,7 +13521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a033055-81e1-4dc1-93e7-2884aa7260cd")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR098"
 			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13381,7 +13581,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0100")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -13394,12 +13594,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a61ce13-a875-4eaf-b6e1-07387c87b808")
-		(property "Reference" "TP89"
+		(property "Reference" "TP90"
 			(at 100.33 116.3319 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13421,7 +13621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 107.95 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13443,7 +13643,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 102.87 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13460,10 +13660,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP89")
+					(reference "TP90")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -13482,7 +13683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d3f3a45-5962-48ab-b4c0-d79499dcdf7b")
-		(property "Reference" "TP93"
+		(property "Reference" "TP94"
 			(at 25.4 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13493,7 +13694,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5007"
+		(property "Value" "White"
 			(at 25.4 166.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,7 +13705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 30.48 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13526,8 +13727,30 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 30.48 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5007"
+			(at 30.48 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
+			(at 30.48 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13543,7 +13766,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP93")
+					(reference "TP94")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13751,6 +13974,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C41376091"
+			(at 149.86 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e6fba27-bafa-452b-8464-588b21804544")
 		)
@@ -13781,7 +14015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60dbd151-c28c-4759-8515-aba9f9a586d8")
-		(property "Reference" "TP92"
+		(property "Reference" "TP93"
 			(at 128.27 156.7179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13792,7 +14026,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5009"
+		(property "Value" "Yellow"
 			(at 128.27 159.2579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13803,7 +14037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 130.81 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13825,7 +14059,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 125.73 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5009"
+			(at 125.73 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 125.73 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13842,7 +14098,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP92")
+					(reference "TP93")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13858,13 +14114,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "636b5ddd-4862-4712-920e-fad1e0a7ea21")
-		(property "Reference" "TP81"
+		(property "Reference" "TP82"
 			(at 224.79 45.2119 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13886,7 +14142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 232.41 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13908,7 +14164,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 227.33 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13925,10 +14181,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP81")
+					(reference "TP82")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -13941,12 +14198,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "638b3562-3dc6-425e-abfb-cf27ac3d23d3")
-		(property "Reference" "TP82"
+		(property "Reference" "TP83"
 			(at 149.86 77.9781 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13968,7 +14225,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 142.24 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13990,7 +14247,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 147.32 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14007,10 +14264,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP82")
+					(reference "TP83")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -14050,7 +14308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.598 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -14073,6 +14331,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 83.82 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
 			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14108,7 +14377,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14136,7 +14405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 222.25 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14158,7 +14427,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 227.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14179,6 +14448,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -14218,7 +14488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 124.968 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -14241,6 +14511,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 123.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
 			(at 123.19 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14281,7 +14562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d99324-2d54-46fa-928f-eb77f65662c2")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0109"
 			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14341,7 +14622,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0111")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -14382,7 +14663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Wuerth_Term_Blk_3pos_Side_Entry_5mm"
 			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14405,6 +14686,28 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 20.32 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Wuerth Eletronik"
+			(at 20.32 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "691137710003"
 			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14448,7 +14751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "686e51d1-a921-4946-b0ec-c5e872a74058")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0112"
 			(at 220.98 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14508,7 +14811,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0114")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -14545,7 +14848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 71.12 188.468 90)
 			(hide yes)
 			(show_name no)
@@ -14578,6 +14881,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 71.12 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fab4f3fd-5b54-4a06-a36b-0fda53257a5a")
 		)
@@ -14598,7 +14912,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 256.54 40.64 180)
+		(at 264.16 40.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14608,8 +14922,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f117f28-190a-46e5-ae33-753f1c78e16b")
-		(property "Reference" "TP79"
-			(at 259.08 42.6719 0)
+		(property "Reference" "TP80"
+			(at 266.7 42.6719 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14619,8 +14933,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5121"
-			(at 259.08 45.2119 0)
+		(property "Value" "Green"
+			(at 266.7 45.2119 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14630,8 +14944,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 251.46 40.64 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 259.08 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14642,7 +14956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 40.64 0)
+			(at 259.08 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,8 +14966,30 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
-			(at 256.54 40.64 0)
+		(property "Description" "Test Point"
+			(at 264.16 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5121"
+			(at 264.16 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
+			(at 264.16 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14669,7 +15005,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP79")
+					(reference "TP80")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -14712,7 +15048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 107.188 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -14735,6 +15071,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 105.41 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
 			(at 105.41 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14908,7 +15255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75a35c0b-636f-4171-8080-629667c8e83c")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR093"
 			(at 215.9 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14968,7 +15315,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR094")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -14986,7 +15333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75dab440-93a9-4b2e-a459-275379158282")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0111"
 			(at 185.42 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -15046,7 +15393,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0113")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -15058,13 +15405,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79882011-589c-4e51-892a-9d1a54273c8c")
-		(property "Reference" "TP88"
+		(property "Reference" "TP89"
 			(at 110.998 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15084,7 +15431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 114.3 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15106,7 +15453,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 114.3 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15123,10 +15470,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP88")
+					(reference "TP89")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -15138,12 +15486,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7aa90d26-b344-465c-854c-1b869714bcf2")
-		(property "Reference" "TP83"
+		(property "Reference" "TP84"
 			(at 111.76 79.2481 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15165,7 +15513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 119.38 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15187,7 +15535,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 114.3 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15204,10 +15552,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP83")
+					(reference "TP84")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -15244,7 +15593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Fuseholder_Littelfuse_Combined"
 			(at 44.45 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -15268,6 +15617,28 @@
 		)
 		(property "Description" "Fuse"
 			(at 44.45 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Littelfuse Inc."
+			(at 44.45 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "01110501Z"
+			(at 44.45 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15326,7 +15697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 110.49 164.338 90)
 			(hide yes)
 			(show_name no)
@@ -15350,6 +15721,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 110.49 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25803"
+			(at 110.49 162.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15395,7 +15777,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC02"
+		(property "Value" "SN74HC02N"
 			(at 138.43 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15405,7 +15787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 138.43 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15428,6 +15810,28 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
+			(at 138.43 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 138.43 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74HC02N"
 			(at 138.43 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15505,7 +15909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fd06737-8e38-4ee0-8edb-8c24a99916dc")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0127"
 			(at 26.67 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15565,7 +15969,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0129")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -15583,7 +15987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f4b5c1-a2b5-4642-832b-914d8e529c0d")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0110"
 			(at 119.38 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15643,7 +16047,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0112")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -15661,7 +16065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81f9f1c9-6b76-4a05-aba6-6bca51a14ed4")
-		(property "Reference" "C66"
+		(property "Reference" "C65"
 			(at 58.42 133.985 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15734,7 +16138,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C66")
+					(reference "C65")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -15756,7 +16160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84d2a2b6-7151-4294-bad0-bc021282f075")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0129"
 			(at 52.07 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15816,7 +16220,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0131")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -15853,7 +16257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 110.49 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -15877,6 +16281,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 110.49 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 110.49 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16048,7 +16463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88a1fcae-f075-44cf-a5fd-f7a8135dbde5")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0120"
 			(at 269.24 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -16108,7 +16523,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0122")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -16120,13 +16535,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89b332fc-824f-4c1f-bdae-e8b704968417")
-		(property "Reference" "TP80"
+		(property "Reference" "TP81"
 			(at 85.09 38.6079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16148,7 +16563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 87.63 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16170,7 +16585,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 82.55 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16187,10 +16602,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP80")
+					(reference "TP81")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -16208,7 +16624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a987829-ffcd-4ba0-a2d7-73d296345cf2")
-		(property "Reference" "C65"
+		(property "Reference" "C64"
 			(at 246.38 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16283,7 +16699,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C65")
+					(reference "C64")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -16305,7 +16721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c235c63-da87-4fe2-b5b8-b7001bdf5569")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR099"
 			(at 101.6 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16365,7 +16781,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0101")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -16377,13 +16793,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c72aaeb-62be-4fba-872e-0f2c5ce30d11")
-		(property "Reference" "TP90"
+		(property "Reference" "TP91"
 			(at 144.78 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16405,7 +16821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 139.7 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16427,7 +16843,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 139.7 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16444,10 +16860,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP90")
+					(reference "TP91")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -16649,6 +17066,28 @@
 				)
 			)
 		)
+		(property "MFR" "CIT Relay and Switch"
+			(at 44.45 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "J107F1AS125VDC.36"
+			(at 44.45 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "48952642-b013-4f2d-acb0-25a681a37b26")
 		)
@@ -16738,53 +17177,75 @@
 				)
 			)
 		)
+		(property "MFR" "Texas Instruments"
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74AHC123AN"
+			(at 140.97 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
-			(uuid "b75a23f5-03e0-4839-8997-c31f3c46b17f")
+			(uuid "b75a23f5-03e0-4839-8997-c31f3c46b181")
 		)
 		(pin "14"
-			(uuid "04a3606d-da69-4f58-b102-5d4ae1bb0b10")
+			(uuid "04a3606d-da69-4f58-b102-5d4ae1bb0b12")
 		)
 		(pin "13"
-			(uuid "61f10dfa-d101-4742-9327-205c6a12c9fa")
+			(uuid "61f10dfa-d101-4742-9327-205c6a12c9fc")
 		)
 		(pin "2"
-			(uuid "66086665-1c09-42cb-9c4e-360ddd24c08f")
+			(uuid "66086665-1c09-42cb-9c4e-360ddd24c091")
 		)
 		(pin "10"
-			(uuid "573cc703-a03e-444d-bc7d-2379acd17036")
+			(uuid "573cc703-a03e-444d-bc7d-2379acd17038")
 		)
 		(pin "1"
-			(uuid "f23addec-f793-4012-99ec-23dfbd882b3a")
+			(uuid "f23addec-f793-4012-99ec-23dfbd882b3c")
 		)
 		(pin "4"
-			(uuid "1a0344c6-c01f-4bfd-9697-ad6d066d637a")
+			(uuid "1a0344c6-c01f-4bfd-9697-ad6d066d637c")
 		)
 		(pin "8"
-			(uuid "7e53f74b-925c-405e-a6a9-2a217d692b8c")
+			(uuid "7e53f74b-925c-405e-a6a9-2a217d692b8e")
 		)
 		(pin "16"
-			(uuid "5ea55cc2-aa94-478e-a1bc-53c06ba8cccc")
+			(uuid "5ea55cc2-aa94-478e-a1bc-53c06ba8ccce")
 		)
 		(pin "15"
-			(uuid "8282a43f-3158-480c-a4d5-c9c1a3999f12")
+			(uuid "8282a43f-3158-480c-a4d5-c9c1a3999f14")
 		)
 		(pin "11"
-			(uuid "5cd3f48f-93f3-41f9-b416-cadb0cf056f2")
+			(uuid "5cd3f48f-93f3-41f9-b416-cadb0cf056f4")
 		)
 		(pin "3"
-			(uuid "f3618739-3111-469b-a4dc-8d3e0238d9fd")
+			(uuid "f3618739-3111-469b-a4dc-8d3e0238d9ff")
 		)
 		(pin "5"
-			(uuid "3f2610c3-9202-4a40-bbf7-0d19dd539027")
+			(uuid "3f2610c3-9202-4a40-bbf7-0d19dd539029")
 		)
 		(pin "9"
-			(uuid "eb9943ee-f683-4118-a1a6-cdf274602484")
+			(uuid "eb9943ee-f683-4118-a1a6-cdf274602486")
 		)
 		(pin "12"
-			(uuid "4812c9bb-f302-4e43-9a62-d72f0c079cdb")
+			(uuid "4812c9bb-f302-4e43-9a62-d72f0c079cdd")
 		)
 		(pin "7"
-			(uuid "72ca7ef1-2bbf-4388-bf20-8097e2a45f4b")
+			(uuid "72ca7ef1-2bbf-4388-bf20-8097e2a45f4d")
 		)
 		(instances
 			(project "power-pcb"
@@ -16801,13 +17262,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92ed06e6-dd70-4580-8c2f-f135803131ab")
-		(property "Reference" "TP87"
+		(property "Reference" "TP88"
 			(at 248.92 99.5679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16829,7 +17290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 251.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16851,7 +17312,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 246.38 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16868,10 +17329,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP87")
+					(reference "TP88")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -16911,7 +17373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 181.102 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -16934,6 +17396,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CF12JT120R"
 			(at 182.88 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -17071,7 +17555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 169.418 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -17104,6 +17588,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 167.64 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d399bb62-09d4-4b10-ab94-4a285846ee8f")
 		)
@@ -17123,6 +17618,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ24CA")
+		(at 172.72 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97c24079-a140-43bb-b2e2-9f807510e547")
+		(property "Reference" "D?"
+			(at 175.26 45.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMF24CA"
+			(at 175.26 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 177.8 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 172.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+			(at 172.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C19077515"
+			(at 172.72 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f9daf357-ee09-4222-81ff-4cbf9b568cac")
+		)
+		(pin "1"
+			(uuid "314604a3-e141-43b2-bbbc-fec2bd00ea5d")
+		)
+		(instances
+			(project "power-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 252.73 54.61 0)
 		(mirror y)
@@ -17135,7 +17723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "984423ae-87d7-47fc-8e83-bdce8bee5dc3")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0102"
 			(at 252.73 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17195,7 +17783,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0104")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -17344,7 +17932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cf8eecb-fd96-4a6f-8685-2cf91f142492")
-		(property "Reference" "TP94"
+		(property "Reference" "TP95"
 			(at 158.75 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17355,7 +17943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Hole"
 			(at 158.75 168.9099 90)
 			(hide yes)
 			(show_name no)
@@ -17389,7 +17977,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point"
 			(at 153.67 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -17406,7 +17994,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP94")
+					(reference "TP95")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17446,7 +18034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 172.72 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -17470,6 +18058,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 172.72 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 172.72 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17530,7 +18129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 29.972 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -17604,7 +18203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2d4c7f-7e71-4eb0-b628-f944a6431c0b")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0116"
 			(at 123.19 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -17664,7 +18263,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0118")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -17694,7 +18293,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5007"
+		(property "Value" "White"
 			(at 123.19 27.1779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17705,7 +18304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 115.57 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17727,7 +18326,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 120.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5007"
+			(at 120.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 120.65 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17765,7 +18386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4e8a0c2-a474-4743-8756-a52bc7d608b3")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0113"
 			(at 105.41 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17825,85 +18446,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a51a64fe-5df8-45d1-8143-131d941212a5")
-		(property "Reference" "#PWR0106"
-			(at 171.45 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c98876f-1de2-48ad-ac24-29a7220ecbfd")
-		)
-		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0106")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -17921,7 +18464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a856ae28-26c9-4b3b-ac84-2fee43714095")
-		(property "Reference" "C68"
+		(property "Reference" "C67"
 			(at 120.65 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17943,7 +18486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 117.8052 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -17965,7 +18508,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V X7R ±10%"
+			(at 116.84 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 116.84 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -17985,7 +18539,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C68")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -18024,7 +18578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 29.972 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -18082,6 +18636,118 @@
 					(variant
 						(name "JLCPCB")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Exocet:TJA1050")
+		(at 240.03 39.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afbfe865-51ec-4871-9518-4eb43da028f1")
+		(property "Reference" "U28"
+			(at 243.1481 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TJA1050"
+			(at 243.1481 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 240.03 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1050.pdf"
+			(at 240.03 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High speed CAN transceiver"
+			(at 240.03 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C6952"
+			(at 240.03 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e54a7135-6b09-48d4-82c5-c0399b84c9e5")
+		)
+		(pin "4"
+			(uuid "4ca83d21-70a2-4214-82df-396dfbef8c73")
+		)
+		(pin "6"
+			(uuid "6ddf3d6b-25b0-4c56-983f-7b18a1662704")
+		)
+		(pin "5"
+			(uuid "9321e679-20bd-449c-bfa2-fe98d5e59256")
+		)
+		(pin "2"
+			(uuid "332f4430-ea12-4f1e-a58b-8441916a498e")
+		)
+		(pin "7"
+			(uuid "c91ee485-f417-46e6-ad7a-352ef465685f")
+		)
+		(pin "1"
+			(uuid "491100d9-4a57-4f55-8c4e-d8082ce3f0e8")
+		)
+		(pin "8"
+			(uuid "af21186e-af90-4f79-acf8-968ee2a9ab09")
+		)
+		(instances
+			(project "power-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+					(reference "U28")
+					(unit 1)
 				)
 			)
 		)
@@ -18285,6 +18951,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C41376091"
+			(at 154.94 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "10787b55-0897-4c65-9fb1-31d4f4a756b5")
 		)
@@ -18315,7 +18992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49e8913-748d-4401-8020-e23cc67bb9f3")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0119"
 			(at 66.04 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18375,106 +19052,8 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0121")
+					(reference "#PWR0119")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Exocet:PESD2CAN")
-		(at 171.45 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b580b83b-49f2-4927-bdda-ae9944eb8162")
-		(property "Reference" "U29"
-			(at 177.8 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD2CAN24T"
-			(at 177.8 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 171.45 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CAN24T-Q.pdf"
-			(at 171.45 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAN bus ESD protection diode"
-			(at 171.45 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C53340822"
-			(at 171.45 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f727049-a9aa-415a-b252-f49b74c843d5")
-		)
-		(pin "2"
-			(uuid "1a71961d-a09b-465d-9e13-1d56051f3db2")
-		)
-		(pin "3"
-			(uuid "bdab78da-e8cb-4380-9f2f-7e622db92d4b")
-		)
-		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U29")
-					(unit 1)
-					(variant
-						(name "JLCPCB")
-					)
 				)
 			)
 		)
@@ -18513,7 +19092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 191.262 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -18546,6 +19125,28 @@
 				)
 			)
 		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 193.04 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CF12JT120R"
+			(at 193.04 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "880f1ca0-9acd-442f-93df-1b16adbcf925")
 		)
@@ -18567,7 +19168,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18595,7 +19196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 46.99 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -18617,7 +19218,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -18638,6 +19239,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -18677,7 +19279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 67.818 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -18700,6 +19302,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 66.04 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
 			(at 66.04 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -18740,7 +19353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc7bf30d-6989-4923-b7b7-5fa1010274aa")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0115"
 			(at 60.96 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -18800,7 +19413,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0117")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -18841,7 +19454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 234.95 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -18865,6 +19478,28 @@
 		)
 		(property "Description" "Zener diode"
 			(at 234.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Nexperia USA Inc."
+			(at 234.95 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BZX79-C4V7,133"
+			(at 234.95 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18902,7 +19537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c095f6d1-94ea-4238-947a-b64cabb8d35c")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0123"
 			(at 148.59 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -18962,7 +19597,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0125")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -18980,7 +19615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c40759a9-50b4-475e-a7a8-5d66fd115ab3")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0114"
 			(at 167.64 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -19040,7 +19675,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0116")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -19059,7 +19694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7515fd0-36f3-4799-a8fd-02e22b3d606c")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0103"
 			(at 83.82 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19119,7 +19754,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0105")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -19138,7 +19773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c77d9962-d6be-4b9c-9b92-fbb47ab8d7d0")
-		(property "Reference" "TP91"
+		(property "Reference" "TP92"
 			(at 213.36 137.9219 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19149,7 +19784,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5007"
+		(property "Value" "White"
 			(at 213.36 140.4619 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19160,7 +19795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 220.98 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -19182,7 +19817,29 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5007"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
 			(at 215.9 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -19199,111 +19856,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP91")
+					(reference "TP92")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
 					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Exocet:NCV7357")
-		(at 240.03 39.37 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cdf4f183-4507-4914-9414-4dcd0b7162ce")
-		(property "Reference" "U28"
-			(at 237.49 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NCV7357D13R2G"
-			(at 237.49 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 240.03 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv7357-d.pdf"
-			(at 240.03 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAN FD Transceiver, High Speed"
-			(at 240.03 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "9a0457dd-fb8d-410e-ac72-ebadb488203d")
-		)
-		(pin "7"
-			(uuid "f174e6b7-9ff6-4b9c-98c6-8f90dda5c939")
-		)
-		(pin "5"
-			(uuid "d4071156-8e95-4ae6-8951-c742587d6461")
-		)
-		(pin "8"
-			(uuid "d044c4ec-be20-4dc3-9fd4-5081d65ed24b")
-		)
-		(pin "3"
-			(uuid "4e146de7-e64a-40a8-8672-3671dfbeff0d")
-		)
-		(pin "1"
-			(uuid "bc62ec7e-33b3-4669-98f2-ab563889ea6b")
-		)
-		(pin "2"
-			(uuid "dd8d4d6a-75fd-4f5a-81f7-aff0596d013f")
-		)
-		(pin "6"
-			(uuid "e5881bf2-9cd0-4ba6-aabb-bb007a0fd3a1")
-		)
-		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U28")
-					(unit 1)
 				)
 			)
 		)
@@ -19315,12 +19872,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceded096-3eea-45f4-a373-a0759b9948fb")
-		(property "Reference" "TP97"
+		(property "Reference" "TP98"
 			(at 62.23 189.9919 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19342,7 +19899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 69.85 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -19364,7 +19921,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 64.77 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -19381,10 +19938,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP97")
+					(reference "TP98")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -19402,7 +19960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf60d74d-52a4-40ef-83a8-925d633b6a80")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0135"
 			(at 85.09 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -19462,7 +20020,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0137")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -19532,6 +20090,28 @@
 				)
 			)
 		)
+		(property "MFR" "CIT Relay and Switch"
+			(at 234.95 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "J107F1AS125VDC.36"
+			(at 234.95 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "5ed36b04-56e1-4c15-a2dd-b88230310f33")
 		)
@@ -19578,7 +20158,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC02"
+		(property "Value" "SN74HC02N"
 			(at 110.49 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19588,7 +20168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 110.49 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -19611,6 +20191,28 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
+			(at 110.49 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 110.49 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74HC02N"
 			(at 110.49 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -19696,7 +20298,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC02"
+		(property "Value" "SN74HC02N"
 			(at 138.43 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19706,7 +20308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -19729,6 +20331,28 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
+			(at 138.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 138.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74HC02N"
 			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -19805,7 +20429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d475d9c4-fdef-4527-8e8e-8882893320bd")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0106"
 			(at 167.64 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -19865,7 +20489,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0108")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -19884,7 +20508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de9dc19b-ad64-4ce2-af30-3efc07419c1b")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR096"
 			(at 34.29 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19944,7 +20568,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR098")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -20094,7 +20718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0196677-2ce5-4a75-bf75-c62d74bc6254")
-		(property "Reference" "C64"
+		(property "Reference" "C63"
 			(at 82.55 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20169,7 +20793,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C64")
+					(reference "C63")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -20212,7 +20836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Wuerth_Term_Blk_2pos_Side_Entry_5mm"
 			(at 59.69 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -20236,6 +20860,28 @@
 		)
 		(property "Description" "Motor Key"
 			(at 59.69 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Wuerth Eletronik"
+			(at 59.69 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "691137710002"
+			(at 59.69 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20276,7 +20922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5e8c157-b340-4255-9f7d-fc62835eddb3")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0124"
 			(at 234.95 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -20336,7 +20982,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0126")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -20432,7 +21078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e61d0c02-ccd5-487e-90e5-0136a235b64d")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0108"
 			(at 30.48 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -20492,7 +21138,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0110")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -20532,7 +21178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 103.378 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -20555,6 +21201,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 101.6 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
 			(at 101.6 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -20595,7 +21252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e89e7bb7-515f-4b61-b643-1e829d908d99")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0100"
 			(at 149.86 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -20655,86 +21312,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 276.86 29.21 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9dd67fd-c43a-4176-beaf-b87f5b9cd290")
-		(property "Reference" "#PWR095"
-			(at 276.86 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c49a213f-369d-456b-9216-5a4d88bd062e")
-		)
-		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR095")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -20873,8 +21451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 55.88 92.71 0)
+		(lib_id "power:GND")
+		(at 170.18 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20883,8 +21461,86 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "ee245429-3e0c-456f-8809-e319eca904d3")
+		(property "Reference" "#PWR0104"
+			(at 170.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c27c0654-4e2f-4ce7-96ac-a342e638213d")
+		)
+		(instances
+			(project "power-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "eee72de4-7776-4120-9b2d-e177b776ab47")
-		(property "Reference" "TP85"
+		(property "Reference" "TP86"
 			(at 58.42 88.1379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20906,7 +21562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 60.96 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20928,7 +21584,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 55.88 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20945,10 +21601,11 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP85")
+					(reference "TP86")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -20956,7 +21613,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 256.54 33.02 0)
+		(at 264.16 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20967,7 +21624,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef8b1d22-bc02-4e86-ba97-6ace40699a7e")
 		(property "Reference" "TP76"
-			(at 259.08 28.4479 0)
+			(at 266.7 28.4479 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20977,8 +21634,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5009"
-			(at 259.08 30.9879 0)
+		(property "Value" "Yellow"
+			(at 266.7 30.9879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20988,8 +21645,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 261.62 33.02 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 269.24 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21000,7 +21657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 33.02 0)
+			(at 269.24 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21010,8 +21667,30 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
-			(at 256.54 33.02 0)
+		(property "Description" "Test Point"
+			(at 264.16 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5009"
+			(at 264.16 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Keystone Electronics"
+			(at 264.16 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21042,7 +21721,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -21068,7 +21747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -21090,7 +21769,7 @@
 				)
 			)
 		)
-		(property "Description" "Auxiliary Battery GND"
+		(property "Description" "Test Point"
 			(at 101.6 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21111,6 +21790,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(in_bom yes)
 					)
 				)
 			)
@@ -21129,7 +21809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f371bc77-29d8-40e3-af34-9916d6ef0c7b")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0121"
 			(at 52.07 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -21189,7 +21869,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0123")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -21217,7 +21897,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ESDA7P60-1U1M"
+		(property "Value" "SMF5.0A"
 			(at 38.1 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21228,7 +21908,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 36.83 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21250,7 +21930,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "TVS diode, 5Vrwm"
 			(at 36.83 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21261,7 +21941,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C1975146"
+		(property "JLCPCB" "C19077497"
 			(at 36.83 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -21303,7 +21983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f661af66-fa98-431a-a136-5fd948a9ce64")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0132"
 			(at 31.75 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -21363,7 +22043,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0134")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -21400,7 +22080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.04 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -21424,6 +22104,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 66.04 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 66.04 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21484,7 +22175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Exocet:Wuerth_Term_Blk_6pos_Side_Entry_5mm"
 			(at 139.7 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -21507,6 +22198,28 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Wuerth Eletronik"
+			(at 139.7 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "691137710006"
 			(at 139.7 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -21557,7 +22270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd3f72ee-43ee-4666-8d91-7b5b00b275f6")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0118"
 			(at 237.49 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -21617,7 +22330,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0120")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -21635,7 +22348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fde9047f-35f4-4d53-acf2-5cd0964fce26")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0117"
 			(at 214.63 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -21695,7 +22408,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "#PWR0119")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -21723,7 +22436,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "ESDA7P60-1U1M"
+		(property "Value" "SMF5.0A"
 			(at 30.48 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21734,7 +22447,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 31.75 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21756,7 +22469,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "TVS diode, 5Vrwm"
 			(at 31.75 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21767,7 +22480,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C1975146"
+		(property "JLCPCB" "C19077497"
 			(at 31.75 35.56 90)
 			(hide yes)
 			(show_name no)
