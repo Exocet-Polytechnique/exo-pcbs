@@ -979,6 +979,9 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "SYM1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)

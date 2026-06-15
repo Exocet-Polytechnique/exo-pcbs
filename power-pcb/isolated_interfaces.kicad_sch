@@ -5207,7 +5207,6 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
-						(in_bom yes)
 					)
 				)
 			)
@@ -5570,7 +5569,6 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
-						(in_bom yes)
 					)
 				)
 			)
@@ -5652,7 +5650,6 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
-						(in_bom yes)
 					)
 				)
 			)
@@ -6513,6 +6510,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 			)
@@ -6595,7 +6593,6 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
-						(in_bom yes)
 					)
 				)
 			)
@@ -6678,7 +6675,6 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
-						(in_bom yes)
 					)
 				)
 			)
@@ -7056,7 +7052,6 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
-						(in_bom yes)
 					)
 				)
 			)
@@ -7267,6 +7262,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 			)
@@ -7711,7 +7707,6 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
-						(in_bom yes)
 					)
 				)
 			)
@@ -7950,7 +7945,6 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
-						(dnp yes)
 					)
 				)
 			)
@@ -8333,7 +8327,6 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
-						(in_bom yes)
 					)
 				)
 			)

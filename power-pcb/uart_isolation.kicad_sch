@@ -2788,6 +2788,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/be987d2c-a213-4c25-b0fe-9b4345968d50"
@@ -2795,6 +2796,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/d07c0ed4-3b58-4869-8743-63525d6d46a2"
@@ -2802,6 +2804,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 			)
@@ -2906,6 +2909,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/be987d2c-a213-4c25-b0fe-9b4345968d50"
@@ -2913,6 +2917,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/d07c0ed4-3b58-4869-8743-63525d6d46a2"
@@ -2920,6 +2925,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 			)
@@ -3024,6 +3030,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/be987d2c-a213-4c25-b0fe-9b4345968d50"
@@ -3031,6 +3038,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/d07c0ed4-3b58-4869-8743-63525d6d46a2"
@@ -3038,6 +3046,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 			)
@@ -3150,6 +3159,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/be987d2c-a213-4c25-b0fe-9b4345968d50"
@@ -3157,6 +3167,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/d07c0ed4-3b58-4869-8743-63525d6d46a2"
@@ -3164,6 +3175,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 			)
@@ -3550,6 +3562,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/be987d2c-a213-4c25-b0fe-9b4345968d50"
@@ -3557,6 +3570,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07/d07c0ed4-3b58-4869-8743-63525d6d46a2"
@@ -3564,6 +3578,7 @@
 					(unit 1)
 					(variant
 						(name "JLCPCB")
+						(dnp yes)
 					)
 				)
 			)
