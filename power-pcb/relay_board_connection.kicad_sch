@@ -1434,145 +1434,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -1892,6 +1753,12 @@
 		(uuid "0c622ddc-81d0-4e82-b89f-8ec5bcf3e0ac")
 	)
 	(junction
+		(at 157.48 60.96)
+		(diameter 0)
+		(color 194 0 0 1)
+		(uuid "116383c4-7600-4c80-9501-bb6e5917ef93")
+	)
+	(junction
 		(at 59.69 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1952,7 +1819,7 @@
 		(uuid "67dbb9c9-299a-42bd-b4a7-acb1f97c9453")
 	)
 	(junction
-		(at 152.4 45.72)
+		(at 157.48 45.72)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "6b7904d3-0a21-474c-acad-cbd38820aa95")
@@ -1970,7 +1837,7 @@
 		(uuid "7208236e-05b3-4042-a096-4389931f3ee8")
 	)
 	(junction
-		(at 152.4 38.1)
+		(at 157.48 38.1)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "7404d728-788e-4882-b8c7-7fb722165f5a")
@@ -1982,10 +1849,16 @@
 		(uuid "75693471-35a9-4ca0-aea4-e512c3088697")
 	)
 	(junction
-		(at 160.02 81.28)
+		(at 165.1 81.28)
 		(diameter 0)
 		(color 221 133 0 1)
 		(uuid "7598e984-90cb-462d-8acc-bdce5f5bc6c4")
+	)
+	(junction
+		(at 165.1 73.66)
+		(diameter 0)
+		(color 221 133 0 1)
+		(uuid "8e42f352-e15e-4332-bd08-fd6ca21e35a1")
 	)
 	(junction
 		(at 85.09 48.26)
@@ -1994,13 +1867,13 @@
 		(uuid "8f222b14-603a-499d-bf19-fe9255c5a49b")
 	)
 	(junction
-		(at 152.4 30.48)
+		(at 157.48 30.48)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "927ad24d-c110-4835-9efc-6686f5ba4c1c")
 	)
 	(junction
-		(at 152.4 53.34)
+		(at 157.48 53.34)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "94c5fd94-ae2e-41d5-a1a4-f9f011709a6d")
@@ -2066,12 +1939,6 @@
 		(uuid "d0ab4c36-884d-4830-b7dd-6b0ee65931a0")
 	)
 	(junction
-		(at 167.64 66.04)
-		(diameter 0)
-		(color 194 194 0 1)
-		(uuid "d628f22f-1dbf-4e48-8044-1ff4c335615d")
-	)
-	(junction
 		(at 171.45 50.8)
 		(diameter 0)
 		(color 0 0 0 1)
@@ -2097,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 30.48) (xy 152.4 30.48)
+			(xy 173.99 30.48) (xy 157.48 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 81.28) (xy 173.99 81.28)
+			(xy 165.1 81.28) (xy 173.99 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 30.48) (xy 152.4 25.4)
+			(xy 157.48 30.48) (xy 157.48 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 81.28) (xy 160.02 88.9)
+			(xy 165.1 81.28) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2316,6 +2183,17 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 73.66) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "510635f4-29bd-4a6f-a269-cbf4e088d64e")
+	)
+	(wire
+		(pts
 			(xy 59.69 33.02) (xy 59.69 88.9)
 		)
 		(stroke
@@ -2323,17 +2201,6 @@
 			(type default)
 		)
 		(uuid "54b0559a-1b5c-4a90-8cbe-fc87ada96117")
-	)
-	(wire
-		(pts
-			(xy 167.64 66.04) (xy 167.64 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 194 0 1)
-		)
-		(uuid "551655ee-6577-4a7d-934a-139a1301c491")
 	)
 	(wire
 		(pts
@@ -2389,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 173.99 88.9)
+			(xy 165.1 88.9) (xy 173.99 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2461,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 53.34) (xy 152.4 45.72)
+			(xy 157.48 53.34) (xy 157.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2469,17 +2336,6 @@
 			(color 194 0 0 1)
 		)
 		(uuid "75a640a7-bedf-4ed5-9e10-e9058389aac5")
-	)
-	(wire
-		(pts
-			(xy 173.99 66.04) (xy 167.64 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 194 0 1)
-		)
-		(uuid "784c0031-127c-42bf-9d0d-e973c0848da4")
 	)
 	(wire
 		(pts
@@ -2535,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 38.1) (xy 152.4 38.1)
+			(xy 173.99 38.1) (xy 157.48 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +2402,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 45.72) (xy 152.4 38.1)
+			(xy 157.48 45.72) (xy 157.48 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2554,6 +2410,17 @@
 			(color 194 0 0 1)
 		)
 		(uuid "89d84435-3686-4f4c-b150-6c11e39612ec")
+	)
+	(wire
+		(pts
+			(xy 157.48 60.96) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "8be45b67-6ba3-4cf3-be2f-5fd7fc2d4de0")
 	)
 	(wire
 		(pts
@@ -2575,6 +2442,17 @@
 			(type default)
 		)
 		(uuid "919029a1-18d8-43dd-af43-bacad2bcceaa")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 173.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "949572be-978c-4378-9c8b-6c5e5763b1d2")
 	)
 	(wire
 		(pts
@@ -2608,17 +2486,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 73.66) (xy 167.64 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 194 0 1)
-		)
-		(uuid "9d1ca3bf-2248-44d1-962d-411adadbf3ae")
-	)
-	(wire
-		(pts
 			(xy 85.09 48.26) (xy 85.09 88.9)
 		)
 		(stroke
@@ -2639,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 60.96) (xy 152.4 60.96)
+			(xy 173.99 60.96) (xy 157.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2722,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 38.1) (xy 152.4 30.48)
+			(xy 157.48 38.1) (xy 157.48 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2620,18 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 53.34) (xy 152.4 53.34)
+			(xy 157.48 66.04) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "b8993d3c-d884-4323-ba60-074e48c6c460")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 157.48 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2764,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 24.13) (xy 160.02 81.28)
+			(xy 165.1 24.13) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2826,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 25.4) (xy 152.4 25.4)
+			(xy 154.94 25.4) (xy 157.48 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 60.96) (xy 152.4 53.34)
+			(xy 157.48 60.96) (xy 157.48 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2973,7 +2851,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 45.72) (xy 152.4 45.72)
+			(xy 173.99 45.72) (xy 157.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2992,17 +2870,6 @@
 		)
 		(uuid "fb26f1b9-017d-4580-bca0-1f04c73285d1")
 	)
-	(wire
-		(pts
-			(xy 173.99 73.66) (xy 167.64 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 194 0 1)
-		)
-		(uuid "fe753e41-e5d6-461e-9797-596d9bd8d4cf")
-	)
 	(hierarchical_label "BOP_SWITCH"
 		(shape input)
 		(at 48.26 33.02 180)
@@ -3016,7 +2883,7 @@
 	)
 	(hierarchical_label "+24V_CONTACTORS"
 		(shape input)
-		(at 149.86 25.4 180)
+		(at 154.94 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3114,7 +2981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1283ddb9-9098-4412-b89e-b0a4cbea60d1")
-		(property "Reference" "C33"
+		(property "Reference" "C35"
 			(at 139.7 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3136,7 +3003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 136.8552 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3169,7 +3036,29 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "C307331"
+			(at 135.89 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 135.89 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 135.89 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3189,7 +3078,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "C33")
+					(reference "C35")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -3210,7 +3099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15f181fb-105a-4597-92a6-620e7e25c60c")
-		(property "Reference" "C29"
+		(property "Reference" "C31"
 			(at 88.9 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,7 +3121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 86.0552 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3265,7 +3154,29 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "C307331"
+			(at 85.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 85.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 85.09 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3285,7 +3196,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "C29")
+					(reference "C31")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -3306,7 +3217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f6eaf7a-ac73-4403-b505-6f22608f4a39")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 104.14 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3366,7 +3277,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3439,6 +3350,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 66.04 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 66.04 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce4ea8de-f346-4c36-b4ba-d5437eefbb43")
 		)
@@ -3466,7 +3399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "305cb43b-c745-412e-9df2-e9850cd3afef")
-		(property "Reference" "C30"
+		(property "Reference" "C32"
 			(at 101.6 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +3421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 98.7552 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3521,7 +3454,29 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "C307331"
+			(at 97.79 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 97.79 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 97.79 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3541,7 +3496,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "C30")
+					(reference "C32")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -3562,7 +3517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3738275c-35b4-40b5-bba3-cce90f7277c8")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3622,7 +3577,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3685,6 +3640,28 @@
 			)
 		)
 		(property "Description" "Test Point"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 53.34 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3767,6 +3744,28 @@
 			)
 		)
 		(property "Description" "Test Point"
+			(at 142.24 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 142.24 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 142.24 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3892,6 +3891,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 181.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 181.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "6e364046-62d2-444a-a449-993fc28cce1a")
 		)
@@ -3985,7 +4006,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 160.02 24.13 0)
+		(at 165.1 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3996,7 +4017,7 @@
 		(fields_autoplaced yes)
 		(uuid "700f2c6e-8dc5-454b-b829-72e4dfab8d0c")
 		(property "Reference" "#PWR055"
-			(at 160.02 27.94 0)
+			(at 165.1 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4007,7 +4028,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.02 19.05 0)
+			(at 165.1 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4017,7 +4038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 24.13 0)
+			(at 165.1 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4028,7 +4049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 24.13 0)
+			(at 165.1 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4039,7 +4060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 160.02 24.13 0)
+			(at 165.1 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,84 +4077,6 @@
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 167.64 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78bc2f24-b55f-456f-93e4-3e817015f44c")
-		(property "Reference" "#PWR056"
-			(at 167.64 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 167.64 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 167.64 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d70c9ab-267d-42c2-8622-f038cf3834bb")
-		)
-		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4206,6 +4149,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e0d9adb-5b1d-4bfb-91ff-672ed0d2a3f8")
 		)
@@ -4233,7 +4198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a396422d-3c10-4d36-999d-c1d1b3c16858")
-		(property "Reference" "C34"
+		(property "Reference" "C36"
 			(at 152.4 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4255,7 +4220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 149.5552 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4288,7 +4253,29 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "C307331"
+			(at 148.59 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 148.59 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 148.59 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4308,7 +4295,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "C34")
+					(reference "C36")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -4374,6 +4361,28 @@
 			)
 		)
 		(property "Description" "Test Point"
+			(at 104.14 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 104.14 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 104.14 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4466,6 +4475,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 91.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 91.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62d6fe73-e535-49dc-85f0-338b2740917e")
 		)
@@ -4493,7 +4524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1a99bc7-db1a-44b6-a677-2e7d56e410fd")
-		(property "Reference" "C31"
+		(property "Reference" "C33"
 			(at 114.3 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4515,7 +4546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 111.4552 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4548,7 +4579,29 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "C307331"
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 110.49 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4568,7 +4621,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "C31")
+					(reference "C33")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -4589,7 +4642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4131544-3f35-4628-b39a-401e9f09fa21")
-		(property "Reference" "C32"
+		(property "Reference" "C34"
 			(at 127 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 124.1552 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4644,7 +4697,29 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "C307331"
+			(at 123.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 123.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4664,7 +4739,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "C32")
+					(reference "C34")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -4740,6 +4815,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e798b2f-5fcf-4935-99d3-03f5926affd2")
 		)
@@ -4767,7 +4864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc5ce40a-63df-4626-85df-23fe201dc227")
-		(property "Reference" "C28"
+		(property "Reference" "C30"
 			(at 76.2 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4789,7 +4886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 73.3552 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4822,7 +4919,29 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "C307331"
+			(at 72.39 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 72.39 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 72.39 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4842,7 +4961,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "C28")
+					(reference "C30")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -4918,6 +5037,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 78.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 78.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32041d03-9ce3-4606-9339-8f646b8ea7f0")
 		)
@@ -4945,7 +5086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de4c9f25-8cb1-4762-b19c-99d3d330bdbb")
-		(property "Reference" "C27"
+		(property "Reference" "C29"
 			(at 63.5 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4967,7 +5108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 60.6552 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5000,7 +5141,29 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "C307331"
+			(at 59.69 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 59.69 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 59.69 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5020,7 +5183,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/9838bcc9-e766-495a-ad52-0ec70b90713f"
-					(reference "C27")
+					(reference "C29")
 					(unit 1)
 					(variant
 						(name "JLCPCB")

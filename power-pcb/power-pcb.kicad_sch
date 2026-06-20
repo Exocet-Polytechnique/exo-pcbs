@@ -974,6 +974,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 21.59 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 21.59 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
@@ -1128,6 +1150,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 138.43 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 138.43 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f8764c4-c0d8-4b72-953d-180fa60f58d0")
 		)
@@ -1207,6 +1251,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 147.32 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 147.32 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40ee271d-98a1-4713-8c46-10ce65812ad4")
 		)
@@ -1276,6 +1342,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 165.1 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 165.1 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 165.1 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -1599,6 +1687,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 156.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 156.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fce1e1e9-9f59-4000-a4dc-c58c760cabec")
 		)
@@ -1712,29 +1822,9 @@
 				(justify left)
 			)
 		)
-		(pin "IMD_CAN_TX" input
-			(at 157.48 107.95 180)
-			(uuid "a4dca3a7-532f-400a-b0e3-7d644cbac44b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DMS_OUT_EN" input
 			(at 157.48 118.11 180)
 			(uuid "4475b3d2-58e3-4e6d-b953-efe9534155f3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DMS_LATCH" output
-			(at 157.48 138.43 180)
-			(uuid "9365a7ac-17d4-47de-a0c8-c7e5363b9a39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,9 +1842,29 @@
 				(justify left)
 			)
 		)
-		(pin "~{DMS_PULSE_CLR}" input
+		(pin "~{DMS_PULSE_CLEAR}" input
 			(at 157.48 135.89 180)
-			(uuid "91c9e0f3-ba45-46d4-a1f2-55a3272d3424")
+			(uuid "ee55ffe5-9275-4cc0-a1ad-1dc93f2f8ce8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMD_CAN_TX" input
+			(at 157.48 107.95 180)
+			(uuid "ece1c3ab-8853-421d-b82e-9e65a62de6af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DMS_FAULT_LATCH" output
+			(at 157.48 138.43 180)
+			(uuid "177a2428-dde0-4d2a-8078-d7c16e98afec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,16 +2334,6 @@
 				(justify left)
 			)
 		)
-		(pin "DMS_LATCH" input
-			(at 147.32 138.43 0)
-			(uuid "ade66b08-3a44-4d46-951b-a30d205b9b1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DMS_RESET" output
 			(at 147.32 133.35 0)
 			(uuid "2aeca93f-6010-4058-a62c-e9d9c3da6fcb")
@@ -2244,9 +2344,19 @@
 				(justify right)
 			)
 		)
-		(pin "DMS_PULSE_CLEAR" output
+		(pin "~{DMS_PULSE_CLEAR}" output
 			(at 147.32 135.89 0)
-			(uuid "7e7369b0-5d0a-4bef-a8bb-b28566a814cf")
+			(uuid "f6370205-a358-44eb-a58e-d34d3610bccf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DMS_FAULT_LATCH" input
+			(at 147.32 138.43 0)
+			(uuid "cb69febc-eda4-45ff-a3e5-8075b86513e6")
 			(effects
 				(font
 					(size 1.27 1.27)
