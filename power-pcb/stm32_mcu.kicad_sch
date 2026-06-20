@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "STM32 Microcontroller")
-		(date "2026-06-13")
+		(date "2026-06-19")
 		(rev "v1.1.0")
 	)
 	(lib_symbols
@@ -7540,7 +7540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 17.272 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -7573,7 +7573,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C11702"
+		(property "JLCPCB" "C21190"
 			(at 19.05 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8096,7 +8096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 140.97 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -8129,7 +8129,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25804"
+		(property "JLCPCB" "C17414"
 			(at 140.97 107.95 0)
 			(hide yes)
 			(show_name no)

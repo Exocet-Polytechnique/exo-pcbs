@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "48V Battery I-V Sensing")
-		(date "2026-06-13")
+		(date "2026-06-19")
 		(rev "v1.1.0")
 	)
 	(lib_symbols
@@ -6217,7 +6217,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 69.85 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,7 +6575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 160.02 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,7 +7861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 69.85 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8304,7 +8304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 160.02 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)

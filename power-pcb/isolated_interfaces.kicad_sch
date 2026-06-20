@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Isolated Interfaces")
-		(date "2026-06-13")
+		(date "2026-06-17")
 		(rev "v1.1.0")
 	)
 	(lib_symbols
@@ -6100,7 +6100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 153.67 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,7 +6111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 149.352 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -6144,7 +6144,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25804"
+		(property "JLCPCB" "C25752"
 			(at 151.13 118.11 0)
 			(hide yes)
 			(show_name no)

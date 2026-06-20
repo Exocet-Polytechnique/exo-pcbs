@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Non-Isolated Interfaces and Power")
-		(date "2026-06-13")
+		(date "2026-06-19")
 		(rev "v1.1.0")
 	)
 	(lib_symbols
@@ -10076,7 +10076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 142.24 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10087,7 +10087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 137.922 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -10120,7 +10120,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25804"
+		(property "JLCPCB" "C25752"
 			(at 139.7 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10995,7 +10995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 206.502 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -11028,7 +11028,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25804"
+		(property "JLCPCB" "C17414"
 			(at 208.28 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12745,7 +12745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 244.602 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -12778,7 +12778,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25804"
+		(property "JLCPCB" "C17414"
 			(at 246.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14157,7 +14157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 270.002 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -14190,7 +14190,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C11702"
+		(property "JLCPCB" "C21190"
 			(at 271.78 33.02 0)
 			(hide yes)
 			(show_name no)
