@@ -4453,10 +4453,16 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368"
 					(reference "U13")
 					(unit 2)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5"
 					(reference "U9")
 					(unit 2)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -4571,10 +4577,16 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368"
 					(reference "R30")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5"
 					(reference "R21")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -5824,10 +5836,16 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368"
 					(reference "U13")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5"
 					(reference "U9")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -6313,7 +6331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dc386e1-c914-42c4-9ad0-3cca9f498129")
-		(property "Reference" "L5"
+		(property "Reference" "L4"
 			(at 66.04 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,14 +6426,14 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368"
-					(reference "L7")
+					(reference "L6")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5"
-					(reference "L5")
+					(reference "L4")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -7058,10 +7076,16 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368"
 					(reference "U13")
 					(unit 3)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5"
 					(reference "U9")
 					(unit 3)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -7287,10 +7311,16 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368"
 					(reference "R29")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5"
 					(reference "R20")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -7405,10 +7435,16 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368"
 					(reference "R37")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5"
 					(reference "R28")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -7425,7 +7461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b53033-0cbd-464f-991a-5f5fc3760978")
-		(property "Reference" "L6"
+		(property "Reference" "L5"
 			(at 97.79 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7520,14 +7556,14 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/3693d20b-149d-45d7-af15-a350745d6368"
-					(reference "L8")
+					(reference "L7")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
 					)
 				)
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/50636587-2815-4d8e-b0bd-5f3d88757853/82c46a0b-eb43-4701-b45e-f82f376cbba5"
-					(reference "L6")
+					(reference "L5")
 					(unit 1)
 					(variant
 						(name "JLCPCB")

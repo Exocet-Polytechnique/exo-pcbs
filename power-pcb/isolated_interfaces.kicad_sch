@@ -8349,7 +8349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b15e8e6a-1a7a-419e-9c0f-833845b47772")
-		(property "Reference" "L9"
+		(property "Reference" "L8"
 			(at 59.69 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8444,7 +8444,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07"
-					(reference "L9")
+					(reference "L8")
 					(unit 1)
 					(variant
 						(name "JLCPCB")

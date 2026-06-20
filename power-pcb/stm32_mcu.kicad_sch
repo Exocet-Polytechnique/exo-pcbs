@@ -8386,7 +8386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68733d57-3a57-49db-8405-2f413f5e7090")
-		(property "Reference" "L4"
+		(property "Reference" "L3"
 			(at 179.07 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8481,7 +8481,7 @@
 		(instances
 			(project "power-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "L4")
+					(reference "L3")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -12024,6 +12024,9 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R15")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)

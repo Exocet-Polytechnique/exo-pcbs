@@ -8710,6 +8710,9 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
 					(reference "U28")
 					(unit 3)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -10371,6 +10374,9 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
 					(reference "U28")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
@@ -12188,6 +12194,9 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
 					(reference "U28")
 					(unit 2)
+					(variant
+						(name "JLCPCB")
+					)
 				)
 			)
 		)
