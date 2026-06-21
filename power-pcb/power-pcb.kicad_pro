@@ -65,8 +65,8 @@
           "min_thickness": 0.3,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.25,
-          "thermal_relief_spoke_width": 0.7
+          "thermal_relief_gap": 0.15,
+          "thermal_relief_spoke_width": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -211,7 +211,12 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3,
+        0.6,
+        1.0,
+        1.25,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -580,7 +585,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": true,
@@ -705,7 +710,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Value"

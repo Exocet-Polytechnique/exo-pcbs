@@ -6228,7 +6228,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 68.58 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -6261,7 +6261,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25804"
+		(property "JLCPCB" "C25752"
 			(at 68.58 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -6586,7 +6586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 158.75 53.848 90)
 			(hide yes)
 			(show_name no)
@@ -6619,7 +6619,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25804"
+		(property "JLCPCB" "C25752"
 			(at 158.75 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -7872,7 +7872,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 68.58 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -7905,7 +7905,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25804"
+		(property "JLCPCB" "C25752"
 			(at 68.58 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -8315,7 +8315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 158.75 48.768 90)
 			(hide yes)
 			(show_name no)
@@ -8348,7 +8348,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25804"
+		(property "JLCPCB" "C25752"
 			(at 158.75 46.99 90)
 			(hide yes)
 			(show_name no)

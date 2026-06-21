@@ -36,3 +36,5 @@ fp-info-cache
 
 # excluded for copyright
 _library/models/**
+
+**/export
