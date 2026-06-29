@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Safety Systems")
-		(date "2026-06-19")
+		(date "2026-06-29")
 		(rev "v1.1.0")
 	)
 	(lib_symbols

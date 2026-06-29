@@ -5,8 +5,8 @@
 	(uuid "d68c9912-0f74-404f-a295-43ca00f4a7a5")
 	(paper "A4")
 	(title_block
-		(title "Non-Isolated Interfaces and Power")
-		(date "2026-06-19")
+		(title "Power Input and CAN")
+		(date "2026-06-29")
 		(rev "v1.1.0")
 	)
 	(lib_symbols
@@ -4244,7 +4244,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MCP2562-E-P"
+		(property "Value" "MCP2562"
 			(at 46.2981 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
