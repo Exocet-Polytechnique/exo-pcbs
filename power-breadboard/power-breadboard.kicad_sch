@@ -75,26 +75,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 106.68 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32bfcf49-9cbc-419b-8291-0450f3271bfb")
-	)
-	(wire
-		(pts
-			(xy 93.98 104.14) (xy 106.68 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "331a83d7-0548-4e13-b477-41262562b6ba")
-	)
-	(wire
-		(pts
 			(xy 154.94 100.33) (xy 154.94 83.82)
 		)
 		(stroke
@@ -123,16 +103,6 @@
 			(type dash)
 		)
 		(uuid "421d2a1c-1472-455c-bfe2-47295720950b")
-	)
-	(wire
-		(pts
-			(xy 147.32 113.03) (xy 157.48 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48bbdf8e-df3a-473a-876b-b8955b779c5f")
 	)
 	(polyline
 		(pts
@@ -254,16 +224,6 @@
 			(type default)
 		)
 		(uuid "7ced116b-1555-4adb-baff-5ea8f9cbf5b2")
-	)
-	(wire
-		(pts
-			(xy 93.98 106.68) (xy 106.68 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e9eb09-f41b-44a4-b2af-bfc9fb1b0e5c")
 	)
 	(polyline
 		(pts
@@ -873,46 +833,6 @@
 				(justify left)
 			)
 		)
-		(pin "JCLK{slash}SWCLK" input
-			(at 106.68 41.91 180)
-			(uuid "30352307-a44a-4f73-9d07-243c43afcb55")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JDTO{slash}SWO" output
-			(at 106.68 44.45 180)
-			(uuid "f1da00e5-be89-43d6-b908-65c247f7ea40")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JTDI" input
-			(at 106.68 46.99 180)
-			(uuid "b106ec4e-9d11-434e-8af4-7cfe405b028f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JTMS{slash}SWDIO" bidirectional
-			(at 106.68 49.53 180)
-			(uuid "4009318e-b728-4ce7-8edb-b4546d62e719")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SCL" output
 			(at 147.32 34.29 0)
 			(uuid "be5852f5-3834-431d-88ad-5ff90db0a465")
@@ -931,56 +851,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "USB_D+" bidirectional
-			(at 106.68 62.23 180)
-			(uuid "482c29f8-a589-4196-b2dd-2b938a4240bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_D-" bidirectional
-			(at 106.68 64.77 180)
-			(uuid "c80105ae-09b8-4e1b-8921-e9f9c7856260")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCP_RX" input
-			(at 106.68 57.15 180)
-			(uuid "4c3b1811-70a5-4a54-ae66-2ef270efbdc9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCP_TX" output
-			(at 106.68 54.61 180)
-			(uuid "3f1677aa-71f7-478c-bf3f-2507ad41e1b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{RST}" input
-			(at 106.68 69.85 180)
-			(uuid "944001dd-aa87-47b4-a5d5-d539792bd573")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "ALARM_FORCE" output
@@ -1003,29 +873,9 @@
 				(justify right)
 			)
 		)
-		(pin "AUXILIARY_BATTERY_SWITCH" output
-			(at 147.32 67.31 0)
-			(uuid "2e24b4a1-7afb-4373-a629-7cdb6ac9a0b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BOP_SWITCH" output
 			(at 147.32 49.53 0)
 			(uuid "af0e0cea-c31f-4eef-ac4d-d775012d8691")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BRAKING_RESISTOR_SWITCH" output
-			(at 147.32 54.61 0)
-			(uuid "3f4808c9-5308-4981-98bb-2433afde3de6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,26 +933,6 @@
 				(justify right)
 			)
 		)
-		(pin "MOTOR_PRECHARGE_STAGE_1" output
-			(at 147.32 59.69 0)
-			(uuid "392589d4-5386-4cfb-aed7-b31f18d8c2b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOTOR_PRECHARGE_STAGE_2" output
-			(at 147.32 62.23 0)
-			(uuid "47229581-b48d-493e-805e-58b9e98554c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MPPT_PRECHARGE_STAGE_1" output
 			(at 147.32 72.39 0)
 			(uuid "a0d53407-0c9a-414a-b487-709ceaea5c04")
@@ -1153,26 +983,6 @@
 				(justify right)
 			)
 		)
-		(pin "THROTTLE" input
-			(at 147.32 113.03 0)
-			(uuid "b9f81cd0-b3e8-4e2d-8285-4488d05f18c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_ISOL_PIN" output
-			(at 106.68 110.49 180)
-			(uuid "6e105525-96f6-4995-a64c-4a9adc13373d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DMS_OUT_EN" output
 			(at 147.32 118.11 0)
 			(uuid "72165187-fd6a-4864-badd-7dfa79a7f064")
@@ -1181,26 +991,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "STORAGE_BATT_RX" input
-			(at 106.68 104.14 180)
-			(uuid "556ec48d-9d55-46be-89ae-a42b8a7a2720")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "STORAGE_BATT_TX" output
-			(at 106.68 106.68 180)
-			(uuid "e20fb342-ec4a-4491-a05f-064ac3a50d26")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "DMS_RESET" output
@@ -1233,6 +1023,46 @@
 				(justify right)
 			)
 		)
+		(pin "~{AUXILIARY_BATTERY_SWITCH}" output
+			(at 147.32 67.31 0)
+			(uuid "aab4f2b8-ab8b-4dd0-8a2c-9d6dbe258d38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{BRAKING_RESISTOR_SWITCH}" output
+			(at 147.32 54.61 0)
+			(uuid "3a305c1a-005a-455f-b8a0-0136d2e5c45c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MOTOR_PRECHARGE_STAGE_1}" output
+			(at 147.32 59.69 0)
+			(uuid "f5f57fe0-2012-4f36-b0a8-a3c5bc6fd06f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MOTOR_PRECHARGE_STAGE_2}" output
+			(at 147.32 62.23 0)
+			(uuid "f50f8bc7-bfb3-4a24-9cd8-3254e9ede647")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "power-breadboard"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
@@ -1257,7 +1087,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "9838bcc9-e766-495a-ad52-0ec70b90713f")
-		(property "Sheetname" "Relay Board Connection"
+		(property "Sheetname" "Relay Board Connections"
 			(at 157.48 46.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1268,7 +1098,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "relay_board_connection.kicad_sch"
+		(property "Sheetfile" "relay_board_connections.kicad_sch"
 			(at 157.48 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)

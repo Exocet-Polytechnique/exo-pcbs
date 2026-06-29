@@ -3457,7 +3457,7 @@
 		)
 		(uuid "50e1256f-8b05-4b54-815e-fbed8adbee95")
 	)
-	(hierarchical_label "BRAKING_RESISTOR_SWITCH"
+	(hierarchical_label "~{BRAKING_RESISTOR_SWITCH}"
 		(shape output)
 		(at 135.89 66.04 0)
 		(effects
@@ -3512,7 +3512,7 @@
 		)
 		(uuid "a56c44eb-d3ea-446e-953a-8bd07f59d8c7")
 	)
-	(hierarchical_label "AUXILIARY_BATTERY_SWITCH"
+	(hierarchical_label "~{AUXILIARY_BATTERY_SWITCH}"
 		(shape output)
 		(at 135.89 68.58 0)
 		(effects
@@ -3567,7 +3567,7 @@
 		)
 		(uuid "cd78c014-f368-4fc5-aacf-702ae7fd29a9")
 	)
-	(hierarchical_label "MOTOR_PRECHARGE_STAGE_1"
+	(hierarchical_label "~{MOTOR_PRECHARGE_STAGE_1}"
 		(shape output)
 		(at 135.89 58.42 0)
 		(effects
@@ -3622,7 +3622,7 @@
 		)
 		(uuid "db854645-d3f3-481c-b811-7fa12ce1dadd")
 	)
-	(hierarchical_label "MOTOR_PRECHARGE_STAGE_2"
+	(hierarchical_label "~{MOTOR_PRECHARGE_STAGE_2}"
 		(shape output)
 		(at 135.89 60.96 0)
 		(effects
