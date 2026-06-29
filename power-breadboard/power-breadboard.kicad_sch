@@ -24,7 +24,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 54.61) (xy 157.48 54.61)
+			(xy 147.32 74.93) (xy 157.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -45,7 +45,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 157.48 80.01)
+			(xy 147.32 54.61) (xy 157.48 54.61)
 		)
 		(stroke
 			(width 0)
@@ -65,23 +65,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 62.23) (xy 157.48 62.23)
+			(xy 147.32 69.85) (xy 157.48 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "252d046f-1b47-4cf2-8e81-73340ad0fbe6")
-	)
-	(wire
-		(pts
-			(xy 154.94 100.33) (xy 154.94 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34b9fb90-25f7-47b4-bc1a-f59be025e03a")
 	)
 	(polyline
 		(pts
@@ -147,7 +137,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 59.69) (xy 157.48 59.69)
+			(xy 147.32 67.31) (xy 157.48 67.31)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 67.31) (xy 157.48 67.31)
+			(xy 147.32 80.01) (xy 157.48 80.01)
 		)
 		(stroke
 			(width 0)
@@ -278,23 +268,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 157.48 74.93)
+			(xy 147.32 62.23) (xy 157.48 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c035dd1c-6a86-40ad-9a24-374b5e7837de")
-	)
-	(wire
-		(pts
-			(xy 157.48 100.33) (xy 154.94 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c49f5072-1038-4874-9c5a-1b13c5f739b2")
 	)
 	(wire
 		(pts
@@ -308,17 +288,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 157.48 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a731ea-04ee-4692-ab27-4f3baa65be1d")
-	)
-	(wire
-		(pts
-			(xy 147.32 72.39) (xy 157.48 72.39)
+			(xy 147.32 59.69) (xy 157.48 59.69)
 		)
 		(stroke
 			(width 0)
@@ -711,7 +681,7 @@
 	)
 	(sheet
 		(at 157.48 30.48)
-		(size 36.195 10.16)
+		(size 40.64 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -934,7 +904,7 @@
 			)
 		)
 		(pin "MPPT_PRECHARGE_STAGE_1" output
-			(at 147.32 72.39 0)
+			(at 147.32 59.69 0)
 			(uuid "a0d53407-0c9a-414a-b487-709ceaea5c04")
 			(effects
 				(font
@@ -944,7 +914,7 @@
 			)
 		)
 		(pin "MPPT_PRECHARGE_STAGE_2" output
-			(at 147.32 74.93 0)
+			(at 147.32 62.23 0)
 			(uuid "0b0d2d2f-22e4-4ce3-92a8-75c33842c211")
 			(effects
 				(font
@@ -974,7 +944,7 @@
 			)
 		)
 		(pin "STORAGE_BATTERY_SWITCH" output
-			(at 147.32 80.01 0)
+			(at 147.32 54.61 0)
 			(uuid "40466a65-b72c-4299-87af-5ccf3e3ef519")
 			(effects
 				(font
@@ -1024,7 +994,7 @@
 			)
 		)
 		(pin "~{AUXILIARY_BATTERY_SWITCH}" output
-			(at 147.32 67.31 0)
+			(at 147.32 80.01 0)
 			(uuid "aab4f2b8-ab8b-4dd0-8a2c-9d6dbe258d38")
 			(effects
 				(font
@@ -1034,7 +1004,7 @@
 			)
 		)
 		(pin "~{BRAKING_RESISTOR_SWITCH}" output
-			(at 147.32 54.61 0)
+			(at 147.32 74.93 0)
 			(uuid "3a305c1a-005a-455f-b8a0-0136d2e5c45c")
 			(effects
 				(font
@@ -1044,7 +1014,7 @@
 			)
 		)
 		(pin "~{MOTOR_PRECHARGE_STAGE_1}" output
-			(at 147.32 59.69 0)
+			(at 147.32 67.31 0)
 			(uuid "f5f57fe0-2012-4f36-b0a8-a3c5bc6fd06f")
 			(effects
 				(font
@@ -1054,7 +1024,7 @@
 			)
 		)
 		(pin "~{MOTOR_PRECHARGE_STAGE_2}" output
-			(at 147.32 62.23 0)
+			(at 147.32 69.85 0)
 			(uuid "f50f8bc7-bfb3-4a24-9cd8-3254e9ede647")
 			(effects
 				(font
@@ -1073,7 +1043,7 @@
 	)
 	(sheet
 		(at 157.48 46.99)
-		(size 36.195 43.18)
+		(size 40.64 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1099,7 +1069,7 @@
 			)
 		)
 		(property "Sheetfile" "relay_board_connections.kicad_sch"
-			(at 157.48 90.7546 0)
+			(at 157.48 83.1346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1110,68 +1080,8 @@
 			)
 		)
 		(pin "STORAGE_BATTERY_SWITCH" input
-			(at 157.48 80.01 180)
-			(uuid "94aebd12-afa8-4003-a0e3-dad6300eee66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_DC_PRECHARGE_STAGE_2" input
-			(at 157.48 74.93 180)
-			(uuid "2693e1e4-43e8-4593-95c7-9215cdc46b1f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_DC_PRECHARGE_STAGE_1" input
-			(at 157.48 72.39 180)
-			(uuid "7f02f002-6423-4bfd-a6c0-23f483d2df0f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "AUXILIARY_BATTERY_SWITCH" input
-			(at 157.48 67.31 180)
-			(uuid "8a04f43b-18c9-4b52-aceb-6944beda5ba5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOTOR_PRECHARGE_STAGE_2" input
-			(at 157.48 62.23 180)
-			(uuid "f5d6727e-e7be-4060-971b-3062facc4689")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOTOR_PRECHARGE_STAGE_1" input
-			(at 157.48 59.69 180)
-			(uuid "e4c58e0e-f1e7-4b1b-b04a-b2ce844a709a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BRAKING_RESISTOR_SWITCH" input
 			(at 157.48 54.61 180)
-			(uuid "27f2aa4a-6005-454f-8a23-21da3a8fd99f")
+			(uuid "94aebd12-afa8-4003-a0e3-dad6300eee66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,9 +1099,59 @@
 				(justify left)
 			)
 		)
-		(pin "+24V_CONTACTORS" input
-			(at 157.48 83.82 180)
-			(uuid "9c3fe9a5-c6fa-49d5-a504-b2f03a97a54b")
+		(pin "MPPT_PRECHARGE_STAGE_1" input
+			(at 157.48 59.69 180)
+			(uuid "b45f9542-1785-4e03-a2a8-873a94d58f34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MPPT_PRECHARGE_STAGE_2" input
+			(at 157.48 62.23 180)
+			(uuid "793f65e1-783b-48b5-9e59-df4c33e28677")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{AUXILIARY_BATTERY_SWITCH}" input
+			(at 157.48 80.01 180)
+			(uuid "185f8845-eb69-479f-ab83-d7d746bdc97e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{BRAKING_RESISTOR_SWITCH}" input
+			(at 157.48 74.93 180)
+			(uuid "bcd278dc-13a2-400a-8bdd-89e592ac74a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MOTOR_PRECHARGE_STAGE_1}" input
+			(at 157.48 67.31 180)
+			(uuid "c367b923-f882-43de-a747-65d567a84f3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MOTOR_PRECHARGE_STAGE_2}" input
+			(at 157.48 69.85 180)
+			(uuid "c0d98591-3611-4b99-8072-639bae9a87bf")
 			(effects
 				(font
 					(size 1.27 1.27)
