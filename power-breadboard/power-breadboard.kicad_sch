@@ -55,7 +55,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 91.44) (xy 106.68 91.44)
+			(xy 93.98 50.8) (xy 106.68 50.8)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +157,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 106.68 97.79)
+			(xy 93.98 57.15) (xy 106.68 57.15)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 106.68 93.98)
+			(xy 93.98 53.34) (xy 106.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -318,7 +318,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 106.68 100.33)
+			(xy 93.98 59.69) (xy 106.68 59.69)
 		)
 		(stroke
 			(width 0)
@@ -864,7 +864,7 @@
 			)
 		)
 		(pin "FC_RX" input
-			(at 106.68 91.44 180)
+			(at 106.68 50.8 180)
 			(uuid "a9bef8a9-409b-485f-95e2-11894d3ff881")
 			(effects
 				(font
@@ -874,7 +874,7 @@
 			)
 		)
 		(pin "FC_TX" output
-			(at 106.68 93.98 180)
+			(at 106.68 53.34 180)
 			(uuid "3221c47f-3a7a-4efe-811d-cae5cd9918de")
 			(effects
 				(font
@@ -924,7 +924,7 @@
 			)
 		)
 		(pin "MPPT_RX" input
-			(at 106.68 97.79 180)
+			(at 106.68 57.15 180)
 			(uuid "f95cd50a-18e2-4973-9fc8-e7b19d717a38")
 			(effects
 				(font
@@ -934,7 +934,7 @@
 			)
 		)
 		(pin "MPPT_TX" output
-			(at 106.68 100.33 180)
+			(at 106.68 59.69 180)
 			(uuid "2a448547-5006-48e6-b054-fb6638a0b670")
 			(effects
 				(font
@@ -1168,8 +1168,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 87.63)
-		(size 45.72 26.67)
+		(at 48.26 46.99)
+		(size 45.72 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1184,7 +1184,7 @@
 		)
 		(uuid "98c47c69-e753-45d5-a949-1f6e782e8c07")
 		(property "Sheetname" "Isolated Interfaces"
-			(at 48.26 86.9184 0)
+			(at 48.26 46.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1195,7 +1195,7 @@
 			)
 		)
 		(property "Sheetfile" "isolated_interfaces.kicad_sch"
-			(at 48.26 114.8846 0)
+			(at 48.26 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1205,28 +1205,8 @@
 				(justify left top)
 			)
 		)
-		(pin "FC_D+" bidirectional
-			(at 48.26 93.98 180)
-			(uuid "8eedfc78-6506-4c40-99cf-149f31a18a23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "FC_D-" bidirectional
-			(at 48.26 91.44 180)
-			(uuid "7be0c265-b582-4cd6-92a9-6e004b0b3348")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "FC_RX" output
-			(at 93.98 91.44 0)
+			(at 93.98 50.8 0)
 			(uuid "e4523de9-49ba-41e4-bd40-7fe78c323afc")
 			(effects
 				(font
@@ -1236,7 +1216,7 @@
 			)
 		)
 		(pin "FC_TX" input
-			(at 93.98 93.98 0)
+			(at 93.98 53.34 0)
 			(uuid "f2f505aa-1096-4a70-9a13-88818eb86219")
 			(effects
 				(font
@@ -1246,7 +1226,7 @@
 			)
 		)
 		(pin "MPPT_RX" output
-			(at 93.98 97.79 0)
+			(at 93.98 57.15 0)
 			(uuid "9dd6639d-d837-4549-ac70-6b5186510b49")
 			(effects
 				(font
@@ -1256,38 +1236,8 @@
 			)
 		)
 		(pin "MPPT_TX" input
-			(at 93.98 100.33 0)
+			(at 93.98 59.69 0)
 			(uuid "b31c589d-2d1b-4b36-a278-6ea78e2800df")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_ISOL_PIN" input
-			(at 93.98 110.49 0)
-			(uuid "3d02da5f-9279-42d6-8ffa-7113c1ee472e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "STORAGE_BATT_TX" input
-			(at 93.98 106.68 0)
-			(uuid "81283a64-58d1-407e-864a-06e73cd84d58")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "STORAGE_BATT_RX" output
-			(at 93.98 104.14 0)
-			(uuid "1cf0fe64-99fe-4e3e-92d1-00e31a633a7f")
 			(effects
 				(font
 					(size 1.27 1.27)
