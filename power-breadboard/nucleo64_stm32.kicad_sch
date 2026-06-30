@@ -2469,7 +2469,7 @@
 				(type solid)
 			)
 		)
-		(column_widths 20.32 25.4 25.4)
+		(column_widths 20.32 25.4 93.98)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54
 			2.54 2.54 2.54 2.54 2.54 2.54
 		)
@@ -2512,7 +2512,7 @@
 			(table_cell "Notes"
 				(exclude_from_sim no)
 				(at 69.85 120.65 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2561,7 +2561,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 123.19 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2606,10 +2606,10 @@
 				)
 				(uuid "1626eb3a-e605-4283-87b9-ccfbb0c9fcb3")
 			)
-			(table_cell ""
+			(table_cell "19 200 bps, 8 db, 1 sb, no parity, no flow"
 				(exclude_from_sim no)
 				(at 69.85 125.73 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2619,7 +2619,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 				(uuid "21806e1c-051a-4d46-a990-e5c09774016d")
 			)
@@ -2658,7 +2657,7 @@
 			(table_cell "DS18B20 via DS2484"
 				(exclude_from_sim no)
 				(at 69.85 128.27 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2703,10 +2702,10 @@
 				)
 				(uuid "723d72fc-e306-490c-a809-322c2c868684")
 			)
-			(table_cell "Bitrate: 250 000"
+			(table_cell "250 000 bps, standard frames"
 				(exclude_from_sim no)
 				(at 69.85 130.81 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2754,7 +2753,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 133.35 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2803,7 +2802,7 @@
 			(table_cell "Not final"
 				(exclude_from_sim no)
 				(at 69.85 135.89 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2854,7 +2853,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 138.43 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2905,7 +2904,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 140.97 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2956,7 +2955,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 143.51 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3007,7 +3006,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 146.05 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3058,7 +3057,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 148.59 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3109,7 +3108,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 151.13 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3160,7 +3159,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 153.67 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3211,7 +3210,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 156.21 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3262,7 +3261,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 158.75 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3313,7 +3312,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 161.29 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3364,7 +3363,7 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 69.85 163.83 0)
-				(size 25.4 2.54)
+				(size 93.98 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
