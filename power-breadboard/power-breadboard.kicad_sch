@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Overview")
-		(date "2026-06-29")
+		(date "2026-07-01")
 		(rev "v1.1.0")
 	)
 	(lib_symbols)
@@ -107,13 +107,24 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 118.11) (xy 157.48 118.11)
+			(xy 147.32 113.03) (xy 157.48 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54a98c9d-3345-497e-93cd-de013a812744")
+	)
+	(wire
+		(pts
+			(xy 154.94 100.33) (xy 157.48 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "62dbca6b-9893-40ab-a2b5-312feebf948e")
 	)
 	(wire
 		(pts
@@ -147,7 +158,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 138.43) (xy 157.48 138.43)
+			(xy 147.32 130.81) (xy 157.48 130.81)
 		)
 		(stroke
 			(width 0)
@@ -228,7 +239,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 120.65) (xy 157.48 120.65)
+			(xy 147.32 115.57) (xy 157.48 115.57)
 		)
 		(stroke
 			(width 0)
@@ -248,23 +259,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 128.27) (xy 157.48 128.27)
+			(xy 147.32 123.19) (xy 157.48 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b51f715d-ce50-477a-955e-d935b2a4e9c6")
-	)
-	(wire
-		(pts
-			(xy 147.32 135.89) (xy 157.48 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b560b58e-84fe-4ee6-99ff-9c1a8b0feb33")
 	)
 	(wire
 		(pts
@@ -278,7 +279,29 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 125.73) (xy 157.48 125.73)
+			(xy 154.94 86.36) (xy 154.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "c0615ae2-0990-4d48-9d65-8350d0abc2c5")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "c7b72a93-90bb-4229-9d78-c4e25baa83a6")
+	)
+	(wire
+		(pts
+			(xy 147.32 120.65) (xy 157.48 120.65)
 		)
 		(stroke
 			(width 0)
@@ -298,7 +321,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 133.35) (xy 157.48 133.35)
+			(xy 147.32 128.27) (xy 157.48 128.27)
 		)
 		(stroke
 			(width 0)
@@ -525,7 +548,7 @@
 	)
 	(sheet
 		(at 157.48 97.79)
-		(size 36.195 45.72)
+		(size 36.195 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -551,7 +574,7 @@
 			)
 		)
 		(property "Sheetfile" "safety_systems.kicad_sch"
-			(at 157.48 144.0946 0)
+			(at 157.48 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -562,7 +585,7 @@
 			)
 		)
 		(pin "DMS_STATUS" output
-			(at 157.48 120.65 180)
+			(at 157.48 115.57 180)
 			(uuid "f9c90d32-f4e6-4fa0-ac5c-91392c4ef53f")
 			(effects
 				(font
@@ -571,28 +594,8 @@
 				(justify left)
 			)
 		)
-		(pin "THROTTLE" output
-			(at 157.48 113.03 180)
-			(uuid "0e80f709-dd67-4776-8978-88d737043f0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+24V_CONTACTORS" output
-			(at 157.48 100.33 180)
-			(uuid "bbc39e73-c892-4c5e-a6eb-9f2835119b03")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ALARM_FORCE" input
-			(at 157.48 125.73 180)
+			(at 157.48 120.65 180)
 			(uuid "d5de489b-bad0-4b91-b369-474f04e2c732")
 			(effects
 				(font
@@ -602,7 +605,7 @@
 			)
 		)
 		(pin "ALARM_STATUS" output
-			(at 157.48 128.27 180)
+			(at 157.48 123.19 180)
 			(uuid "796982c7-2e62-4bc5-ae48-587d2cb26ade")
 			(effects
 				(font
@@ -622,7 +625,7 @@
 			)
 		)
 		(pin "DMS_OUT_EN" input
-			(at 157.48 118.11 180)
+			(at 157.48 113.03 180)
 			(uuid "4475b3d2-58e3-4e6d-b953-efe9534155f3")
 			(effects
 				(font
@@ -632,18 +635,8 @@
 			)
 		)
 		(pin "DMS_RESET" input
-			(at 157.48 133.35 180)
+			(at 157.48 128.27 180)
 			(uuid "6babc521-989a-47bf-8bda-119f373640c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{DMS_PULSE_CLEAR}" input
-			(at 157.48 135.89 180)
-			(uuid "ee55ffe5-9275-4cc0-a1ad-1dc93f2f8ce8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,8 +655,18 @@
 			)
 		)
 		(pin "DMS_FAULT_LATCH" output
-			(at 157.48 138.43 180)
+			(at 157.48 130.81 180)
 			(uuid "177a2428-dde0-4d2a-8078-d7c16e98afec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CONTACTORS_24V" output
+			(at 157.48 100.33 180)
+			(uuid "24e6729c-7cf6-44c9-a31d-e891c8614b51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,7 +750,7 @@
 	)
 	(sheet
 		(at 106.68 30.48)
-		(size 40.64 113.03)
+		(size 40.64 102.87)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -773,7 +776,7 @@
 			)
 		)
 		(property "Sheetfile" "nucleo64_stm32.kicad_sch"
-			(at 106.68 144.0946 0)
+			(at 106.68 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -824,7 +827,7 @@
 			)
 		)
 		(pin "ALARM_FORCE" output
-			(at 147.32 125.73 0)
+			(at 147.32 120.65 0)
 			(uuid "4a166d40-577c-468c-a4af-52712ae784c7")
 			(effects
 				(font
@@ -834,7 +837,7 @@
 			)
 		)
 		(pin "ALARM_STATUS" input
-			(at 147.32 128.27 0)
+			(at 147.32 123.19 0)
 			(uuid "06273055-00ac-428c-9e0b-63a54acc715f")
 			(effects
 				(font
@@ -854,7 +857,7 @@
 			)
 		)
 		(pin "DMS_STATUS" input
-			(at 147.32 120.65 0)
+			(at 147.32 115.57 0)
 			(uuid "bd7d878e-5fab-4d28-8a8f-deadca614ff2")
 			(effects
 				(font
@@ -954,7 +957,7 @@
 			)
 		)
 		(pin "DMS_OUT_EN" output
-			(at 147.32 118.11 0)
+			(at 147.32 113.03 0)
 			(uuid "72165187-fd6a-4864-badd-7dfa79a7f064")
 			(effects
 				(font
@@ -964,7 +967,7 @@
 			)
 		)
 		(pin "DMS_RESET" output
-			(at 147.32 133.35 0)
+			(at 147.32 128.27 0)
 			(uuid "2aeca93f-6010-4058-a62c-e9d9c3da6fcb")
 			(effects
 				(font
@@ -973,18 +976,8 @@
 				(justify right)
 			)
 		)
-		(pin "~{DMS_PULSE_CLEAR}" output
-			(at 147.32 135.89 0)
-			(uuid "f6370205-a358-44eb-a58e-d34d3610bccf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DMS_FAULT_LATCH" input
-			(at 147.32 138.43 0)
+			(at 147.32 130.81 0)
 			(uuid "cb69febc-eda4-45ff-a3e5-8075b86513e6")
 			(effects
 				(font

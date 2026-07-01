@@ -4306,12 +4306,6 @@
 		(uuid "b9919aba-7454-4f1f-94fd-0deab2c90e36")
 	)
 	(junction
-		(at 55.88 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcfcd957-50db-4038-b279-c1db08a29383")
-	)
-	(junction
 		(at 152.4 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5015,16 +5009,6 @@
 			(type default)
 		)
 		(uuid "4bd18673-c764-4918-8fd7-a5744e3ec913")
-	)
-	(wire
-		(pts
-			(xy 41.91 167.64) (xy 55.88 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da9867a-e5f6-4731-b798-99e37cb98c33")
 	)
 	(wire
 		(pts
@@ -6479,17 +6463,6 @@
 			(justify left)
 		)
 		(uuid "d83c389e-d6ed-4e37-b873-9f59f743d0b2")
-	)
-	(hierarchical_label "~{DMS_PULSE_CLEAR}"
-		(shape input)
-		(at 41.91 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db604018-bed4-428d-9825-451331774925")
 	)
 	(symbol
 		(lib_id "Device:C")

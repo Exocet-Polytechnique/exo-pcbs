@@ -1493,7 +1493,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FODM214-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fod814-d.pdf"
 			(at 45.085 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -2302,7 +2302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FODM214-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fod814-d.pdf"
 			(at 100.965 36.83 0)
 			(hide yes)
 			(show_name no)

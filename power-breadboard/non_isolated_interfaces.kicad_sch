@@ -3671,7 +3671,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf"
+		(property "Datasheet" "https://recom-power.com/pdf/Innoline/R-78K-1.0.pdf"
 			(at 80.01 26.67 0)
 			(hide yes)
 			(show_name no)
