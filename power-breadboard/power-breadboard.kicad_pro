@@ -755,7 +755,7 @@
         "uuid": "4b4cf3aa-c94c-4150-b9c5-35049cd71136"
       }
     ],
-    "used_designators": "#FLG2,#FLG4,#PWR1-22,#PWR24-40,#OUT1-8,#IN1-8",
+    "used_designators": "R1-42,J1-8,U1-16,Q1-8,F1-3,C1-13,#FLG2,#FLG4,#PWR1-72,#OUT1-8,#IN1-8",
     "variants": [
       {
         "description": "JLCPCB assembly parameters",

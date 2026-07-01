@@ -4041,7 +4041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1308e546-adaa-4120-968e-2570a84dd655")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR013"
 			(at 33.02 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4101,7 +4101,7 @@
 		(instances
 			(project "power-breadboard"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "#PWR049")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4118,7 +4118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "537d1081-e62f-42ea-bb7e-6501bafaa689")
-		(property "Reference" "R14"
+		(property "Reference" "R1"
 			(at 39.37 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +4235,7 @@
 		(instances
 			(project "power-breadboard"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "R14")
+					(reference "R1")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -4334,7 +4334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "886837da-755c-4c43-ba5e-ff35ae29710b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 45.72 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4394,7 +4394,7 @@
 		(instances
 			(project "power-breadboard"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4412,7 +4412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0085b2c-bd51-4b72-828b-acea7bf02e5e")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 127 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4604,7 +4604,7 @@
 		(instances
 			(project "power-breadboard"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4622,7 +4622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a58e8685-26f3-4baa-88be-306e8f33edfd")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 66.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4682,7 +4682,7 @@
 		(instances
 			(project "power-breadboard"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4700,7 +4700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5ac7eca-b0d7-4578-94be-1474563276dc")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 57.15 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4892,7 +4892,7 @@
 		(instances
 			(project "power-breadboard"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4910,7 +4910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dad48137-bc96-4227-b031-658dfe05bc08")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 68.58 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4970,7 +4970,7 @@
 		(instances
 			(project "power-breadboard"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
