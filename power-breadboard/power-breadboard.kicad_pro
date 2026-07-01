@@ -600,7 +600,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -755,7 +755,7 @@
         "uuid": "4b4cf3aa-c94c-4150-b9c5-35049cd71136"
       }
     ],
-    "used_designators": "#FLG2,#FLG4,#PWR1-22,#PWR24-27,#OUT1-8,#IN1-8",
+    "used_designators": "#FLG2,#FLG4,#PWR1-22,#PWR24-40,#OUT1-8,#IN1-8",
     "variants": [
       {
         "description": "JLCPCB assembly parameters",
@@ -799,10 +799,6 @@
     [
       "05adacf9-dba4-4936-b6fe-ec5f18c7259d",
       "Safety Systems"
-    ],
-    [
-      "9c430661-8db8-4027-b1be-2c88059a0fb6",
-      "IMD Input"
     ]
   ],
   "text_variables": {

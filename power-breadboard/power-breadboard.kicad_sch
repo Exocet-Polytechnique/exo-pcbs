@@ -1043,7 +1043,7 @@
 	)
 	(sheet
 		(at 157.48 46.99)
-		(size 40.64 35.56)
+		(size 40.64 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1069,7 +1069,7 @@
 			)
 		)
 		(property "Sheetfile" "relay_board_connections.kicad_sch"
-			(at 157.48 83.1346 0)
+			(at 157.48 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1152,6 +1152,16 @@
 		(pin "~{MOTOR_PRECHARGE_STAGE_2}" input
 			(at 157.48 69.85 180)
 			(uuid "c0d98591-3611-4b99-8072-639bae9a87bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CONTACTORS_24V" input
+			(at 157.48 86.36 180)
+			(uuid "4d19eed3-01f2-4fd3-af4d-8cf603da4c31")
 			(effects
 				(font
 					(size 1.27 1.27)
