@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Isolated Interfaces")
-		(date "2026-06-29")
-		(rev "v1.1.0")
+		(date "2026-07-06")
+		(rev "v1.1.1")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -1236,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 99.06) (xy 59.69 99.06)
+			(xy 39.37 99.06) (xy 72.39 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1466,16 +1466,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 99.06) (xy 72.39 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff1f015d-da15-4c8d-adcd-57f1c1b14379")
-	)
-	(wire
-		(pts
 			(xy 39.37 93.98) (xy 72.39 93.98)
 		)
 		(stroke
@@ -1567,109 +1557,6 @@
 			(justify left)
 		)
 		(uuid "d4e33753-34f3-4269-aa45-bfb22ccaad3c")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 63.5 99.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "21468d1e-59eb-48ed-b3ff-3c6b4c50042b")
-		(property "Reference" "R5"
-			(at 59.69 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 67.31 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 100.838 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST" ""
-			(at 63.5 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Name" ""
-			(at 63.5 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e9e79e25-9df5-483d-a0ad-cc0b228182ff")
-		)
-		(pin "1"
-			(uuid "0c7c2a33-c941-4cdf-9388-38581d04d83c")
-		)
-		(instances
-			(project "power-breadboard"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/98c47c69-e753-45d5-a949-1f6e782e8c07"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")

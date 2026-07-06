@@ -7,7 +7,7 @@
 	(title_block
 		(title "NUCLEO-G474RE I/O")
 		(date "2026-06-29")
-		(rev "v1.1.0")
+		(rev "v1.1.1")
 		(comment 1 "5V_SEL jumper (JP5) must be set to E5V on Nucleo.")
 	)
 	(lib_symbols

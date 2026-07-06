@@ -7,7 +7,7 @@
 	(title_block
 		(title "Relay Board Connections")
 		(date "2026-07-01")
-		(rev "v1.1.0")
+		(rev "v1.1.1")
 	)
 	(lib_symbols
 		(symbol "Contactor_Output_1"
